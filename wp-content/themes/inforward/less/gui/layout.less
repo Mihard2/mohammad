@@ -1,0 +1,122 @@
+::-moz-selection {
+  background-color: @selection_color;
+}
+
+::selection {
+  background-color: @selection_color;
+}
+
+  [class*="btn"].btn-style-6{
+    background: @donate_color;
+	color: @donate_color_title;
+
+    webkit-box-shadow: 0px 12px 25px 0px @donate_color_shadow;
+    -moz-box-shadow: 0px 12px 25px 0px @donate_color_shadow;
+    box-shadow: 0px 12px 25px 0px @donate_color_shadow;
+  }
+
+  [class*="btn"].btn-style-6:hover{
+    background: @donate_color_hover;
+	color: @donate_color_title;
+
+    webkit-box-shadow: 0px 12px 25px 0px @donate_color_shadow_hover;
+    -moz-box-shadow: 0px 12px 25px 0px @donate_color_shadow_hover;
+    box-shadow: 0px 12px 25px 0px @donate_color_shadow_hover;
+  }
+
+body {
+  font-family: @body_font_family;
+  font-weight: @body_font_weight;
+  font-size: @body_font_size;
+  line-height: @body_line_height;
+  color: @body_color;
+  }
+  
+body {
+  background-color: @body_bg_color;
+  background-repeat: @body_bg_repeat;
+  background-size: @body_bg_size;
+  background-attachment: @body_bg_attachment;
+  background-position: @body_bg_position;
+  background-image: @body_bg_image;
+}
+
+h1 {
+  font-family: @h1_font_family;
+  font-weight: @h1_font_weight;
+  font-size: @h1_font_size;
+  line-height: @h1_line_height;
+  color: @h1_color;
+}
+
+h2 {
+  font-family: @h2_font_family;
+  font-weight: @h2_font_weight;
+  font-size: @h2_font_size;
+  line-height: @h2_line_height;
+  color: @h2_color;
+}
+
+h3 {
+  font-family: @h3_font_family;
+  font-weight: @h3_font_weight;
+  font-size: @h3_font_size;
+  line-height: @h3_line_height;
+  color: @h3_color;
+}
+
+h4 {
+  font-family: @h4_font_family;
+  font-weight: @h4_font_weight;
+  font-size: @h4_font_size;
+  line-height: @h4_line_height;
+  color: @h4_color;
+}
+
+h5 {
+  font-family: @h5_font_family;
+  font-weight: @h5_font_weight;
+  font-size: @h5_font_size;
+  line-height: @h5_line_height;
+  color: @h5_color;
+}
+
+h6 {
+  font-family: @h6_font_family;
+  font-weight: @h6_font_weight;
+  font-size: @h6_font_size;
+  line-height: @h6_line_height;
+  color: @h6_color;
+}
+
+// Primary Color
+a {
+  color: @content_link_color;
+  &:hover {
+    color: @content_hover_color;
+  }
+}
+.custom-list[class*="type-"] li::before, .info-btn, .testimonial.testimonial-single blockquote:before, .product-price, [class*="btn"].btn-style-2{
+	color: @primary_color;
+}
+
+.wpcf7-submit, [class*="btn"].btn-style-3, .owl-dots .owl-dot.active, [class*="btn"].btn-style-2:hover, .get-mobile, .events-holder .event-item .event-date:before{
+	background-color: @primary_color;
+}
+
+[class*="btn"].btn-style-3:hover, .main-navigation > ul > li > a:before, .main-navigation .sub-menu-wrap:before, .call-out.join-us .bg-col-2:after, .action-widget .action-item.donate, .page-section-bg4, .event-item .event-date {
+	background: @primary_inverse_color;
+}
+.media-holder.style-2 {
+    border-bottom: 4px solid @primary_inverse_color;
+}
+
+[class*="btn"].btn-style-4 {
+    background: @secondary_color;
+	}
+
+
+// Layout
+#content.cp-page-content-wrap {
+  background-color: @content_bg_color;
+}

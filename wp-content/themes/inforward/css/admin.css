@@ -1,0 +1,209 @@
+
+#inforward_settings-post-metas > div > label:last-child,
+#inforward_settings-single-post-metas > div > label:last-child,
+#inforward_settings-product-metas > div > label:last-child {
+	display: none;
+}
+.redux-container-color div.wp-picker-container{
+    display: inline-block;
+}
+.edit-menu-item-bg_image,
+.edit-menu-item-preview {
+	margin-bottom: 10px;
+}
+body .vc_table_plugin [data-icon]:before {
+    content: '';
+}
+/* ------------------------------------------------------
+	Welcome
+------------------------------------------------------ */
+
+.mad-section {
+	margin-top: 30px;
+}
+
+.mad-notice {
+	padding: 30px;
+	background-color: #fff;
+	margin: 0 0 30px;
+}
+
+	.mad-wrap h1 {
+		margin: .2em 200px 0 0;
+		padding: 0;
+		color: #32373c;
+		line-height: 1.2em;
+		font-size: 2.8em;
+		font-weight: 400;
+	}
+
+	.mad-wrap {
+		position: relative;
+		margin: 25px 40px 0 20px;
+		max-width: 1050px;
+		font-size: 15px;
+	}
+
+	.mad-wrap .about-text {
+		margin: 1em 200px 1em 0;
+		min-height: auto;
+		color: #555d66;
+	}
+
+	.mad-wrap .about-description,
+	.mad-wrap .about-text {
+		margin-top: 1.4em;
+		font-weight: 400;
+		line-height: 1.6em;
+		font-size: 19px;
+	}
+
+	.mad-wrap .nav-tab {
+		padding-right: 15px;
+		padding-left: 15px;
+		font-size: 18px;
+	}
+
+	.mad-wrap .mad-notice .about-description { margin-top: 0; }
+
+	.mad-registration-form .dashicons {
+		display: inline-block;
+		width: 35px;
+		font-size: 35px;
+		text-align: left;
+		line-height: 40px;
+		height: 40px;
+		vertical-align: middle;
+	}
+
+	.mad-registration-form input[type="text"] {
+		display: inline-block;
+		margin: 0 1em;
+		padding: 10px 15px;
+		width: 60%;
+		height: 40px;
+		vertical-align: middle;
+		font-size: 16px;
+	}
+
+	.mad-registration-form p.submit {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+		padding: 0;
+	}
+
+	.mad-registration-form .button-primary {
+		padding: 15px 20px !important;
+		height: 40px !important;;
+		line-height: 7px !important;;
+	}
+
+	.mad-registration-form .mad-infotext {
+		border-top: 1px solid #ccc;
+		margin-top: 30px;
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+
+	.inforward-important-notice {
+		padding: 30px;
+		background-color: #fff;
+		margin: 0 0 30px;
+	}
+
+		.inforward-important-notice h3 {
+			margin-top: 0;
+			color: #dc3232;
+		}
+
+		.mad-thanks { margin-top: 35px; }
+
+/* ------------------------------------------------------
+	Install Plugins
+------------------------------------------------------ */
+
+.mad-install-plugins .plugin-required,
+.mad-install-demos .plugin-required {
+	top: 20px;
+	left: 0;
+	font-size: 12px;
+	background: rgba(213, 78, 33, 0.96) none repeat scroll 0 0;
+	color: #fff;
+	padding: 5px 7px;
+	position: absolute;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.mad-install-plugins .plugin-info,
+.mad-install-demos .plugin-info {
+	font-size: 13px;
+	position: absolute;
+	text-align: center;
+	top: 85%;
+	width: 100%;
+}
+
+.mad-install-plugins .theme-browser .theme .theme-actions,
+.mad-install-demos .theme-browser .theme .theme-actions {
+	opacity: 1 !important;
+}
+
+.mad-install-plugins .theme-browser .theme,
+.mad-install-demos .theme-browser .theme {
+	cursor: default;
+}
+
+.feature-section.theme-browser.rendered .theme:focus .theme-screenshot img,
+.feature-section.theme-browser.rendered .theme:hover .theme-screenshot img {
+	opacity: 1 !important;
+}
+
+/* ------------------------------------------------------
+	Demos Styling
+------------------------------------------------------ */
+
+.mad-install-demos { font-size: 16px; }
+
+#mad-install-options {
+	padding-bottom: 40px;
+}
+
+	#mad-install-options label {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+.inforward-import-started,
+.inforward-import-status {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 10px 30px 10px 10px;
+	background-color: #fff;
+	color: #444;
+	font-size: 13px;
+	transition: all 1s ease;
+}
+
+.inforward-import-started {
+	bottom: -100%;
+}
+
+.demo-install-process .inforward-import-started {
+	bottom: 0;
+}
+
+	.inforward-import-loading {
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		margin-top: -7px;
+		background: url("../images/ajax-loader.gif") no-repeat scroll center center transparent;
+		display: block;
+		height: 14px;
+		width: 14px;
+	}
+
+.theme-browser .theme { overflow: hidden; }

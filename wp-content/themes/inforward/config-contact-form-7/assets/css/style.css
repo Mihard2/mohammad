@@ -1,0 +1,204 @@
+
+.widget div.wpcf7 {
+	padding: 0;
+	border: none;
+}
+.wpcf7 input[type="checkbox"], .wpcf7-list-item input[type="radio"] {
+    display: inline;
+    padding: 0;
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1000;
+    padding: 1px 0 1px 50px;
+}
+.wpcf7 input[type="checkbox"] + span, .wpcf7  input[type="radio"] + span {
+    padding-left: 50px;
+	padding-top: 4px;
+    position: relative;
+    cursor: pointer;
+	line-height: 34px;
+}
+.wpcf7 input[type="checkbox"] + span::before{
+	content: "";
+    display: block;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    border: 2px solid #f3f3f3;
+    border-radius: 3px;
+}
+
+.wpcf7 input[type="radio"] + span::before{
+
+	content:"";
+
+	display:block;
+
+	width:18px;
+
+	height:18px;
+
+	position:absolute;
+
+	left:0;
+
+	background:#fff;
+
+	border:2px solid #ccc;
+
+}
+
+.wpcf7 input[type="checkbox"] + span::before{
+
+	top:0px;
+
+}
+
+.wpcf7 input[type="radio"] + span::before{
+
+	top: calc(50% - 9px);
+
+}
+
+.wpcf7 input[type="radio"] + span::after,
+
+.wpcf7 input[type="checkbox"] + span::after{
+
+	position:absolute;
+
+	visibility: hidden;
+
+}
+span.wpcf7-list-item {
+    margin-left: 0;
+    margin-right: 1em;
+    display: block;
+	margin-bottom: 10px; 
+}
+.wpcf7 .form_type_1:not([class*="type_2"])  .custom_select {
+    width: 100%;
+    max-width: 385px;
+}
+
+.wpcf7 input[type="checkbox"] + span::after{
+	content: '\E813';
+    font-family: 'fontello';
+    line-height: 34px;
+    top: 0;
+    color: #333;
+    font-size: 16px;
+    position: absolute;
+    left: 8px;
+}
+
+.wpcf7 input[type="radio"] + span::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    left: 4px;
+    top: calc(50% - 5px);
+    background: #ccc;
+}
+
+.wpcf7 input[type="radio"]:checked + span::after,
+
+.wpcf7 input[type="checkbox"]:checked + span::after{
+
+	opacity:1;
+
+	visibility: visible;
+
+}
+
+.wpcf7 input[type="radio"] + span::after, .wpcf7 input[type="radio"] + span::before {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+	.wpcf7-form .row:not(:last-child) { margin-bottom: 15px; }
+
+	.wpcf7-display-none { display: none; }
+
+	.vc_row-has-fill .wpcf7 input:not([type="submit"]),
+	.vc_row-has-fill .wpcf7 textarea,
+	.vc_row-has-fill .wpcf7 select {
+		background-color: #fff;
+	}
+	
+	.wpcf7 textarea { height: 140px; }
+
+	.wpcf7 select {
+	width: 100%;
+    color: #333;
+    border-radius: 3px;
+    height: 45px;
+    padding: 5px 15px;
+    border: 2px solid #eee;
+    background-color: #fff;
+    background-image: url(../../../images/select-arrow1.png);
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: box-shadow .35s ease, border-color .35s ease;
+    transition: box-shadow .35s ease, border-color .35s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	}
+
+	.wpcf7-submit {
+		display: inline-block;
+		margin-top: 10px;
+		margin-bottom: 0 !important;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 24px;
+    	letter-spacing: 0.8px;
+		font-family: 'Lato', sans-serif;
+    	font-weight: 900;
+		border-radius: 3px;
+		padding: 10px 30px;
+		background: #0d2f5d;
+		color: #fff;
+		webkit-box-shadow: 0px 12px 25px 0px rgba(13, 47, 93, 0.43);
+		-moz-box-shadow: 0px 12px 25px 0px rgba(13, 47, 93, 0.43);
+		box-shadow: 0px 12px 25px 0px rgba(13, 47, 93, 0.43);
+		-webkit-transition: all .4s ease;
+       transition: all .4s ease;
+	}
+
+	.wpcf7-submit:hover {
+		color: #fff;
+		background: #bf0d3e;
+    webkit-box-shadow: 0px 12px 25px 0px rgba(191, 13, 61, 0.43);
+    -moz-box-shadow: 0px 12px 25px 0px rgba(191, 13, 61, 0.43);
+    box-shadow: 0px 12px 25px 0px rgba(191, 13, 61, 0.43);
+	}
+
+	.vc_col-sm-4 .wpcf7-submit {
+		float: none;
+		width: 100%;
+	}
+
+	.vc_col-sm-8 .wpcf7-submit {
+		float: none;
+		margin: 25px auto 0;
+		display: block;
+	}
+
+	@media only screen and ( max-width: 767px ) {
+
+		.wpcf7 {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+	}

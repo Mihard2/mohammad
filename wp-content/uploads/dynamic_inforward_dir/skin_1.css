@@ -1,0 +1,348 @@
+::-moz-selection {
+  background-color: #333333;
+}
+::selection {
+  background-color: #333333;
+}
+[class*="btn"].btn-style-6 {
+  background: #bf0d3e;
+  color: #ffffff;
+  webkit-box-shadow: 0px 12px 25px 0px rgba(191, 13, 62, 0.43);
+  -moz-box-shadow: 0px 12px 25px 0px rgba(191, 13, 62, 0.43);
+  box-shadow: 0px 12px 25px 0px rgba(191, 13, 62, 0.43);
+}
+[class*="btn"].btn-style-6:hover {
+  background: #ac0c38;
+  color: #ffffff;
+  webkit-box-shadow: 0px 12px 25px 0px rgba(172, 12, 56, 0.43);
+  -moz-box-shadow: 0px 12px 25px 0px rgba(172, 12, 56, 0.43);
+  box-shadow: 0px 12px 25px 0px rgba(172, 12, 56, 0.43);
+}
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0d2f5d;
+}
+body {
+  background-color: ;
+  background-repeat: ;
+  background-size: ;
+  background-attachment: ;
+  background-position: ;
+  background-image: url();
+}
+h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 68px;
+  color: #0d2f5d;
+}
+h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 52px;
+  color: #0d2f5d;
+}
+h3 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #0d2f5d;
+}
+h4 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #0d2f5d;
+}
+h5 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0d2f5d;
+}
+h6 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0d2f5d;
+}
+a {
+  color: #333333;
+}
+a:hover {
+  color: #333333;
+}
+.custom-list[class*="type-"] li::before,
+.info-btn,
+.testimonial.testimonial-single blockquote:before,
+.product-price,
+[class*="btn"].btn-style-2 {
+  color: #14468c;
+}
+.wpcf7-submit,
+[class*="btn"].btn-style-3,
+.owl-dots .owl-dot.active,
+[class*="btn"].btn-style-2:hover,
+.get-mobile,
+.events-holder .event-item .event-date:before {
+  background-color: #14468c;
+}
+[class*="btn"].btn-style-3:hover,
+.main-navigation > ul > li > a:before,
+.main-navigation .sub-menu-wrap:before,
+.call-out.join-us .bg-col-2:after,
+.action-widget .action-item.donate,
+.page-section-bg4,
+.event-item .event-date {
+  background: #bf0d3e;
+}
+.media-holder.style-2 {
+  border-bottom: 4px solid #bf0d3e;
+}
+[class*="btn"].btn-style-4 {
+  background: #0d2f5d;
+}
+#content.cp-page-content-wrap {
+  background-color: #ffffff;
+}
+#header.header-style-1.relative-header .top-header {
+  background-color: #0d2f5d;
+}
+#header.cp-type-2.clone-fixed .top-header {
+  background-color: ;
+}
+#header.cp-type-3 {
+  background-color: transparent;
+}
+#header.cp-type-4 .top-header {
+  background-color: #0e1e40;
+}
+#header.header-4 .menu-holder {
+  background: #14468c;
+}
+#header.cp-type-5 .top-header {
+  background-color: #ffffff;
+}
+#header.cp-header.fixed-header.sticky-header.clone-fixed,
+#header.header-3.sticky-header.clone-fixed .top-header {
+  background-color: #0d2f5d;
+}
+#header.header-3 .top-header .nav-item:after {
+  background-color: transparent;
+}
+#header.header-4 .main-navigation > ul > li.current > a,
+#header.header-4 .main-navigation > ul > li:hover > a {
+  background-color: #0d2f5d;
+}
+#header.header-3 .main-navigation > ul > li.current > a,
+#header.header-3 .main-navigation > ul > li:hover > a {
+  background-color: #0d2f5d;
+}
+.cp-navigation a {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+#header.header-style-1 ul.cp-navigation > li > a,
+#header.header-style-3 ul.cp-navigation > li > a,
+#header.header-style-4 ul.cp-navigation > li > a {
+  color: #0d2f5d;
+}
+#header.header-style-2 ul.cp-navigation > li > a {
+  color: #333333;
+}
+.cp-navigation ul.sub-menu li > a,
+.cp-navigation ul.children li > a {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #333333;
+}
+.cp-navigation ul.sub-menu > li.current-menu-item > a,
+.cp-navigation ul.children > li.current-menu-item > a,
+.cp-navigation ul.sub-menu > li.current-menu-parent > a,
+.cp-navigation ul.children > li.current-menu-parent > a,
+.cp-navigation ul.sub-menu > li.current-menu-ancestor > a,
+.cp-navigation ul.children > li.current-menu-ancestor > a,
+.cp-navigation ul.sub-menu > li.current_page_item > a,
+.cp-navigation ul.children > li.current_page_item > a,
+.cp-navigation ul.sub-menu > li.current_page_parent > a,
+.cp-navigation ul.children > li.current_page_parent > a,
+.cp-navigation ul.sub-menu > li.current > a,
+.cp-navigation ul.children > li.current > a,
+.cp-navigation ul.sub-menu > li.current_page_ancestor > a,
+.cp-navigation ul.children > li.current_page_ancestor > a,
+.cp-navigation ul.sub-menu > li:hover > a,
+.cp-navigation ul.children > li:hover > a {
+  color: #ffffff;
+  background-color: #14468c;
+}
+#responsive-nav-button {
+  color: #bf0d3e;
+}
+#mobile-advanced {
+  background-color: #ffffff;
+}
+#mobile-advanced li a {
+  border-color: #333333;
+  color: #333333;
+}
+#wrapper #advanced-menu-hide {
+  color: #333333;
+}
+#mobile-advanced > ul > li.current > a,
+#mobile-advanced > ul > li:hover > a {
+  background-color: #bf0d3e;
+}
+#mobile-advanced ul ul li.current > a,
+#mobile-advanced .sub-menu-wrap > ul > li:hover > a {
+  color: #ffffff;
+}
+.cp-footer.footer-1 .main-footer {
+  background-color: #0e1e40;
+  background-repeat: ;
+  background-size: ;
+  background-attachment: ;
+  background-position: ;
+  background-image: url();
+  color: #d2d2d2;
+}
+.cp-footer.footer-1 .cp-widget-title {
+  color: #ffffff;
+}
+.cp-footer.footer-1 .widget li a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-1 .widget li a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-1 .widget_contact_us a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-1 .widget_contact_us a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-2 .main-footer {
+  background-color: #0e1e40;
+  background-repeat: ;
+  background-size: ;
+  background-attachment: ;
+  background-position: ;
+  background-image: url();
+  color: #d2d2d2;
+}
+.cp-footer.footer-2 .cp-widget-title {
+  color: #ffffff;
+}
+.cp-footer.footer-2 .widget li a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-2 .widget li a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-2 .widget_contact_us a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-2 .widget_contact_us a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-3 .main-footer {
+  background-color: #f6f6f6;
+  background-repeat: ;
+  background-size: ;
+  background-attachment: ;
+  background-position: ;
+  background-image: url();
+}
+.cp-footer.footer-3 .cp-widget-title {
+  color: #ffffff;
+}
+.cp-footer.footer-3 .widget li a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-3 .widget li a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-3 .widget_contact_us a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-3 .widget_contact_us a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-4 .main-footer {
+  background-color: #0e1e40;
+  background-repeat: ;
+  background-size: ;
+  background-attachment: ;
+  background-position: ;
+  background-image: url();
+  color: #d2d2d2;
+}
+.cp-footer.footer-4 .cp-widget-title {
+  color: #d2d2d2;
+}
+.cp-footer.footer-4 .widget li a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-4 .widget li a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-4 .widget_contact_us a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-4 .widget_contact_us a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-5 .main-footer {
+  background-color: #0e1e40;
+  background-repeat: ;
+  background-size: ;
+  background-attachment: ;
+  background-position: ;
+  background-image: url(//www.mohammadjawadrahimi.com/wp-content/themes/inforward/images/footer5.jpg);
+  color: #d2d2d2;
+}
+.cp-footer.footer-5 .cp-widget-title {
+  color: #d2d2d2;
+}
+.cp-footer.footer-5 .widget li a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-5 .widget li a:hover {
+  color: #bf0d3e;
+}
+.cp-footer.footer-5 .widget_contact_us a {
+  color: #bf0d3e;
+}
+.cp-footer.footer-5 .widget_contact_us a:hover {
+  color: #bf0d3e;
+}
+.cp-footer .copyright {
+  color: #999999;
+}
+.cp-footer .copyright a {
+  color: #ffffff;
+}
+.cp-footer .copyright a:hover {
+  color: #ffffff;
+}
+.cp-footer .widget .latest-tweets li a {
+  color: #bf0d3e;
+}
+.cp-footer .widget .latest-tweets li a:hover {
+  color: #bf0d3e;
+}
+.cp-footer .widget select {
+  color: #0d2f5d;
+}

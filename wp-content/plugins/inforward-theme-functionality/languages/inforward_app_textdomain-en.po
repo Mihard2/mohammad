@@ -1,0 +1,1115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Candidatepro Theme - Functionality\n"
+"POT-Creation-Date: 2017-12-05 17:43+0200\n"
+"PO-Revision-Date: 2017-12-05 17:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: candidatepro-theme-functionality.php:131
+msgid "Add New"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:132
+#: candidatepro-theme-functionality.php:154
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:133
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:134
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:135
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:136
+#: candidatepro-theme-functionality.php:148
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:137
+#: candidatepro-theme-functionality.php:156
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:138
+#: candidatepro-theme-functionality.php:157
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:149
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:150
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:151
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:152
+msgid "Edit %"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:153
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: candidatepro-theme-functionality.php:155
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: classes/register-issues.class.php:16 classes/register-issues.class.php:17
+msgid "Issues"
+msgstr ""
+
+#: classes/register-issues.class.php:56
+#: classes/register-portfolio.class.php:65
+#: classes/register-team-members.class.php:57
+#: classes/register-testimonials.class.php:56
+#: classes/register-videos.class.php:65
+msgid "Thumb"
+msgstr ""
+
+#: classes/register-issues.class.php:57
+#: classes/register-testimonials.class.php:57
+msgid "Title"
+msgstr ""
+
+#: classes/register-issues.class.php:58
+#: classes/register-testimonials.class.php:58
+msgid "Place"
+msgstr ""
+
+#: classes/register-portfolio.class.php:19
+msgid "Portfolio"
+msgstr ""
+
+#: classes/register-portfolio.class.php:20
+msgid "Portfolios"
+msgstr ""
+
+#: classes/register-portfolio.class.php:34
+msgid "Portfolio Category"
+msgstr ""
+
+#: classes/register-portfolio.class.php:35
+msgid "Portfolio Categories"
+msgstr ""
+
+#: classes/register-portfolio.class.php:66
+#: classes/register-team-members.class.php:58
+#: classes/register-videos.class.php:66
+msgid "Name"
+msgstr ""
+
+#: classes/register-portfolio.class.php:67
+#: classes/register-videos.class.php:67
+msgid "Categories"
+msgstr ""
+
+#: classes/register-portfolio.class.php:104
+#: classes/register-videos.class.php:104
+#: extensions/metaboxes/inc/fields/select.php:84
+msgid "All"
+msgstr ""
+
+#: classes/register-team-members.class.php:17
+msgid "Team Member"
+msgstr ""
+
+#: classes/register-team-members.class.php:18
+msgid "Team Members"
+msgstr ""
+
+#: classes/register-team-members.class.php:59
+#: extensions/metaboxes/metaboxes.php:306
+msgid "Position"
+msgstr ""
+
+#: classes/register-team-members.class.php:60
+#: extensions/metaboxes/metaboxes.php:313
+msgid "LinkedIn"
+msgstr ""
+
+#: classes/register-team-members.class.php:61
+#: extensions/metaboxes/metaboxes.php:320
+msgid "Tumblr"
+msgstr ""
+
+#: classes/register-team-members.class.php:62
+#: extensions/metaboxes/metaboxes.php:327
+msgid "Gplus"
+msgstr ""
+
+#: classes/register-team-members.class.php:63
+#: extensions/metaboxes/metaboxes.php:334
+msgid "Twitter"
+msgstr ""
+
+#: classes/register-team-members.class.php:64
+#: extensions/metaboxes/metaboxes.php:341
+msgid "Instagram"
+msgstr ""
+
+#: classes/register-team-members.class.php:65
+#: extensions/metaboxes/metaboxes.php:348
+msgid "Facebook"
+msgstr ""
+
+#: classes/register-testimonials.class.php:16
+msgid "Testimonial"
+msgstr ""
+
+#: classes/register-testimonials.class.php:17
+msgid "Testimonials"
+msgstr ""
+
+#: classes/register-videos.class.php:19 classes/register-videos.class.php:20
+msgid "Video"
+msgstr ""
+
+#: classes/register-videos.class.php:34
+msgid "Video Category"
+msgstr ""
+
+#: classes/register-videos.class.php:35
+msgid "Video Categories"
+msgstr ""
+
+#: extensions/metaboxes/inc/clone.php:91
+msgid "+ Add more"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/autocomplete.php:15
+#: extensions/metaboxes/inc/fields/autocomplete.php:74
+#: extensions/metaboxes/inc/fields/autocomplete.php:89
+msgid "Delete"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/button.php:27
+msgid "Click me"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/checkbox.php:53
+msgid "Yes"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/checkbox.php:53
+msgid "No"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file-input.php:39
+#: extensions/metaboxes/inc/fields/select.php:84
+msgid "Select"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file-input.php:41
+msgid "Remove"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:17
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:73
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:85
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:86
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:150
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/file.php:151
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/map.php:57
+msgid "Find Address"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:17
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:18
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:19
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:20
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:21
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:22
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:23
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:26
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:27
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/media.php:28
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/oembed.php:60
+msgid "Embed HTML not available."
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/oembed.php:75
+msgid "Preview"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/post.php:33
+msgid "Select a post"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/post.php:36
+#: extensions/metaboxes/inc/fields/taxonomy.php:51
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/select-advanced.php:42
+msgid "Select an item"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/select.php:84
+#: extensions/metaboxes/metaboxes.php:141
+msgid "None"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/taxonomy.php:48
+msgid "Select a term"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/thickbox-image.php:51
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: extensions/metaboxes/inc/fields/user.php:33
+msgid "Select an user"
+msgstr ""
+
+#: extensions/metaboxes/inc/validation.php:47
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:63
+msgid "Candidatepro Page Options"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:69
+msgid "Header Type"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:76 extensions/metaboxes/metaboxes.php:80
+msgid "Default Header Type"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:78
+msgid "Choose your header type"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:81
+#: extensions/metaboxes/metaboxes.php:124
+msgid "Type 1"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:82
+#: extensions/metaboxes/metaboxes.php:125
+msgid "Type 2"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:83
+#: extensions/metaboxes/metaboxes.php:126
+msgid "Type 3"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:84
+#: extensions/metaboxes/metaboxes.php:127
+msgid "Type 4"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:88
+msgid "Header Position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:95 extensions/metaboxes/metaboxes.php:99
+msgid "Default Header Position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:97
+msgid "Choose your header position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:100
+msgid "relative"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:101
+msgid "fixed"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:105
+msgid "Header Background Image"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:109
+msgid "Select the header background image"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:112
+msgid "Footer Type"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:119
+#: extensions/metaboxes/metaboxes.php:123
+msgid "Default Footer Type"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:121
+msgid "Choose your footer type"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:131
+msgid "Page Title Style"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:135
+msgid "Choose page title style"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:137
+#: extensions/metaboxes/metaboxes.php:198
+#: extensions/metaboxes/metaboxes.php:212
+#: extensions/metaboxes/metaboxes.php:425
+#: extensions/metaboxes/metaboxes.php:439
+#: extensions/metaboxes/metaboxes.php:455
+msgid "Default"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:138
+msgid "Custom"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:139
+msgid "Custom large"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:140
+msgid "Custom extra"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:145
+msgid "Page Title"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:149
+msgid "Display the Page Title?"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:152
+msgid "Breadcrumb Navigation"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:156
+msgid "Display the Breadcrumb Navigation?"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:159
+msgid "Title Align"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:163
+msgid "Choose page title align"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:165
+msgid "Center"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:166
+msgid "Left"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:167
+msgid "Right"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:171
+msgid "Color Page Title"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:175
+msgid "Select the color of the page title"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:178
+msgid "Color Background Page Title"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:182
+msgid "Select the background color of the page title"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:185
+msgid "Background Image Page Title"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:189
+#: extensions/metaboxes/metaboxes.php:416
+msgid "Select the background image"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:192
+msgid "Page Title Background Repeat"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:196
+#: extensions/metaboxes/metaboxes.php:423
+msgid "Select the repeat mode for the background image"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:199
+#: extensions/metaboxes/metaboxes.php:426
+msgid "Repeat"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:200
+#: extensions/metaboxes/metaboxes.php:427
+msgid "No Repeat"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:201
+#: extensions/metaboxes/metaboxes.php:428
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:202
+#: extensions/metaboxes/metaboxes.php:429
+msgid "Repeat Vertically"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:206
+msgid "Page Title Background Position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:210
+#: extensions/metaboxes/metaboxes.php:437
+msgid "Select the position for the background image"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:213
+#: extensions/metaboxes/metaboxes.php:440
+msgid "Top left"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:214
+#: extensions/metaboxes/metaboxes.php:441
+msgid "Top center"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:215
+#: extensions/metaboxes/metaboxes.php:442
+msgid "Top right"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:216
+#: extensions/metaboxes/metaboxes.php:443
+msgid "Bottom left"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:217
+#: extensions/metaboxes/metaboxes.php:444
+msgid "Bottom center"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:218
+#: extensions/metaboxes/metaboxes.php:445
+msgid "Bottom right"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:222
+msgid "Page Wrapper"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:229
+#: extensions/metaboxes/metaboxes.php:233
+msgid "Default Page Wrapper"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:231
+msgid "Choose page wrapper"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:234
+msgid "Wide"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:235
+msgid "Boxed"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:239
+msgid "Content Size"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:243
+msgid "Choose Your Content Size"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:245
+msgid "Normal"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:246
+msgid "Medium"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:247
+msgid "Large"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:248
+msgid "Extra"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:252
+msgid "Sidebar Position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:259
+#: extensions/metaboxes/metaboxes.php:263
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:261
+msgid "Choose page sidebar position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:264
+msgid "Without Sidebar"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:265
+msgid "Left Sidebar"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:266
+msgid "Right Sidebar"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:270
+msgid "Sidebar Setting"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:277
+#: extensions/metaboxes/metaboxes.php:279
+msgid "Choose a custom sidebar"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:283
+#: extensions/metaboxes/metaboxes.php:362
+msgid "Page Content Padding"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:287
+msgid "In pixels ex: 50px. Leave empty for default value of 100, 100px."
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:300
+msgid "Team Settings"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:355
+msgid "E-mail"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:366
+msgid "In pixels ex: 50px. Leave empty for default value of 120, 120px."
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:379
+msgid "Testimonials Settings"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:385
+msgid "Company"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:399
+msgid "Backgrounds"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:405
+msgid "Body Background color"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:409
+msgid "Select the background color of the body"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:412
+msgid "Background image"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:419
+msgid "Background repeat"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:433
+msgid "Background position"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:449
+msgid "Background attachment"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:453
+msgid "Select the attachment for the background image "
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:456
+msgid "Scroll"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:457
+msgid "Fixed"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:461
+msgid "Footer Background color"
+msgstr ""
+
+#: extensions/metaboxes/metaboxes.php:465
+msgid "Select the background color of the footer"
+msgstr ""
+
+#: importer/import-class.php:30
+msgid "Images are for demo purpose only."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:102
+msgid "License"
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:118
+#: inc/extensions/tlm/extension_tlm.php:146
+msgid "The license is not verified."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:144
+msgid "The license is verified."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:156
+msgid "last"
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:160
+msgid "Dear customer, thank you for using "
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:162
+msgid ""
+"Dear customer, the trial period has expired. Please register to proceed "
+"using "
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:178
+msgid "Theme registration"
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:184
+msgid "Register now"
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:185
+msgid "Remind me later"
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:200
+msgid "Could you save the changes at first."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:214
+#: inc/extensions/tlm/extension_tlm.php:228
+msgid "Something wrong. Could you try register the purchase code later."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:216
+#: inc/extensions/tlm/extension_tlm.php:231
+msgid "Dear "
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:222
+msgid "The purcahase code is wrong."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:225
+msgid ""
+"The purchase code already has been registered. Could you deregister purchase "
+"code on the another domain and try again."
+msgstr ""
+
+#: inc/extensions/tlm/extension_tlm.php:235
+msgid ""
+"Please enable Curl on your hosting server. It is necessary for license "
+"verification."
+msgstr ""
+
+#: inc/extensions/tlm/tlm/field_tlm.php:85
+msgid "Theme verification"
+msgstr ""
+
+#: inc/extensions/tlm/tlm/field_tlm.php:88
+msgid "Enter item purchase code:"
+msgstr ""
+
+#: inc/extensions/wbc_importer/extension_wbc_importer.php:236
+msgid "Demo Already Imported"
+msgstr ""
+
+#: inc/extensions/wbc_importer/extension_wbc_importer.php:262
+#: inc/extensions/wbc_importer/extension_wbc_importer.php:264
+msgid "Demo Importer"
+msgstr ""
+
+#: inc/extensions/wbc_importer/extension_wbc_importer.php:269
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:42
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:72
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:84
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:89
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:306
+#: inc/extensions/wbc_importer/inc/importer/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:499
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:132
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:141
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:192
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:196
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:470
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:536
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:780
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:647
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:684
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:746
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:911
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:918
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:981
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:994
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1121
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1128
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1143
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1144
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""

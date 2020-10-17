@@ -1,0 +1,190 @@
+
+/* Widgets in Footer
+---------------------------------------------------------- */
+
+.meta-option {
+	border-bottom: 1px dashed rgba(125,125,125,.4);
+	font-size: 0;
+}
+
+	.meta-option.footer_row_top_show .meta-setting,
+	.meta-option.footer_row_middle_show .meta-setting,
+	.meta-option.footer_row_bottom_show .meta-setting {
+		width: 100%;
+	}
+
+	.meta-setting {
+		position: relative;
+		display: inline-block;
+		padding: 20px;
+		font-size: 14px;
+
+		-moz-box-sizing: border-box;
+			 box-sizing: border-box;
+	}
+
+	.meta-option > .meta-setting:not(:first-child):after {
+		position: absolute;
+		z-index: 0;
+		left: 0;
+		top: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-left: 1px dashed rgba(125,125,125,.4);
+		content: "";
+	}
+
+	.meta-setting:hover {
+		background-color: #f8f8f8;
+	}
+
+	.meta-option > .meta-setting:not(:first-child) {
+		padding-left: 15px;
+	}
+
+	.meta-description {
+		display: inline-block;
+		vertical-align: top;
+		color: #555555;
+		padding-right: 15px;
+		width: 300px;
+	}
+
+	.meta-radio {
+		position: relative;
+		z-index: 5;
+		display: inline-block;
+	}
+
+		.meta-description .heading {
+			margin-top: 0;
+			margin-bottom: .5em;
+		}
+
+	.meta-controls {
+		overflow: hidden;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: -1px;
+	}
+
+	.meta-option.footer_row_top_show .meta-controls,
+	.meta-option.footer_row_middle_show .meta-controls,
+	.meta-option.footer_row_bottom_show .meta-controls {
+		width: 90%;
+		width: calc(100% - 320px);
+	}
+
+		/* Meta Radio Button */
+
+		.meta-radio-button {
+			position: relative;
+			display: inline-block;
+			margin-right: 15px;
+			vertical-align: middle;
+		}
+
+			.meta-radio-button input[type="radio"] { display: none; }
+
+			.meta-radio-button label {
+				padding-left: 32px;
+				line-height: 1.8em;
+			}
+
+			.meta-radio-button label:before {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 22px;
+				height: 22px;
+				vertical-align: middle;
+				border: 2px solid #e2e6e7;
+				background-color: #f5f7f8;
+				content: "";
+
+				-webkit-box-sizing: border-box;
+						box-sizing: border-box;
+				-webkit-border-radius: 50%;
+						border-radius: 50%;
+			}
+
+			.meta-radio-button input[type="radio"]:checked + label:after {
+				position: absolute;
+				left: 6px;
+				top: 6px;
+				text-align: center;
+				width: 10px;
+				height: 10px;
+				background-color: #292f38;
+				content: "";
+
+				-webkit-border-radius: 50%;
+						border-radius: 50%;
+			}
+
+		/* Meta List Set */
+
+		.meta-list-set > span {
+			display: inline-block;
+			padding: 4px 0;
+			vertical-align: top;
+		}
+
+		.meta-list-set ul {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			vertical-align: top;
+		}
+
+			.meta-list-set ul li {
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 10px;
+				padding: 4px;
+				color: #ccc;
+				cursor: pointer;
+			}
+
+			.meta-list-set ul li.active {
+				color: #000;
+				text-decoration: underline;
+				font-weight: bold;
+			}
+
+		.meta-columns-set {
+			width: 100%;
+		}
+
+		.meta-columns-set:after {
+			clear: both;
+			display: block;
+			visibility: hidden;
+			height: 0;
+			content: ".";
+		}
+
+			.meta-columns-set .mod-columns { float: left; }
+
+			.meta-columns-set .mod-grid-2  { width: 16.666666666666664%; }
+			.meta-columns-set .mod-grid-3  { width: 25%; }
+			.meta-columns-set .mod-grid-4  { width: 33.33333333333333%; }
+			.meta-columns-set .mod-grid-6  { width: 50%; }
+			.meta-columns-set .mod-grid-12 { width: 100%; }
+
+				.mod-columns {
+					padding: 10px;
+					width: 100%;
+					height: auto;
+					border: 1px solid #ccc;
+					background-color: #f1f1f1;
+					color: #000;
+					text-align: center;
+
+					-webkit-box-sizing: border-box;
+							box-sizing: border-box;
+				}
+
+					.mod-columns select { width: 100%; }
+

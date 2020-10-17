@@ -1,0 +1,7050 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: inForward\n"
+"POT-Creation-Date: 2018-03-09 12:52+0200\n"
+"PO-Revision-Date: 2018-03-09 12:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "We're sorry, but we can't find the page you were looking for."
+msgstr ""
+
+#: 404.php:18 searchform.php:5 template-parts/header-cp-type-3.php:42
+#: template-parts/header-cp-type-3.php:44
+msgid "Search"
+msgstr ""
+
+#: 404.php:21 template-parts/header-cp-type-3.php:46
+msgid "Search the site"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:393
+#: admin/class-tgm-plugin-activation.php:910
+#: admin/class-tgm-plugin-activation.php:2616
+#: admin/class-tgm-plugin-activation.php:3663
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:394
+#: admin/class-tgm-plugin-activation.php:3242
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:395
+#: admin/class-tgm-plugin-activation.php:3035
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:605
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:606
+msgid "Update Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1017
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1017
+#: admin/class-tgm-plugin-activation.php:1020
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1020
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:1204
+#: admin/class-tgm-plugin-activation.php:3031
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2356
+msgid "Required"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2359
+msgid "Recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2375
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2378
+msgid "External Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2381
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2398
+msgid "Not Installed"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2402
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2404
+msgid "Active"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2410
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2413
+msgid "Requires Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2416
+msgid "Update recommended"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2425
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2471
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2475
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2479
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2483
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-tgm-plugin-activation.php:2565
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2573
+msgid "Installed version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2581
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2593
+msgid "Available version:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2616
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2630
+msgid "Plugin"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2631
+msgid "Source"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2632
+#: config-composer/config/map.php:567 config-composer/config/map.php:2210
+#: config-composer/config/map.php:2288 config-composer/config/map.php:2341
+#: config-composer/config/map.php:2401 config-composer/config/map.php:2449
+#: config-composer/config/map.php:2826 config-composer/config/map.php:3729
+#: config-composer/config/map.php:3976 config-composer/config/map.php:4142
+#: includes/widgets.php:912 includes/widgets.php:1030
+#: includes/widgets.php:1374 includes/widgets.php:1735
+#: includes/widgets.php:1744 includes/widgets.php:2011
+msgid "Type"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2636
+msgid "Version"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2637
+#: config-composer/config/map.php:2799 woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2686
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2691
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2697
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2767
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2800 admin/framework/admin.php:154
+msgid "Install"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2806 admin/framework/admin.php:198
+msgid "Update"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2809 admin/framework/admin.php:174
+msgid "Activate"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2840
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2883
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:2991
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3017
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3241
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3581
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3584
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3590
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3592
+#: admin/class-tgm-plugin-activation.php:3600
+msgid "Show Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3592
+#: admin/class-tgm-plugin-activation.php:3600
+msgid "Hide Details"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3593
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3595
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3598
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3600
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3601
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/framework/admin.php:14
+msgid "Installing"
+msgstr ""
+
+#: admin/framework/admin.php:15
+msgid "Importing theme options"
+msgstr ""
+
+#: admin/framework/admin.php:16
+msgid "Finished! Please visit your site."
+msgstr ""
+
+#: admin/framework/admin.php:154
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: admin/framework/admin.php:174
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: admin/framework/admin.php:198
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: admin/framework/admin.php:211
+#, php-format
+msgid "Deactivate %s"
+msgstr ""
+
+#: admin/framework/admin.php:211
+msgid "Deactivate"
+msgstr ""
+
+#: admin/framework/functions.php:47
+msgid "Header Type 1"
+msgstr ""
+
+#: admin/framework/functions.php:48
+msgid "Header Type 2"
+msgstr ""
+
+#: admin/framework/functions.php:49
+msgid "Header Type 3"
+msgstr ""
+
+#: admin/framework/functions.php:50
+msgid "Header Type 4"
+msgstr ""
+
+#: admin/framework/functions.php:51
+msgid "Header Type 5"
+msgstr ""
+
+#: admin/framework/functions.php:59
+msgid "Wide"
+msgstr ""
+
+#: admin/framework/functions.php:60
+msgid "Boxed"
+msgstr ""
+
+#: admin/framework/functions.php:68
+msgid "Without Sidebar"
+msgstr ""
+
+#: admin/framework/functions.php:69 includes/metadata/meta_values.php:39
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/framework/functions.php:70 includes/metadata/meta_values.php:40
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:59
+msgid "General"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:64
+msgid "Loading Overlay"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:66
+#: config-composer/config/map.php:2087
+#: config-widget-meta-box/php/meta_box.php:25
+#: config-widget-meta-box/php/meta_box.php:176
+msgid "Show"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:67
+#: config-widget-meta-box/php/meta_box.php:31
+#: config-widget-meta-box/php/meta_box.php:182
+msgid "Hide"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:72
+msgid "Page Wrapper"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:79
+#: admin/framework/theme-options/settings.php:1118
+#: admin/framework/theme-options/settings.php:1141
+#: admin/framework/theme-options/settings.php:1686
+#: includes/metadata/meta_values.php:53
+msgid "Page Layout"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:86
+#: admin/framework/theme-options/settings.php:1125
+#: admin/framework/theme-options/settings.php:1148
+#: admin/framework/theme-options/settings.php:1693
+#: admin/framework/theme-options/settings.php:1751
+msgid "Select Sidebar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:94
+msgid "Mailchimp api"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:100
+msgid "Enter your Mailchimp Api"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:106
+msgid "Enter your Mailchimp Id"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:112
+msgid "Enter your Mailchimp data center(e.g. us4)"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:122
+#: admin/framework/theme-options/settings.php:135
+#: admin/framework/theme-options/settings.php:151
+#: admin/framework/theme-options/settings.php:167
+#: admin/framework/theme-options/settings.php:183
+#: admin/framework/theme-options/settings.php:199
+msgid "Logo"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:127
+#: admin/framework/theme-options/settings.php:760
+msgid "If header type is like 1"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:143
+#: admin/framework/theme-options/settings.php:774
+msgid "If header type is like 2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:159
+#: admin/framework/theme-options/settings.php:788
+msgid "If header type is like 3"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:175
+#: admin/framework/theme-options/settings.php:818
+msgid "If header type is like 4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:191
+#: admin/framework/theme-options/settings.php:920
+msgid "If header type is like 5"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:209
+msgid "Favicon"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:221
+msgid "Skin"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:226
+msgid "Primary Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:227
+msgid "Color for buttons and other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:234
+msgid "Primary Inverse Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:235
+msgid "Color for link hover and other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:242
+msgid "Secondary Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:249
+msgid "Accent Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:250
+msgid "Color for button to top, blockquote and other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:257
+msgid "Overlay Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:258
+msgid "Color for portfolio hover overlay and other"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:267
+msgid ""
+"The ::selection selector matches the portion of an element that is selected "
+"by a user."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:268
+msgid "Selection Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:275
+#: admin/framework/theme-options/settings.php:520
+#: admin/framework/theme-options/settings.php:536
+#: admin/framework/theme-options/settings.php:576
+#: admin/framework/theme-options/settings.php:698
+#: admin/framework/theme-options/settings.php:714
+msgid "Link Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:287
+msgid "Typography"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:292
+msgid "Select Google Font Character Sets"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:294
+#: admin/framework/theme-options/settings.php:741
+#: admin/framework/theme-options/settings.php:768
+#: admin/framework/theme-options/settings.php:782
+#: admin/framework/theme-options/settings.php:796
+#: admin/framework/theme-options/settings.php:804
+#: admin/framework/theme-options/settings.php:812
+#: admin/framework/theme-options/settings.php:826
+#: admin/framework/theme-options/settings.php:834
+#: admin/framework/theme-options/settings.php:842
+#: admin/framework/theme-options/settings.php:850
+#: admin/framework/theme-options/settings.php:858
+#: admin/framework/theme-options/settings.php:928
+#: admin/framework/theme-options/settings.php:970
+#: admin/framework/theme-options/settings.php:978
+#: admin/framework/theme-options/settings.php:1022
+#: admin/framework/theme-options/settings.php:1041
+#: admin/framework/theme-options/settings.php:1180
+#: admin/framework/theme-options/settings.php:1188
+#: admin/framework/theme-options/settings.php:1196
+#: admin/framework/theme-options/settings.php:1204
+#: admin/framework/theme-options/settings.php:1212
+#: admin/framework/theme-options/settings.php:1220
+#: admin/framework/theme-options/settings.php:1234
+#: admin/framework/theme-options/settings.php:1243
+#: admin/framework/theme-options/settings.php:1252
+#: admin/framework/theme-options/settings.php:1261
+#: admin/framework/theme-options/settings.php:1270
+#: admin/framework/theme-options/settings.php:1279
+#: admin/framework/theme-options/settings.php:1331
+#: admin/framework/theme-options/settings.php:1339
+#: admin/framework/theme-options/settings.php:1354
+#: admin/framework/theme-options/settings.php:1362
+#: admin/framework/theme-options/settings.php:1426
+#: admin/framework/theme-options/settings.php:1513
+#: admin/framework/theme-options/settings.php:1589
+#: admin/framework/theme-options/settings.php:1603
+#: admin/framework/theme-options/settings.php:1611
+#: admin/framework/theme-options/settings.php:1639
+#: admin/framework/theme-options/settings.php:1647
+#: admin/framework/theme-options/settings.php:1655
+#: admin/framework/theme-options/settings.php:1663
+#: admin/framework/theme-options/settings.php:1672
+#: admin/framework/theme-options/settings.php:1768
+#: admin/framework/theme-options/settings.php:1788
+#: admin/framework/theme-options/settings.php:1803
+#: admin/framework/theme-options/settings.php:1824
+#: admin/framework/theme-options/settings.php:1833
+#: admin/framework/theme-options/settings.php:1842
+#: admin/framework/theme-options/settings.php:1851
+#: admin/framework/theme-options/settings.php:1860
+#: admin/framework/theme-options/settings.php:1869
+#: admin/framework/theme-options/settings.php:1885
+#: config-composer/config/content/shortcode-vc-video.php:68
+#: config-composer/config/map.php:73 config-composer/config/map.php:135
+#: config-composer/config/map.php:158 config-composer/config/map.php:177
+#: config-composer/config/map.php:184 config-composer/config/map.php:297
+#: config-composer/config/map.php:413 config-composer/config/map.php:436
+#: config-composer/config/map.php:1406 config-composer/config/map.php:1499
+#: config-composer/config/map.php:1849
+#: config-widget-meta-box/php/meta_box.php:54
+#: config-widget-meta-box/php/meta_box.php:206 includes/widgets.php:173
+msgid "Yes"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:295
+#: admin/framework/theme-options/settings.php:742
+#: admin/framework/theme-options/settings.php:769
+#: admin/framework/theme-options/settings.php:783
+#: admin/framework/theme-options/settings.php:797
+#: admin/framework/theme-options/settings.php:805
+#: admin/framework/theme-options/settings.php:813
+#: admin/framework/theme-options/settings.php:827
+#: admin/framework/theme-options/settings.php:835
+#: admin/framework/theme-options/settings.php:843
+#: admin/framework/theme-options/settings.php:851
+#: admin/framework/theme-options/settings.php:859
+#: admin/framework/theme-options/settings.php:929
+#: admin/framework/theme-options/settings.php:971
+#: admin/framework/theme-options/settings.php:979
+#: admin/framework/theme-options/settings.php:1023
+#: admin/framework/theme-options/settings.php:1042
+#: admin/framework/theme-options/settings.php:1181
+#: admin/framework/theme-options/settings.php:1189
+#: admin/framework/theme-options/settings.php:1197
+#: admin/framework/theme-options/settings.php:1205
+#: admin/framework/theme-options/settings.php:1213
+#: admin/framework/theme-options/settings.php:1221
+#: admin/framework/theme-options/settings.php:1235
+#: admin/framework/theme-options/settings.php:1244
+#: admin/framework/theme-options/settings.php:1253
+#: admin/framework/theme-options/settings.php:1262
+#: admin/framework/theme-options/settings.php:1271
+#: admin/framework/theme-options/settings.php:1280
+#: admin/framework/theme-options/settings.php:1332
+#: admin/framework/theme-options/settings.php:1340
+#: admin/framework/theme-options/settings.php:1355
+#: admin/framework/theme-options/settings.php:1363
+#: admin/framework/theme-options/settings.php:1427
+#: admin/framework/theme-options/settings.php:1514
+#: admin/framework/theme-options/settings.php:1590
+#: admin/framework/theme-options/settings.php:1604
+#: admin/framework/theme-options/settings.php:1612
+#: admin/framework/theme-options/settings.php:1640
+#: admin/framework/theme-options/settings.php:1648
+#: admin/framework/theme-options/settings.php:1656
+#: admin/framework/theme-options/settings.php:1664
+#: admin/framework/theme-options/settings.php:1673
+#: admin/framework/theme-options/settings.php:1769
+#: admin/framework/theme-options/settings.php:1789
+#: admin/framework/theme-options/settings.php:1804
+#: admin/framework/theme-options/settings.php:1825
+#: admin/framework/theme-options/settings.php:1834
+#: admin/framework/theme-options/settings.php:1843
+#: admin/framework/theme-options/settings.php:1852
+#: admin/framework/theme-options/settings.php:1861
+#: admin/framework/theme-options/settings.php:1870
+#: admin/framework/theme-options/settings.php:1886
+#: config-composer/config.php:128 config-composer/config.php:148
+#: config-composer/config/map.php:15 config-composer/config/map.php:72
+#: config-composer/config/map.php:1405 config-composer/config/map.php:1498
+#: config-composer/config/map.php:1848 config-composer/config/map.php:3339
+#: config-composer/config/map.php:3379 config-composer/config/map.php:3409
+#: config-composer/config/map.php:3446
+#: config-widget-meta-box/php/meta_box.php:60
+#: config-widget-meta-box/php/meta_box.php:212 includes/widgets.php:174
+msgid "No"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:300
+msgid "Google Font Character Sets"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:318
+msgid "Body Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:335
+msgid "H1 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:352
+msgid "H2 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:369
+msgid "H3 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:386
+msgid "H4 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:403
+msgid "H5 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:420
+msgid "H6 Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:440
+msgid "Backgrounds"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:445
+msgid "Body Background"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:451
+#: admin/framework/theme-options/settings.php:1003
+#: admin/framework/theme-options/settings.php:1055
+msgid "Background"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:456
+msgid "Page Content Background"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:462
+msgid "Content Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:472
+msgid "Main Menu"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:477
+msgid "Sticky Menu"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:483
+#: admin/framework/theme-options/settings.php:568
+msgid "Background Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:490
+msgid "Top Level Menu Item"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:496
+msgid "Menu Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:513
+msgid "If menu type is like 1,3,4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:529
+msgid "If menu type is like 2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:545
+msgid "Sub Menu"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:551
+msgid "Sub Menu Font"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:588
+#: admin/framework/theme-options/settings.php:734
+msgid "Header"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:593
+msgid "Background Color for Top Header1"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:600
+msgid "Background Color for Top Header2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:607
+msgid "Background Color for Top Header3"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:614
+msgid "Background Color for Top Header4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:621
+msgid "Background Color for Top Header5"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:630
+msgid "Background Image"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:642
+#: admin/framework/theme-options/settings.php:1306
+msgid "Footer"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:647
+msgid "Background for Type 1"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:656
+msgid "Background for Type 2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:665
+msgid "Background for Type 3"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:674
+msgid "Background for Type 4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:683
+msgid "Heading Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:690
+#: admin/framework/theme-options/settings.php:723
+msgid "Text Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:707
+msgid "Footer Bottom(for header type 2, 4)"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:739
+msgid "Header Sticky"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:747
+msgid "Header position"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:754
+#: admin/framework/theme-options/settings.php:1418 includes/widgets.php:853
+msgid "Donate URL"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:766
+#: admin/framework/theme-options/settings.php:780
+#: admin/framework/theme-options/settings.php:810
+#: admin/framework/theme-options/settings.php:840
+#: admin/framework/theme-options/settings.php:926
+msgid "Show Donate Button"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:794
+#: admin/framework/theme-options/settings.php:824
+msgid "Show Search"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:802
+#: admin/framework/theme-options/settings.php:832
+#: config-composer/config/map.php:469 config-composer/config/map.php:591
+msgid "Show Form"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:848
+msgid "Show Top Bar"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:856
+#: config-composer/config/map.php:483 config-composer/config/map.php:598
+msgid "Show Social Buttons"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:864
+#: admin/framework/theme-options/settings.php:1432
+#: admin/framework/theme-options/settings.php:1519
+#: template-parts/content-share.php:20 template-parts/header-cp-type-4.php:77
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:871
+#: admin/framework/theme-options/settings.php:1439
+#: admin/framework/theme-options/settings.php:1526
+#: template-parts/content-share.php:22 template-parts/header-cp-type-4.php:81
+msgid "Tumblr"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:878
+#: admin/framework/theme-options/settings.php:1446
+#: admin/framework/theme-options/settings.php:1533
+#: template-parts/header-cp-type-4.php:85
+msgid "Vimeo"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:885
+#: admin/framework/theme-options/settings.php:1453
+#: admin/framework/theme-options/settings.php:1540
+#: template-parts/header-cp-type-4.php:89
+msgid "Youtube"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:892
+#: admin/framework/theme-options/settings.php:1460
+#: admin/framework/theme-options/settings.php:1547
+#: config-composer/config/map.php:1203
+#: config-composer/shortcodes/vc_mad_share.php:53
+#: includes/classes/register-admin-user-profile.class.php:53
+#: includes/functions.php:277 template-parts/content-share.php:26
+#: template-parts/header-cp-type-4.php:93
+msgid "Facebook"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:899
+#: admin/framework/theme-options/settings.php:1467
+#: admin/framework/theme-options/settings.php:1554
+#: config-composer/config/map.php:1210
+#: config-composer/shortcodes/vc_mad_share.php:57
+#: includes/classes/register-admin-user-profile.class.php:43
+#: includes/functions.php:281 template-parts/content-share.php:24
+#: template-parts/header-cp-type-4.php:97
+msgid "Twitter"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:906
+#: admin/framework/theme-options/settings.php:1474
+#: admin/framework/theme-options/settings.php:1561
+#: includes/classes/register-admin-user-profile.class.php:38
+#: includes/widgets.php:1005 template-parts/header-cp-type-4.php:101
+msgid "Instagram"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:913
+#: admin/framework/theme-options/settings.php:1481
+#: admin/framework/theme-options/settings.php:1568
+#: template-parts/header-cp-type-4.php:105
+msgid "Flickr"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:937
+msgid "Page Header Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:943
+msgid "Header Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:954
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:963
+msgid "Pages & Posts"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:968
+#: admin/framework/theme-options/settings.php:1020
+msgid "Show Page Title"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:976
+#: admin/framework/theme-options/settings.php:1039
+#: admin/framework/theme-options/settings.php:1178
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:984
+#: admin/framework/theme-options/settings.php:1028
+msgid "Title Align"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:986
+#: admin/framework/theme-options/settings.php:1030
+msgid "center"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:987
+#: admin/framework/theme-options/settings.php:1031
+msgid "left"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:988
+#: admin/framework/theme-options/settings.php:1032
+msgid "right"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:995
+#: admin/framework/theme-options/settings.php:1047
+msgid "Title Color"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:996
+#: admin/framework/theme-options/settings.php:1048
+#: config-composer/config/map.php:833 config-composer/config/map.php:986
+#: config-composer/config/map.php:1283 config-composer/config/map.php:1479
+#: config-composer/config/map.php:1818 config-composer/config/map.php:2006
+#: config-composer/config/map.php:2552 config-composer/config/map.php:2713
+#: config-composer/config/map.php:2899 config-composer/config/map.php:3512
+#: config-composer/config/map.php:3689 config-composer/config/map.php:3871
+#: config-composer/config/map.php:4031 config-composer/config/map.php:4092
+#: config-composer/modules/vc_mad_image_gallery.php:58
+#: config-composer/modules/vc_mad_info_block.php:58
+#: config-composer/modules/vc_mad_pricing_box.php:53
+msgid "Color for title"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1015
+#: admin/framework/theme-options/settings.php:1626
+msgid "Shop"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1069
+msgid "Blog"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1074
+#: admin/framework/theme-options/settings.php:1163
+msgid "Post Meta"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1077
+#: admin/framework/theme-options/settings.php:1168
+#: config-composer/config/map.php:1070 config-composer/config/map.php:1368
+#: config-composer/config/map.php:1532 config-composer/config/map.php:1662
+#: config-composer/config/map.php:1886 config-composer/config/map.php:2647
+#: config-composer/config/map.php:2991 config-composer/config/map.php:4174
+#: config-composer/shortcodes/vc_mad_about_portfolio.php:46
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1078
+#: admin/framework/theme-options/settings.php:1167
+#: config-composer/config/map.php:1072 config-composer/config/map.php:1370
+#: config-composer/config/map.php:1534 config-composer/config/map.php:1676
+#: config-composer/config/map.php:1888 config-composer/config/map.php:2649
+#: config-composer/config/map.php:2793 config-composer/config/map.php:2993
+#: config-composer/config/map.php:4176
+#: config-composer/shortcodes/vc_mad_about_portfolio.php:74
+msgid "Author"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1079
+#: admin/framework/theme-options/settings.php:1166
+#: admin/framework/theme-options/settings.php:1778
+msgid "Categories"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1080
+#: admin/framework/theme-options/settings.php:1169
+msgid "Comments"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1081
+#: admin/framework/theme-options/settings.php:1170
+#: admin/framework/theme-options/settings.php:1779
+#: config-composer/config/map.php:206 config-composer/config/map.php:220
+#: config-composer/modules/vc_mad_google_maps.php:198
+#: config-composer/modules/vc_mad_google_maps.php:246
+#: config-plugins/plugins/table/templates.html.php:10
+#: includes/metadata/functions-types.php:83
+#: includes/metadata/functions-types.php:194
+msgid "None"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1091
+msgid "Blog Post"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1096
+#: admin/framework/theme-options/settings.php:1103
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1097
+msgid "The number of words for style Count Big Thumbs "
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1104
+msgid "The number of words for style Count Small Thumbs "
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1113
+msgid "Post Archive"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1136
+msgid "Single Post"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1156
+#: admin/framework/theme-options/settings.php:1394
+#: admin/framework/theme-options/settings.php:1701
+#: admin/framework/theme-options/settings.php:1759
+msgid "Get widgets for footer from page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1172
+msgid "Located at the top of the post"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1186
+msgid "Show Tags"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1194
+#: admin/framework/theme-options/settings.php:1609
+msgid "Prev/Next Navigation"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1202
+msgid "Show Author Info Box"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1210
+msgid "Show Related Posts"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1218
+msgid "Show Comments"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1226
+#: admin/framework/theme-options/settings.php:1816
+msgid "Social Links"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1232
+#: admin/framework/theme-options/settings.php:1424
+#: admin/framework/theme-options/settings.php:1511
+#: admin/framework/theme-options/settings.php:1601
+#: admin/framework/theme-options/settings.php:1822
+msgid "Show Social Links"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1240
+#: admin/framework/theme-options/settings.php:1830
+msgid "Enable Facebook Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1249
+#: admin/framework/theme-options/settings.php:1839
+msgid "Enable Twitter Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1258
+#: admin/framework/theme-options/settings.php:1848
+msgid "Enable Google Plus Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1267
+#: admin/framework/theme-options/settings.php:1857
+msgid "Enable Pinterest Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1276
+#: admin/framework/theme-options/settings.php:1866
+msgid "Enable Email Share"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1288
+msgid "Javascript Code"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1293
+msgid "Javascript Code Before &lt;/head&gt;"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1294
+msgid "Paste your JS code here."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1311
+msgid "Footer Type"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1313
+#: config-composer/config/map.php:570 config-composer/config/map.php:765
+#: config-composer/config/map.php:2214 config-composer/config/map.php:2292
+#: config-composer/config/map.php:2453 config-composer/config/map.php:2829
+#: config-composer/config/map.php:3209 config-composer/config/map.php:3732
+#: config-composer/config/map.php:3979
+#: config-composer/modules/vc_mad_info_block.php:101 includes/widgets.php:1376
+#: includes/widgets.php:1746 includes/widgets.php:2013
+msgid "Type 1"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1314
+#: config-composer/config/map.php:571 config-composer/config/map.php:766
+#: config-composer/config/map.php:2215 config-composer/config/map.php:2293
+#: config-composer/config/map.php:2454 config-composer/config/map.php:2830
+#: config-composer/config/map.php:3210 config-composer/config/map.php:3733
+#: config-composer/config/map.php:3980
+#: config-composer/modules/vc_mad_info_block.php:102 includes/widgets.php:1377
+#: includes/widgets.php:1747 includes/widgets.php:2014
+msgid "Type 2"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1315
+#: config-composer/config/map.php:767 config-composer/config/map.php:2216
+#: config-composer/config/map.php:2294 config-composer/config/map.php:2455
+#: config-composer/config/map.php:3211
+#: config-composer/modules/vc_mad_info_block.php:103 includes/widgets.php:1378
+#: includes/widgets.php:1748 includes/widgets.php:2015
+msgid "Type 3"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1316
+#: config-composer/config/map.php:2217 config-composer/config/map.php:2295
+#: config-composer/config/map.php:3212 includes/widgets.php:1379
+#: includes/widgets.php:1749 includes/widgets.php:2016
+msgid "Type 4"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1323 includes/widgets.php:639
+msgid "Copyright"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1324
+#, php-format
+msgid "Copyright © %s Linda Russell for Congress. All Rights Reserved."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1329
+msgid "Show Footer Menu(for header type 2)"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1337
+msgid "Show Newsletter(for header type 1)"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1345
+msgid "Donate URL(for header type 1)"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1346
+msgid "Enter Donate URL."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1352
+#: config-widget-meta-box/php/meta_box.php:14
+msgid "Show Row Top widgets ?"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1360
+#: config-widget-meta-box/php/meta_box.php:165
+msgid "Show Row Middle widgets ?"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1372
+msgid "404 Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1377
+#: admin/framework/theme-options/settings.php:1410
+msgid "Error text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1405
+msgid "Coming-soon Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1492
+msgid "Landing Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1497
+msgid "Copyright text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1505
+msgid "Social text"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1582
+#: config-composer/config/map.php:1446
+msgid "Portfolio"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1587
+msgid "Show \"Related\" on single portfolio"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1595
+msgid "Link to portfolio"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1631
+msgid "Label Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1637
+msgid "Show \"Out of stock\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1645
+msgid "Show \"Featured\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1653
+msgid "Show \"Sale\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1661
+msgid "Show saved sale price percentage"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1670
+msgid "Show \"New\" Status"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1681
+msgid "Product Archives"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1708
+msgid "Products per Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1709
+#: admin/framework/theme-options/settings.php:1730
+msgid "Product counts."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1715
+msgid "Shop Page Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1722
+msgid "Category Product Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1729
+msgid "Category Products per Page"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1739
+msgid "Single Product"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1744
+msgid "Single Layout"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1766
+msgid "Show Short Description"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1774
+msgid "Product Meta"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1777 single.php:74
+msgid "Tags"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1786
+msgid "Show Related Products"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1795
+msgid "Related Count items"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1801
+msgid "Show Up-Sells"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1810
+msgid "Up-Sells Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1878
+msgid "Cart"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1883
+msgid "Show Cross-Sells"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1892
+msgid "Cross Sells Columns"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1904
+msgid "Google"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1910
+msgid ""
+"Google recently changed the way their map service works. New pages which "
+"want to use Google Maps need to register an API key for their website. Older "
+"pages should  work fine without this API key. If the google map elements of "
+"this theme do not work properly you need to register a new API key."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1916
+msgid "Google Maps API Key"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1917
+msgid ""
+"Enter a valid Google Maps API Key to use all map related theme functions."
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1931
+#: admin/framework/theme-options/settings.php:1935
+#: admin/framework/theme-options/settings.php:1936
+#: admin/framework/theme-options/settings.php:1937
+msgid "Theme Options"
+msgstr ""
+
+#: admin/framework/theme-options/settings.php:1932
+msgid "Theme Version: "
+msgstr ""
+
+#: admin/plugin-bundle.php:84
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/plugin-bundle.php:90
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/plugin-bundle.php:96
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/plugin-bundle.php:102
+msgid "Latest Tweets Widget"
+msgstr ""
+
+#: admin/plugin-bundle.php:108
+msgid "Custom Facebook Feed"
+msgstr ""
+
+#: coming-soon.php:70 includes/widgets.php:585 includes/widgets.php:767
+#: includes/widgets.php:2087 includes/widgets.php:2159
+#: includes/widgets.php:2234 includes/widgets.php:2312
+#: includes/widgets.php:2386 template-parts/header-cp-type-1.php:19
+#: template-parts/header-cp-type-2.php:19
+#: template-parts/header-cp-type-3.php:115
+#: template-parts/header-cp-type-4.php:131
+#: template-parts/header-cp-type-5.php:20
+msgid "Donate"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:15
+#, php-format
+msgctxt "comments title"
+msgid "Comment (1)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:31 comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: config-composer/config.php:124 config-composer/config.php:144
+#: config-composer/config/map.php:11 config-composer/config/map.php:68
+#: config-composer/config/map.php:3375 config-composer/config/map.php:3405
+#: config-composer/config/map.php:3442
+msgid "CSS Animation"
+msgstr ""
+
+#: config-composer/config.php:129 config-composer/config.php:149
+#: config-composer/config/map.php:16 config-composer/config/map.php:3380
+#: config-composer/config/map.php:3410 config-composer/config/map.php:3447
+msgid "Fade In Up"
+msgstr ""
+
+#: config-composer/config.php:130 config-composer/config.php:150
+#: config-composer/config/map.php:17 config-composer/config/map.php:3381
+#: config-composer/config/map.php:3411 config-composer/config/map.php:3448
+msgid "Zoom In Down"
+msgstr ""
+
+#: config-composer/config.php:131 config-composer/config.php:151
+#: config-composer/config/map.php:18 config-composer/config/map.php:3382
+#: config-composer/config/map.php:3412 config-composer/config/map.php:3449
+msgid "Bounce In Down"
+msgstr ""
+
+#: config-composer/config.php:132 config-composer/config.php:152
+#: config-composer/config/map.php:19 config-composer/config/map.php:3383
+#: config-composer/config/map.php:3413 config-composer/config/map.php:3450
+msgid "Bounce In Up"
+msgstr ""
+
+#: config-composer/config.php:133 config-composer/config.php:153
+#: config-composer/config/map.php:20 config-composer/config/map.php:3384
+#: config-composer/config/map.php:3414 config-composer/config/map.php:3451
+msgid "Flip In Y"
+msgstr ""
+
+#: config-composer/config.php:135 config-composer/config.php:155
+#: config-composer/config.php:172 config-composer/config/map.php:22
+#: config-composer/config/map.php:41 config-composer/config/map.php:59
+#: config-composer/config/map.php:75
+msgid "Animations"
+msgstr ""
+
+#: config-composer/config.php:136 config-composer/config.php:156
+#: config-composer/config/map.php:23 config-composer/config/map.php:76
+#: config-composer/config/map.php:3391 config-composer/config/map.php:3416
+#: config-composer/config/map.php:3458
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: config-composer/config.php:163 config-composer/config.php:166
+#: config-composer/config/map.php:32
+msgid "Animation delay"
+msgstr ""
+
+#: config-composer/config.php:283
+msgid "Search icon"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:3
+msgid "Video Player"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:6
+#: config-composer/config/map.php:94 config-composer/config/map.php:321
+#: config-composer/config/map.php:358 config-composer/config/map.php:3022
+msgid "Content"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:7
+msgid "Embed YouTube/Vimeo player"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:11
+#: config-composer/config/map.php:3027
+msgid "Widget title"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:13
+#: config-composer/config/map.php:3029
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:17
+#: config-composer/config/map.php:3625
+msgid "Video link"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:21
+#: config-composer/config/map.php:3629
+#, php-format
+msgid ""
+"Enter link to video (Note: read more about available formats at WordPress <a "
+"href=\"%s\" target=\"_blank\">codex page</a>)."
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:25
+#: config-composer/config/map.php:2500
+msgid "Video width"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:39
+msgid "Select video width (percentage)."
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:43
+msgid "Video aspect ration"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:50
+msgid "Select video aspect ratio."
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:54
+#: config-composer/config/map.php:722 config-composer/config/map.php:3640
+msgid "Alignment"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:56
+msgid "Select video alignment."
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:58
+#: config-composer/config/map.php:727 config-composer/config/map.php:1007
+#: config-composer/config/map.php:1019 config-composer/config/map.php:1296
+#: config-composer/config/map.php:1308 config-composer/config/map.php:1427
+#: config-composer/config/map.php:1510 config-composer/config/map.php:1630
+#: config-composer/config/map.php:1864 config-composer/config/map.php:1954
+#: config-composer/config/map.php:2027 config-composer/config/map.php:2039
+#: config-composer/config/map.php:2589 config-composer/config/map.php:2601
+#: config-composer/config/map.php:2920 config-composer/config/map.php:2932
+#: config-composer/config/map.php:3254 config-composer/config/map.php:3644
+#: config-composer/config/map.php:3884
+#: config-composer/modules/vc_mad_info_block.php:71
+#: config-composer/modules/vc_mad_info_block.php:91
+#: config-composer/modules/vc_mad_pricing_box.php:74
+#: config-composer/modules/vc_mad_pricing_box.php:86 includes/widgets.php:835
+msgid "Left"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:59
+#: config-composer/config/map.php:728 config-composer/config/map.php:1008
+#: config-composer/config/map.php:1020 config-composer/config/map.php:1297
+#: config-composer/config/map.php:1309 config-composer/config/map.php:1428
+#: config-composer/config/map.php:1511 config-composer/config/map.php:1631
+#: config-composer/config/map.php:1865 config-composer/config/map.php:1955
+#: config-composer/config/map.php:2028 config-composer/config/map.php:2040
+#: config-composer/config/map.php:2590 config-composer/config/map.php:2602
+#: config-composer/config/map.php:2921 config-composer/config/map.php:2933
+#: config-composer/config/map.php:3255 config-composer/config/map.php:3363
+#: config-composer/config/map.php:3645 config-composer/config/map.php:3885
+#: config-composer/modules/vc_mad_info_block.php:72
+#: config-composer/modules/vc_mad_info_block.php:92
+#: config-composer/modules/vc_mad_pricing_box.php:75
+#: config-composer/modules/vc_mad_pricing_box.php:87 includes/widgets.php:836
+msgid "Right"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:60
+#: config-composer/config/map.php:729 config-composer/config/map.php:1009
+#: config-composer/config/map.php:1021 config-composer/config/map.php:1298
+#: config-composer/config/map.php:1310 config-composer/config/map.php:1429
+#: config-composer/config/map.php:1512 config-composer/config/map.php:1632
+#: config-composer/config/map.php:1866 config-composer/config/map.php:1956
+#: config-composer/config/map.php:2029 config-composer/config/map.php:2041
+#: config-composer/config/map.php:2591 config-composer/config/map.php:2603
+#: config-composer/config/map.php:2922 config-composer/config/map.php:2934
+#: config-composer/config/map.php:3256 config-composer/config/map.php:3646
+#: config-composer/config/map.php:3886
+#: config-composer/modules/vc_mad_info_block.php:73
+#: config-composer/modules/vc_mad_info_block.php:93
+#: config-composer/modules/vc_mad_pricing_box.php:76
+#: config-composer/modules/vc_mad_pricing_box.php:88
+msgid "Center"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:65
+#: config-composer/config/map.php:2750 config-composer/config/map.php:4206
+msgid "Autoplay"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:67
+msgid "Enable autoplay ( for vimeo and youtube )"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:72
+#: config-composer/config/map.php:301 config-composer/config/map.php:333
+#: config-composer/config/map.php:441 config-composer/config/map.php:3141
+#: config-composer/config/map.php:3261
+#: config-composer/modules/vc_mad_google_maps.php:235
+msgid "Extra class name"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:74
+#: config-composer/config/map.php:303 config-composer/config/map.php:335
+#: config-composer/config/map.php:443 config-composer/config/map.php:3143
+#: config-composer/config/map.php:3263
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:78
+#: config-composer/config/map.php:307 config-composer/config/map.php:339
+#: config-composer/config/map.php:447 config-composer/config/map.php:3147
+msgid "CSS box"
+msgstr ""
+
+#: config-composer/config/content/shortcode-vc-video.php:80
+#: config-composer/config/map.php:309 config-composer/config/map.php:341
+#: config-composer/config/map.php:449 config-composer/config/map.php:3149
+msgid "Design Options"
+msgstr ""
+
+#: config-composer/config/map.php:4
+#: config-composer/modules/vc_mad_image_gallery.php:13
+msgid "Same window"
+msgstr ""
+
+#: config-composer/config/map.php:5
+#: config-composer/modules/vc_mad_image_gallery.php:14
+msgid "New window"
+msgstr ""
+
+#: config-composer/config/map.php:50 config-composer/config/map.php:53
+msgid "Scroll factor"
+msgstr ""
+
+#: config-composer/config/map.php:89
+msgid "Row"
+msgstr ""
+
+#: config-composer/config/map.php:95
+msgid "Place content elements inside the row"
+msgstr ""
+
+#: config-composer/config/map.php:99
+msgid "Row stretch"
+msgstr ""
+
+#: config-composer/config/map.php:102 config-composer/config/map.php:165
+#: config-composer/config/map.php:3565 includes/metadata/meta_values.php:81
+msgid "Default"
+msgstr ""
+
+#: config-composer/config/map.php:103
+msgid "Stretch row"
+msgstr ""
+
+#: config-composer/config/map.php:104
+msgid "Stretch row and content"
+msgstr ""
+
+#: config-composer/config/map.php:105
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: config-composer/config/map.php:107
+msgid ""
+"Select stretching options for row and content (Note: stretched may not work "
+"properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: config-composer/config/map.php:111
+msgid "Columns gap"
+msgstr ""
+
+#: config-composer/config/map.php:128
+msgid "Select gap between columns in row."
+msgstr ""
+
+#: config-composer/config/map.php:132
+msgid "Full height row?"
+msgstr ""
+
+#: config-composer/config/map.php:134
+msgid "If checked row will be set to full height."
+msgstr ""
+
+#: config-composer/config/map.php:139
+msgid "Columns position"
+msgstr ""
+
+#: config-composer/config/map.php:142 config-composer/config/map.php:167
+msgid "Middle"
+msgstr ""
+
+#: config-composer/config/map.php:143 config-composer/config/map.php:166
+msgid "Top"
+msgstr ""
+
+#: config-composer/config/map.php:144 config-composer/config/map.php:168
+#: config-composer/config/map.php:3364
+msgid "Bottom"
+msgstr ""
+
+#: config-composer/config/map.php:145
+msgid "Stretch"
+msgstr ""
+
+#: config-composer/config/map.php:147
+msgid "Select columns position within row."
+msgstr ""
+
+#: config-composer/config/map.php:155
+msgid "Equal height"
+msgstr ""
+
+#: config-composer/config/map.php:157
+msgid "If checked columns will be set to equal height."
+msgstr ""
+
+#: config-composer/config/map.php:162
+msgid "Content position"
+msgstr ""
+
+#: config-composer/config/map.php:170
+msgid "Select content position within columns."
+msgstr ""
+
+#: config-composer/config/map.php:174
+msgid "Use video background?"
+msgstr ""
+
+#: config-composer/config/map.php:176
+msgid "If checked, video will be used as row background."
+msgstr ""
+
+#: config-composer/config/map.php:181
+msgid "Use scrolldown icon?"
+msgstr ""
+
+#: config-composer/config/map.php:183
+msgid "If checked, scrolldown icon will be used as icon in bottom."
+msgstr ""
+
+#: config-composer/config/map.php:192
+msgid "YouTube link"
+msgstr ""
+
+#: config-composer/config/map.php:195
+msgid "Add YouTube link."
+msgstr ""
+
+#: config-composer/config/map.php:203 config-composer/config/map.php:217
+#: config-composer/config/map.php:239 config-composer/config/map.php:250
+#: config-composer/config/map.php:262
+msgid "Parallax"
+msgstr ""
+
+#: config-composer/config/map.php:207 config-composer/config/map.php:221
+msgid "Simple"
+msgstr ""
+
+#: config-composer/config/map.php:209
+msgid "Add parallax type background for row."
+msgstr ""
+
+#: config-composer/config/map.php:223
+msgid ""
+"Add parallax type background for row (Note: If no image is specified, "
+"parallax will use background image from Design Options)."
+msgstr ""
+
+#: config-composer/config/map.php:231 config-composer/config/map.php:577
+#: config-composer/config/map.php:2836 config-composer/config/map.php:3599
+#: config-composer/config/map.php:3633 config-composer/config/map.php:3823
+#: config-composer/config/map.php:4152
+#: config-composer/modules/vc_mad_image_gallery.php:89
+msgid "Image"
+msgstr ""
+
+#: config-composer/config/map.php:234 config-composer/config/map.php:580
+#: config-composer/config/map.php:2839 config-composer/config/map.php:3602
+#: config-composer/config/map.php:3636 config-composer/config/map.php:3826
+#: config-composer/config/map.php:4159
+#: config-composer/modules/vc_mad_image_gallery.php:92
+msgid "Select image from media library."
+msgstr ""
+
+#: config-composer/config/map.php:243
+msgid "Overlay background color"
+msgstr ""
+
+#: config-composer/config/map.php:245
+msgid "Select custom overlay color for background."
+msgstr ""
+
+#: config-composer/config/map.php:254
+msgid "Parallax opacity"
+msgstr ""
+
+#: config-composer/config/map.php:257
+msgid ""
+"The opacity property can take a value from 0.0 - 1.0. The lower value, the "
+"more transparent. (Note: Default value is 0.5, min value 0 max value is 1)"
+msgstr ""
+
+#: config-composer/config/map.php:266 config-composer/config/map.php:277
+msgid "Parallax speed"
+msgstr ""
+
+#: config-composer/config/map.php:269 config-composer/config/map.php:280
+msgid "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+msgstr ""
+
+#: config-composer/config/map.php:288
+msgid "Row ID"
+msgstr ""
+
+#: config-composer/config/map.php:290
+#, php-format
+msgid ""
+"Enter row ID (Note: make sure it is unique and valid according to <a href="
+"\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: config-composer/config/map.php:294
+msgid "Disable row"
+msgstr ""
+
+#: config-composer/config/map.php:296
+msgid ""
+"If checked the row won't be visible on the public side of your website. You "
+"can switch it back any time."
+msgstr ""
+
+#: config-composer/config/map.php:317
+msgid "Text Block"
+msgstr ""
+
+#: config-composer/config/map.php:322
+msgid "A block of text with WYSIWYG editor"
+msgstr ""
+
+#: config-composer/config/map.php:327 config-composer/config/map.php:374
+#: config-composer/config/map.php:682 config-composer/config/map.php:1656
+#: config-composer/config/map.php:2193 config-composer/config/map.php:2806
+#: config-composer/config/map.php:3431 config-composer/config/map.php:3987
+#: config-composer/modules/vc_mad_info_block.php:188
+msgid "Text"
+msgstr ""
+
+#: config-composer/config/map.php:329
+msgid ""
+"I am text block. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: config-composer/config/map.php:354
+msgid "Custom Heading"
+msgstr ""
+
+#: config-composer/config/map.php:359
+msgid "Text with Google fonts"
+msgstr ""
+
+#: config-composer/config/map.php:363
+msgid "Text source"
+msgstr ""
+
+#: config-composer/config/map.php:366
+msgid "Custom text"
+msgstr ""
+
+#: config-composer/config/map.php:367
+msgid "Post or Page Title"
+msgstr ""
+
+#: config-composer/config/map.php:370
+msgid "Select text source."
+msgstr ""
+
+#: config-composer/config/map.php:377
+msgid "This is custom heading element"
+msgstr ""
+
+#: config-composer/config/map.php:378
+msgid ""
+"Note: If you are using non-latin characters be sure to activate them under "
+"Settings/Visual Composer/General Settings."
+msgstr ""
+
+#: config-composer/config/map.php:386 config-composer/config/map.php:688
+#: config-composer/config/map.php:1434 config-composer/config/map.php:2158
+#: config-composer/config/map.php:2386 config-composer/config/map.php:2493
+#: config-composer/config/map.php:2628 config-composer/config/map.php:2850
+#: config-composer/config/map.php:3420
+msgid "URL (Link)"
+msgstr ""
+
+#: config-composer/config/map.php:388
+msgid "Add link to custom heading."
+msgstr ""
+
+#: config-composer/config/map.php:401
+msgid "Select element tag."
+msgstr ""
+
+#: config-composer/config/map.php:402
+msgid "Select text alignment."
+msgstr ""
+
+#: config-composer/config/map.php:403
+msgid "Enter font size."
+msgstr ""
+
+#: config-composer/config/map.php:404
+msgid "Enter line height."
+msgstr ""
+
+#: config-composer/config/map.php:405
+msgid "Select heading color."
+msgstr ""
+
+#: config-composer/config/map.php:411
+msgid "Use theme default font family?"
+msgstr ""
+
+#: config-composer/config/map.php:414
+msgid "Use font family from the theme."
+msgstr ""
+
+#: config-composer/config/map.php:423
+msgid "Select font family."
+msgstr ""
+
+#: config-composer/config/map.php:424
+msgid "Select font styling."
+msgstr ""
+
+#: config-composer/config/map.php:434
+msgid "With border?"
+msgstr ""
+
+#: config-composer/config/map.php:437
+msgid "Use border bottom."
+msgstr ""
+
+#: config-composer/config/map.php:461
+msgid "Home Block Social Buttons"
+msgstr ""
+
+#: config-composer/config/map.php:464 config-composer/config/map.php:562
+#: config-composer/config/map.php:677 config-composer/config/map.php:749
+#: config-composer/config/map.php:869 config-composer/config/map.php:956
+#: config-composer/config/map.php:1107 config-composer/config/map.php:1191
+#: config-composer/config/map.php:1259 config-composer/config/map.php:1449
+#: config-composer/config/map.php:1650 config-composer/config/map.php:1691
+#: config-composer/config/map.php:1737 config-composer/config/map.php:1788
+#: config-composer/config/map.php:1976 config-composer/config/map.php:2181
+#: config-composer/config/map.php:2230 config-composer/config/map.php:2308
+#: config-composer/config/map.php:2367 config-composer/config/map.php:2430
+#: config-composer/config/map.php:2474 config-composer/config/map.php:2522
+#: config-composer/config/map.php:2683 config-composer/config/map.php:2777
+#: config-composer/config/map.php:2821 config-composer/config/map.php:2869
+#: config-composer/config/map.php:3161 config-composer/config/map.php:3194
+#: config-composer/config/map.php:3229 config-composer/config/map.php:3289
+#: config-composer/config/map.php:3482 config-composer/config/map.php:3594
+#: config-composer/config/map.php:3620 config-composer/config/map.php:3659
+#: config-composer/config/map.php:3798 config-composer/config/map.php:3911
+#: config-composer/config/map.php:3971 config-composer/config/map.php:4004
+#: config-composer/config/map.php:4065 config-composer/config/map.php:4130
+#: config-composer/modules/vc_mad_google_maps.php:27
+#: config-composer/modules/vc_mad_image_gallery.php:25
+#: config-composer/modules/vc_mad_info_block.php:20
+#: config-composer/modules/vc_mad_pricing_box.php:20
+msgid "Inforward"
+msgstr ""
+
+#: config-composer/config/map.php:465
+msgid "Block Social Buttons"
+msgstr ""
+
+#: config-composer/config/map.php:471 config-composer/config/map.php:593
+msgid "Show Form."
+msgstr ""
+
+#: config-composer/config/map.php:472 config-composer/config/map.php:490
+#: config-composer/config/map.php:594 config-composer/config/map.php:605
+#: config-composer/config/map.php:1047 config-composer/config/map.php:1054
+#: config-composer/config/map.php:1206 config-composer/config/map.php:1213
+#: config-composer/config/map.php:1220 config-composer/config/map.php:1227
+#: config-composer/config/map.php:1234 config-composer/config/map.php:1348
+#: config-composer/config/map.php:1665 config-composer/config/map.php:1672
+#: config-composer/config/map.php:1679 config-composer/config/map.php:2746
+#: config-composer/config/map.php:2753 config-composer/config/map.php:2961
+#: config-composer/config/map.php:2968 config-composer/config/map.php:2975
+#: config-composer/config/map.php:3105 config-composer/config/map.php:3397
+#: config-composer/config/map.php:4213
+#: config-composer/modules/vc_mad_pricing_box.php:172
+msgid "Yes, please"
+msgstr ""
+
+#: config-composer/config/map.php:477 config-composer/config/map.php:585
+#: config-composer/config/map.php:2844 config-composer/config/map.php:3180
+msgid "Message text"
+msgstr ""
+
+#: config-composer/config/map.php:479 config-composer/config/map.php:587
+#: config-composer/config/map.php:2846
+msgid "I am message box. Click edit button to change this text."
+msgstr ""
+
+#: config-composer/config/map.php:485 config-composer/config/map.php:600
+msgid "Show Social Buttons."
+msgstr ""
+
+#: config-composer/config/map.php:494 config-composer/config/map.php:609
+msgid "Facebook URL"
+msgstr ""
+
+#: config-composer/config/map.php:500 config-composer/config/map.php:615
+msgid "Enter Facebook URL."
+msgstr ""
+
+#: config-composer/config/map.php:504 config-composer/config/map.php:619
+msgid "Twitter URL"
+msgstr ""
+
+#: config-composer/config/map.php:510 config-composer/config/map.php:625
+msgid "Enter twitter URL."
+msgstr ""
+
+#: config-composer/config/map.php:514 config-composer/config/map.php:629
+msgid "Instagram URL"
+msgstr ""
+
+#: config-composer/config/map.php:520 config-composer/config/map.php:635
+msgid "Enter instagram URL."
+msgstr ""
+
+#: config-composer/config/map.php:524 config-composer/config/map.php:639
+msgid "Youtube URL"
+msgstr ""
+
+#: config-composer/config/map.php:530 config-composer/config/map.php:645
+msgid "Enter youtube URL."
+msgstr ""
+
+#: config-composer/config/map.php:534 config-composer/config/map.php:649
+msgid "Flickr URL"
+msgstr ""
+
+#: config-composer/config/map.php:540 config-composer/config/map.php:655
+msgid "Enter flickr URL."
+msgstr ""
+
+#: config-composer/config/map.php:544 config-composer/config/map.php:659
+msgid "Snapchat URL"
+msgstr ""
+
+#: config-composer/config/map.php:550 config-composer/config/map.php:665
+msgid "Enter snapchat URL."
+msgstr ""
+
+#: config-composer/config/map.php:559
+msgid "Home Block Media Holder"
+msgstr ""
+
+#: config-composer/config/map.php:563
+msgid "Block Media Holder"
+msgstr ""
+
+#: config-composer/config/map.php:573
+msgid "Select type design."
+msgstr ""
+
+#: config-composer/config/map.php:674 config-composer/config/map.php:2161
+#: config-composer/config/map.php:2389 config-composer/config/map.php:2496
+#: config-composer/config/map.php:2631 config-composer/config/map.php:2853
+#: config-composer/config/map.php:3423 config-composer/config/map.php:3434
+#: config-composer/config/map.php:3453
+msgid "Button"
+msgstr ""
+
+#: config-composer/config/map.php:678
+msgid "Eye catching button"
+msgstr ""
+
+#: config-composer/config/map.php:684
+msgid "Text on the button"
+msgstr ""
+
+#: config-composer/config/map.php:690 config-composer/config/map.php:1436
+#: config-composer/config/map.php:2160 config-composer/config/map.php:2388
+#: config-composer/config/map.php:2495 config-composer/config/map.php:2630
+#: config-composer/config/map.php:2852 config-composer/config/map.php:3422
+msgid "Add link to button."
+msgstr ""
+
+#: config-composer/config/map.php:694 config-composer/config/map.php:761
+#: config-composer/config/map.php:1238 config-composer/config/map.php:2782
+#: config-composer/config/map.php:3166 includes/widgets.php:485
+msgid "Style"
+msgstr ""
+
+#: config-composer/config/map.php:696
+msgid "Select style color."
+msgstr ""
+
+#: config-composer/config/map.php:698 config-composer/config/map.php:4522
+msgid "White"
+msgstr ""
+
+#: config-composer/config/map.php:699
+msgid "White Small"
+msgstr ""
+
+#: config-composer/config/map.php:700
+msgid "Gray"
+msgstr ""
+
+#: config-composer/config/map.php:701
+msgid "Theme Blue1"
+msgstr ""
+
+#: config-composer/config/map.php:702
+msgid "Theme Blue2"
+msgstr ""
+
+#: config-composer/config/map.php:703
+msgid "Theme Blue3"
+msgstr ""
+
+#: config-composer/config/map.php:704
+msgid "Theme Blue4"
+msgstr ""
+
+#: config-composer/config/map.php:705
+msgid "Theme Red"
+msgstr ""
+
+#: config-composer/config/map.php:710
+msgid "Size"
+msgstr ""
+
+#: config-composer/config/map.php:712
+msgid "Select button display size."
+msgstr ""
+
+#: config-composer/config/map.php:715
+#: config-composer/modules/vc_mad_google_maps.php:178
+msgid "Small"
+msgstr ""
+
+#: config-composer/config/map.php:716
+msgid "Medium"
+msgstr ""
+
+#: config-composer/config/map.php:717
+msgid "Big"
+msgstr ""
+
+#: config-composer/config/map.php:724
+msgid "Select button alignment."
+msgstr ""
+
+#: config-composer/config/map.php:726
+msgid "Inline"
+msgstr ""
+
+#: config-composer/config/map.php:734 config-composer/config/map.php:839
+#: config-composer/config/map.php:1143 config-composer/config/map.php:3780
+#: config-composer/modules/vc_mad_info_block.php:168 includes/widgets.php:1359
+#: includes/widgets.php:1450
+msgid "Icon"
+msgstr ""
+
+#: config-composer/config/map.php:737 config-composer/config/map.php:842
+#: config-composer/config/map.php:1146 config-composer/config/map.php:3783
+#: config-composer/modules/vc_mad_info_block.php:171
+msgid "Select icon from library."
+msgstr ""
+
+#: config-composer/config/map.php:746
+msgid "Home Block Action List"
+msgstr ""
+
+#: config-composer/config/map.php:750
+msgid "Action List"
+msgstr ""
+
+#: config-composer/config/map.php:754 config-composer/config/map.php:796
+#: config-composer/config/map.php:874 config-composer/config/map.php:910
+#: config-composer/config/map.php:961 config-composer/config/map.php:1073
+#: config-composer/config/map.php:1112 config-composer/config/map.php:1264
+#: config-composer/config/map.php:1371 config-composer/config/map.php:1454
+#: config-composer/config/map.php:1535 config-composer/config/map.php:1696
+#: config-composer/config/map.php:1742 config-composer/config/map.php:1793
+#: config-composer/config/map.php:1889 config-composer/config/map.php:1981
+#: config-composer/config/map.php:2187 config-composer/config/map.php:2236
+#: config-composer/config/map.php:2314 config-composer/config/map.php:2373
+#: config-composer/config/map.php:2436 config-composer/config/map.php:2480
+#: config-composer/config/map.php:2527 config-composer/config/map.php:2650
+#: config-composer/config/map.php:2688 config-composer/config/map.php:2874
+#: config-composer/config/map.php:2994 config-composer/config/map.php:3236
+#: config-composer/config/map.php:3487 config-composer/config/map.php:3664
+#: config-composer/config/map.php:3851 config-composer/config/map.php:3916
+#: config-composer/config/map.php:4009 config-composer/config/map.php:4070
+#: config-composer/config/map.php:4135 config-composer/config/map.php:4177
+#: config-composer/modules/vc_mad_image_gallery.php:33
+#: config-composer/modules/vc_mad_info_block.php:28
+#: config-composer/modules/vc_mad_info_block.php:137
+#: config-composer/modules/vc_mad_pricing_box.php:28 includes/widgets.php:133
+#: includes/widgets.php:479 includes/widgets.php:614 includes/widgets.php:691
+#: includes/widgets.php:827 includes/widgets.php:900 includes/widgets.php:1006
+#: includes/widgets.php:1313 includes/widgets.php:1349
+#: includes/widgets.php:1430 includes/widgets.php:1724
+#: includes/widgets.php:1969 includes/widgets/popular-widget/inc/form.php:4
+msgid "Title"
+msgstr ""
+
+#: config-composer/config/map.php:763
+msgid "Select style."
+msgstr ""
+
+#: config-composer/config/map.php:772 config-composer/config/map.php:886
+#: config-composer/config/map.php:1119 config-composer/config/map.php:3528
+#: config-composer/config/map.php:3739 config-composer/config/map.php:3803
+#: config-composer/config/map.php:3923
+msgid "Values"
+msgstr ""
+
+#: config-composer/config/map.php:774 config-composer/config/map.php:888
+#: config-composer/config/map.php:1121
+msgid "Enter values - value, image and title."
+msgstr ""
+
+#: config-composer/config/map.php:798 config-composer/config/map.php:912
+#: config-composer/config/map.php:2196
+msgid "Enter text."
+msgstr ""
+
+#: config-composer/config/map.php:803 config-composer/config/map.php:881
+#: config-composer/config/map.php:923 config-composer/config/map.php:1093
+#: config-composer/config/map.php:1157 config-composer/config/map.php:3606
+#: config-composer/config/map.php:3837 config-composer/config/map.php:4108
+msgid "Add URL to the button"
+msgstr ""
+
+#: config-composer/config/map.php:808 config-composer/config/map.php:928
+#: config-composer/config/map.php:980 config-composer/config/map.php:1162
+#: config-composer/config/map.php:1473 config-composer/config/map.php:1812
+#: config-composer/config/map.php:2000 config-composer/config/map.php:2546
+#: config-composer/config/map.php:2707 config-composer/config/map.php:2893
+#: config-composer/config/map.php:3506 config-composer/config/map.php:3683
+#: config-composer/config/map.php:3842
+#: config-composer/modules/vc_mad_image_gallery.php:52
+#: config-composer/modules/vc_mad_info_block.php:47
+#: config-composer/modules/vc_mad_pricing_box.php:47
+#: config-composer/shortcodes/vc_mad_about_portfolio.php:94
+#: config-woocommerce/config.php:354
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr ""
+
+#: config-composer/config/map.php:810 config-composer/config/map.php:930
+#: config-composer/config/map.php:1164 config-composer/config/map.php:3844
+msgid "Enter description."
+msgstr ""
+
+#: config-composer/config/map.php:815 config-composer/config/map.php:934
+#: config-composer/config/map.php:1169
+msgid "Color for item"
+msgstr ""
+
+#: config-composer/config/map.php:817 config-composer/config/map.php:936
+#: config-composer/config/map.php:1171
+msgid "Select custom color for item."
+msgstr ""
+
+#: config-composer/config/map.php:821 config-composer/config/map.php:940
+#: config-composer/config/map.php:1175
+msgid "Color for item hover"
+msgstr ""
+
+#: config-composer/config/map.php:823 config-composer/config/map.php:942
+#: config-composer/config/map.php:1177
+msgid "Select custom color for item hover."
+msgstr ""
+
+#: config-composer/config/map.php:827
+msgid "Color for icon"
+msgstr ""
+
+#: config-composer/config/map.php:829
+#: config-composer/modules/vc_mad_info_block.php:148
+msgid "Select custom color for icon."
+msgstr ""
+
+#: config-composer/config/map.php:835 config-composer/config/map.php:990
+#: config-composer/config/map.php:1287 config-composer/config/map.php:1483
+#: config-composer/config/map.php:1822 config-composer/config/map.php:2010
+#: config-composer/config/map.php:2556 config-composer/config/map.php:2717
+#: config-composer/config/map.php:2903 config-composer/config/map.php:3516
+#: config-composer/config/map.php:3875 config-composer/config/map.php:4035
+#: config-composer/config/map.php:4096
+#: config-composer/modules/vc_mad_image_gallery.php:62
+#: config-composer/modules/vc_mad_pricing_box.php:57
+msgid "Select custom color for title."
+msgstr ""
+
+#: config-composer/config/map.php:848 config-composer/config/map.php:1026
+#: config-composer/config/map.php:1329 config-composer/config/map.php:1557
+#: config-composer/config/map.php:1911 config-composer/config/map.php:2057
+#: config-composer/config/map.php:2939 config-composer/config/map.php:3044
+#: config-composer/config/map.php:3891
+#: config-composer/modules/vc_mad_info_block.php:110
+#: config-composer/modules/vc_mad_pricing_box.php:98
+#: config-widget-meta-box/php/meta_box.php:88
+#: config-widget-meta-box/php/meta_box.php:240
+msgid "Columns"
+msgstr ""
+
+#: config-composer/config/map.php:851 config-composer/config/map.php:3894
+msgid "Columns 1"
+msgstr ""
+
+#: config-composer/config/map.php:852 config-composer/config/map.php:3895
+msgid "Columns 2"
+msgstr ""
+
+#: config-composer/config/map.php:853 config-composer/config/map.php:3896
+msgid "Columns 3"
+msgstr ""
+
+#: config-composer/config/map.php:854
+msgid "Columns 4"
+msgstr ""
+
+#: config-composer/config/map.php:857 config-composer/config/map.php:3899
+msgid "Choose the columns for services."
+msgstr ""
+
+#: config-composer/config/map.php:866
+msgid "Home Block Press List"
+msgstr ""
+
+#: config-composer/config/map.php:870
+msgid "Press List"
+msgstr ""
+
+#: config-composer/config/map.php:917 config-composer/config/map.php:3955
+msgid "Time"
+msgstr ""
+
+#: config-composer/config/map.php:919 config-composer/config/map.php:3957
+msgid "Enter time."
+msgstr ""
+
+#: config-composer/config/map.php:953
+msgid "Issues"
+msgstr ""
+
+#: config-composer/config/map.php:957
+msgid "Issues post type"
+msgstr ""
+
+#: config-composer/config/map.php:964 config-composer/config/map.php:1266
+#: config-composer/config/map.php:1456 config-composer/config/map.php:1698
+#: config-composer/config/map.php:1744 config-composer/config/map.php:1795
+#: config-composer/config/map.php:1983 config-composer/config/map.php:2189
+#: config-composer/config/map.php:2238 config-composer/config/map.php:2316
+#: config-composer/config/map.php:2329 config-composer/config/map.php:2375
+#: config-composer/config/map.php:2438 config-composer/config/map.php:2482
+#: config-composer/config/map.php:2529 config-composer/config/map.php:2690
+#: config-composer/config/map.php:2877 config-composer/config/map.php:3489
+#: config-composer/config/map.php:3666
+#: config-composer/modules/vc_mad_image_gallery.php:35
+#: config-composer/modules/vc_mad_info_block.php:30
+#: config-composer/modules/vc_mad_pricing_box.php:30
+msgid ""
+"Enter text which will be used as title. Leave blank if no title is needed."
+msgstr ""
+
+#: config-composer/config/map.php:968 config-composer/config/map.php:1271
+#: config-composer/config/map.php:1461 config-composer/config/map.php:1800
+#: config-composer/config/map.php:1988 config-composer/config/map.php:2534
+#: config-composer/config/map.php:2695 config-composer/config/map.php:2881
+#: config-composer/config/map.php:3494 config-composer/config/map.php:3671
+#: config-composer/config/map.php:3859 config-composer/config/map.php:4016
+#: config-composer/config/map.php:4077
+#: config-composer/modules/vc_mad_image_gallery.php:40
+#: config-composer/modules/vc_mad_info_block.php:35
+#: config-composer/modules/vc_mad_pricing_box.php:35
+msgid "Tag for title"
+msgstr ""
+
+#: config-composer/config/map.php:976 config-composer/config/map.php:1279
+#: config-composer/config/map.php:1469 config-composer/config/map.php:1808
+#: config-composer/config/map.php:1996 config-composer/config/map.php:2542
+#: config-composer/config/map.php:2703 config-composer/config/map.php:2889
+#: config-composer/config/map.php:3502 config-composer/config/map.php:3679
+#: config-composer/config/map.php:3867 config-composer/config/map.php:4027
+#: config-composer/config/map.php:4088
+#: config-composer/modules/vc_mad_image_gallery.php:48
+#: config-composer/modules/vc_mad_info_block.php:43
+#: config-composer/modules/vc_mad_pricing_box.php:43
+msgid "Choose tag for title."
+msgstr ""
+
+#: config-composer/config/map.php:982 config-composer/config/map.php:1475
+#: config-composer/config/map.php:1814 config-composer/config/map.php:2002
+#: config-composer/config/map.php:2548 config-composer/config/map.php:2709
+#: config-composer/config/map.php:2895 config-composer/config/map.php:3508
+#: config-composer/config/map.php:3685
+#: config-composer/modules/vc_mad_image_gallery.php:54
+#: config-composer/modules/vc_mad_info_block.php:49
+#: config-composer/modules/vc_mad_pricing_box.php:49
+msgid ""
+"Enter text which will be used as description. Leave blank if no description "
+"is needed."
+msgstr ""
+
+#: config-composer/config/map.php:988 config-composer/config/map.php:996
+#: config-composer/config/map.php:1005 config-composer/config/map.php:1017
+#: config-composer/config/map.php:1285 config-composer/config/map.php:1294
+#: config-composer/config/map.php:1306 config-composer/config/map.php:1481
+#: config-composer/config/map.php:1489 config-composer/config/map.php:1820
+#: config-composer/config/map.php:1828 config-composer/config/map.php:2008
+#: config-composer/config/map.php:2016 config-composer/config/map.php:2025
+#: config-composer/config/map.php:2037 config-composer/config/map.php:2554
+#: config-composer/config/map.php:2562 config-composer/config/map.php:2570
+#: config-composer/config/map.php:2578 config-composer/config/map.php:2587
+#: config-composer/config/map.php:2599 config-composer/config/map.php:2715
+#: config-composer/config/map.php:2723 config-composer/config/map.php:2901
+#: config-composer/config/map.php:2909 config-composer/config/map.php:2918
+#: config-composer/config/map.php:2930 config-composer/config/map.php:3514
+#: config-composer/config/map.php:3522 config-composer/config/map.php:3691
+#: config-composer/config/map.php:3699 config-composer/config/map.php:3707
+#: config-composer/config/map.php:3715 config-composer/config/map.php:3723
+#: config-composer/config/map.php:3873 config-composer/config/map.php:3882
+#: config-composer/config/map.php:4033 config-composer/config/map.php:4041
+#: config-composer/config/map.php:4094 config-composer/config/map.php:4102
+#: config-composer/modules/vc_mad_google_maps.php:231
+#: config-composer/modules/vc_mad_image_gallery.php:60
+#: config-composer/modules/vc_mad_image_gallery.php:68
+#: config-composer/modules/vc_mad_info_block.php:60
+#: config-composer/modules/vc_mad_info_block.php:69
+#: config-composer/modules/vc_mad_info_block.php:80
+#: config-composer/modules/vc_mad_info_block.php:89
+#: config-composer/modules/vc_mad_info_block.php:146
+#: config-composer/modules/vc_mad_info_block.php:154
+#: config-composer/modules/vc_mad_info_block.php:162
+#: config-composer/modules/vc_mad_pricing_box.php:55
+#: config-composer/modules/vc_mad_pricing_box.php:63
+#: config-composer/modules/vc_mad_pricing_box.php:72
+#: config-composer/modules/vc_mad_pricing_box.php:84
+#: config-composer/modules/vc_mad_pricing_box.php:142
+msgid "Styling"
+msgstr ""
+
+#: config-composer/config/map.php:994 config-composer/config/map.php:1487
+#: config-composer/config/map.php:1826 config-composer/config/map.php:2014
+#: config-composer/config/map.php:2560 config-composer/config/map.php:2721
+#: config-composer/config/map.php:2907 config-composer/config/map.php:3520
+#: config-composer/config/map.php:3697
+#: config-composer/modules/vc_mad_image_gallery.php:66
+#: config-composer/modules/vc_mad_info_block.php:78
+#: config-composer/modules/vc_mad_pricing_box.php:61
+msgid "Color for description"
+msgstr ""
+
+#: config-composer/config/map.php:998 config-composer/config/map.php:1491
+#: config-composer/config/map.php:1830 config-composer/config/map.php:2018
+#: config-composer/config/map.php:2564 config-composer/config/map.php:2725
+#: config-composer/config/map.php:2911 config-composer/config/map.php:3524
+#: config-composer/modules/vc_mad_image_gallery.php:70
+#: config-composer/modules/vc_mad_pricing_box.php:65
+msgid "Select custom color for description."
+msgstr ""
+
+#: config-composer/config/map.php:1003 config-composer/config/map.php:1292
+#: config-composer/config/map.php:2023 config-composer/config/map.php:2585
+#: config-composer/config/map.php:2916 config-composer/config/map.php:3880
+#: config-composer/modules/vc_mad_info_block.php:67
+#: config-composer/modules/vc_mad_pricing_box.php:70
+msgid "Title align"
+msgstr ""
+
+#: config-composer/config/map.php:1015 config-composer/config/map.php:2035
+#: config-composer/config/map.php:2597 config-composer/config/map.php:2928
+#: config-composer/modules/vc_mad_info_block.php:87
+#: config-composer/modules/vc_mad_pricing_box.php:82
+msgid "Description align"
+msgstr ""
+
+#: config-composer/config/map.php:1029 config-composer/config/map.php:1333
+#: config-composer/config/map.php:1561 config-composer/config/map.php:1915
+#: config-composer/config/map.php:2061 config-composer/config/map.php:2943
+#: config-composer/config/map.php:3048
+#: config-composer/modules/vc_mad_info_block.php:115
+#: config-composer/modules/vc_mad_pricing_box.php:101
+msgid "3 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:1030 config-composer/config/map.php:1334
+#: config-composer/config/map.php:1562 config-composer/config/map.php:1916
+#: config-composer/config/map.php:2062 config-composer/config/map.php:2944
+#: config-composer/config/map.php:3049
+#: config-composer/modules/vc_mad_info_block.php:116
+#: config-composer/modules/vc_mad_pricing_box.php:102
+msgid "4 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:1032 config-composer/config/map.php:1336
+#: config-composer/config/map.php:1564 config-composer/config/map.php:1922
+#: config-composer/config/map.php:2065 config-composer/config/map.php:2946
+#: config-composer/config/map.php:3054
+#: config-composer/modules/vc_mad_info_block.php:119
+#: config-composer/modules/vc_mad_pricing_box.php:105
+msgid "How many columns should be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:1036 config-composer/config/map.php:1569
+#: config-composer/config/map.php:1927 config-composer/config/map.php:2070
+#: config-composer/config/map.php:2333 config-composer/config/map.php:2393
+#: config-composer/config/map.php:2620 config-composer/config/map.php:2950
+#: config-composer/config/map.php:4048 config-composer/config/map.php:4113
+#: config-composer/config/map.php:4198
+msgid "Count Items"
+msgstr ""
+
+#: config-composer/config/map.php:1040 config-composer/config/map.php:1398
+#: config-composer/config/map.php:1573 config-composer/config/map.php:1931
+#: config-composer/config/map.php:2074 config-composer/config/map.php:2624
+#: config-composer/config/map.php:2954 includes/widgets.php:907
+#: includes/widgets.php:917
+msgid "How many items should be displayed per page?"
+msgstr ""
+
+#: config-composer/config/map.php:1044 config-composer/config/map.php:2958
+msgid "Enable excerpt"
+msgstr ""
+
+#: config-composer/config/map.php:1046 config-composer/config/map.php:2960
+msgid "Enable excerpt."
+msgstr ""
+
+#: config-composer/config/map.php:1051 config-composer/config/map.php:1345
+#: config-composer/config/map.php:2743 config-composer/config/map.php:2972
+#: config-composer/config/map.php:3102
+msgid "Enable carousel"
+msgstr ""
+
+#: config-composer/config/map.php:1053 config-composer/config/map.php:1347
+#: config-composer/config/map.php:2745 config-composer/config/map.php:2974
+#: config-composer/config/map.php:3104
+msgid "Enable carousel."
+msgstr ""
+
+#: config-composer/config/map.php:1059 config-composer/config/map.php:2980
+msgid "Which categories should be used for the team?"
+msgstr ""
+
+#: config-composer/config/map.php:1062 config-composer/config/map.php:2983
+msgid "The Page will then show team from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1063 config-composer/config/map.php:1361
+#: config-composer/config/map.php:1379 config-composer/config/map.php:1390
+#: config-composer/config/map.php:1525 config-composer/config/map.php:1542
+#: config-composer/config/map.php:1553 config-composer/config/map.php:1879
+#: config-composer/config/map.php:1896 config-composer/config/map.php:1907
+#: config-composer/config/map.php:2082 config-composer/config/map.php:2099
+#: config-composer/config/map.php:2114 config-composer/config/map.php:2126
+#: config-composer/config/map.php:2142 config-composer/config/map.php:2640
+#: config-composer/config/map.php:2658 config-composer/config/map.php:2670
+#: config-composer/config/map.php:2984 config-composer/config/map.php:4167
+#: config-composer/config/map.php:4183 config-composer/config/map.php:4194
+msgid "Data Settings"
+msgstr ""
+
+#: config-composer/config/map.php:1067 config-composer/config/map.php:1365
+#: config-composer/config/map.php:1529 config-composer/config/map.php:1883
+#: config-composer/config/map.php:2644 config-composer/config/map.php:2988
+#: config-composer/config/map.php:4171
+msgid "Order By"
+msgstr ""
+
+#: config-composer/config/map.php:1071 config-composer/config/map.php:1369
+#: config-composer/config/map.php:1533 config-composer/config/map.php:1887
+#: config-composer/config/map.php:2648 config-composer/config/map.php:2992
+#: config-composer/config/map.php:4175
+msgid "ID"
+msgstr ""
+
+#: config-composer/config/map.php:1074 config-composer/config/map.php:1372
+#: config-composer/config/map.php:1536 config-composer/config/map.php:1890
+#: config-composer/config/map.php:2651 config-composer/config/map.php:2995
+#: config-composer/config/map.php:4178
+msgid "Modified"
+msgstr ""
+
+#: config-composer/config/map.php:1075 config-composer/config/map.php:1373
+#: config-composer/config/map.php:1537 config-composer/config/map.php:1891
+#: config-composer/config/map.php:2652 config-composer/config/map.php:2996
+#: config-composer/config/map.php:4179
+msgid "Random"
+msgstr ""
+
+#: config-composer/config/map.php:1076 config-composer/config/map.php:1374
+#: config-composer/config/map.php:1538 config-composer/config/map.php:1892
+#: config-composer/config/map.php:2653 config-composer/config/map.php:2997
+msgid "Comment count"
+msgstr ""
+
+#: config-composer/config/map.php:1077 config-composer/config/map.php:1375
+#: config-composer/config/map.php:1539 config-composer/config/map.php:1893
+#: config-composer/config/map.php:2654 config-composer/config/map.php:2998
+#: config-composer/config/map.php:4180
+msgid "Menu order"
+msgstr ""
+
+#: config-composer/config/map.php:1083 config-composer/config/map.php:1383
+#: config-composer/config/map.php:1546 config-composer/config/map.php:1900
+#: config-composer/config/map.php:2662 config-composer/config/map.php:3004
+#: config-composer/config/map.php:4187 woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr ""
+
+#: config-composer/config/map.php:1086 config-composer/config/map.php:1386
+#: config-composer/config/map.php:1549 config-composer/config/map.php:1903
+#: config-composer/config/map.php:2122 config-composer/config/map.php:2665
+#: config-composer/config/map.php:3007 config-composer/config/map.php:4190
+msgid "DESC"
+msgstr ""
+
+#: config-composer/config/map.php:1087 config-composer/config/map.php:1387
+#: config-composer/config/map.php:1550 config-composer/config/map.php:1904
+#: config-composer/config/map.php:2121 config-composer/config/map.php:2666
+#: config-composer/config/map.php:3008 config-composer/config/map.php:4191
+msgid "ASC"
+msgstr ""
+
+#: config-composer/config/map.php:1089 config-composer/config/map.php:1552
+#: config-composer/config/map.php:1906 config-composer/config/map.php:2668
+#: config-composer/config/map.php:3010 config-composer/config/map.php:4193
+msgid "Direction Order"
+msgstr ""
+
+#: config-composer/config/map.php:1104
+msgid "Home Banner List"
+msgstr ""
+
+#: config-composer/config/map.php:1108
+msgid "Home Banner list"
+msgstr ""
+
+#: config-composer/config/map.php:1150 config-composer/config/map.php:1196
+#: config-composer/config/map.php:3548 config-composer/config/map.php:3766
+#: config-composer/config/map.php:3830 config-composer/config/map.php:3941
+#: config-composer/modules/vc_mad_pricing_box.php:132
+msgid "Label"
+msgstr ""
+
+#: config-composer/config/map.php:1152 config-composer/config/map.php:3832
+msgid "Enter text used as label."
+msgstr ""
+
+#: config-composer/config/map.php:1188 config-composer/config/map.php:1192
+msgid "Share buttons"
+msgstr ""
+
+#: config-composer/config/map.php:1205
+msgid "Enable facebook."
+msgstr ""
+
+#: config-composer/config/map.php:1212
+msgid "Enable twitter."
+msgstr ""
+
+#: config-composer/config/map.php:1217 template-parts/content-share.php:28
+msgid "Google +"
+msgstr ""
+
+#: config-composer/config/map.php:1219
+msgid "Enable google."
+msgstr ""
+
+#: config-composer/config/map.php:1224
+#: config-composer/shortcodes/vc_mad_share.php:65 includes/functions.php:289
+msgid "Pinterest"
+msgstr ""
+
+#: config-composer/config/map.php:1226
+msgid "Enable pinterest."
+msgstr ""
+
+#: config-composer/config/map.php:1231
+msgid "Mail"
+msgstr ""
+
+#: config-composer/config/map.php:1233
+msgid "Enable mail."
+msgstr ""
+
+#: config-composer/config/map.php:1246
+msgid "Choose style."
+msgstr ""
+
+#: config-composer/config/map.php:1256
+msgid "Blog Posts"
+msgstr ""
+
+#: config-composer/config/map.php:1260
+msgid "Blog posts"
+msgstr ""
+
+#: config-composer/config/map.php:1304
+msgid "Button align"
+msgstr ""
+
+#: config-composer/config/map.php:1315
+msgid "Blog Layout"
+msgstr ""
+
+#: config-composer/config/map.php:1318 config-composer/config/map.php:1837
+#: config-composer/config/map.php:2049
+msgid "Grid"
+msgstr ""
+
+#: config-composer/config/map.php:1319 config-composer/config/map.php:2611
+#: includes/widgets.php:914
+msgid "List"
+msgstr ""
+
+#: config-composer/config/map.php:1320
+msgid "Widget Image"
+msgstr ""
+
+#: config-composer/config/map.php:1321
+msgid "Widget List"
+msgstr ""
+
+#: config-composer/config/map.php:1322
+msgid "Tab List"
+msgstr ""
+
+#: config-composer/config/map.php:1325 config-composer/config/map.php:2616
+msgid "Choose the default blog layout here."
+msgstr ""
+
+#: config-composer/config/map.php:1332 config-composer/config/map.php:1560
+#: config-composer/config/map.php:1914 config-composer/config/map.php:2060
+#: config-composer/config/map.php:2942 config-composer/config/map.php:3047
+#: config-composer/modules/vc_mad_info_block.php:114
+msgid "2 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:1357
+msgid "Which categories should be used for the blog?"
+msgstr ""
+
+#: config-composer/config/map.php:1360
+msgid "The Page will then show entries from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1378
+msgid "Sort retrieved posts by parameter"
+msgstr ""
+
+#: config-composer/config/map.php:1389
+msgid "In what direction order?"
+msgstr ""
+
+#: config-composer/config/map.php:1394
+msgid "Posts Count"
+msgstr ""
+
+#: config-composer/config/map.php:1402 config-composer/config/map.php:1408
+msgid "Ignore sticky posts"
+msgstr ""
+
+#: config-composer/config/map.php:1412 config-composer/config/map.php:1615
+#: config-composer/config/map.php:1935 config-composer/config/map.php:2147
+msgid "Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:1415 config-composer/config/map.php:1618
+#: config-composer/config/map.php:1938 config-composer/config/map.php:2150
+msgid "Display Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:1416
+msgid "Hide Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:1419 config-composer/config/map.php:1622
+#: config-composer/config/map.php:1946 config-composer/config/map.php:2154
+msgid "Should a pagination be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:1424
+msgid "Pagination align"
+msgstr ""
+
+#: config-composer/config/map.php:1450
+msgid "Displayed for portfolio items"
+msgstr ""
+
+#: config-composer/config/map.php:1495 config-composer/config/map.php:1508
+#: config-composer/config/map.php:1845 config-composer/config/map.php:1862
+msgid "Filter"
+msgstr ""
+
+#: config-composer/config/map.php:1501 config-composer/config/map.php:1855
+msgid "Should the sorting options based on categories be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:1505 config-composer/config/map.php:1859
+msgid "Alignment Filter"
+msgstr ""
+
+#: config-composer/config/map.php:1507 config-composer/config/map.php:1861
+msgid "Select filter alignment."
+msgstr ""
+
+#: config-composer/config/map.php:1522 config-composer/config/map.php:1876
+msgid "Which categories should be used for the portfolio?"
+msgstr ""
+
+#: config-composer/config/map.php:1524 config-composer/config/map.php:1878
+msgid "The Page will then show portfolio from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:1541 config-composer/config/map.php:1895
+#: config-composer/config/map.php:2656 config-composer/config/map.php:4182
+msgid "Sort retrieved items by parameter"
+msgstr ""
+
+#: config-composer/config/map.php:1577 config-composer/config/map.php:1584
+msgid "Display Category"
+msgstr ""
+
+#: config-composer/config/map.php:1580
+msgid "show"
+msgstr ""
+
+#: config-composer/config/map.php:1581
+msgid "hide"
+msgstr ""
+
+#: config-composer/config/map.php:1588 config-composer/config/map.php:1592
+msgid "Title length"
+msgstr ""
+
+#: config-composer/config/map.php:1596 config-composer/config/map.php:1600
+#: includes/widgets/popular-widget/inc/form.php:70
+msgid "Excerpt length"
+msgstr ""
+
+#: config-composer/config/map.php:1604 config-composer/config/map.php:1611
+msgid "Position info"
+msgstr ""
+
+#: config-composer/config/map.php:1607
+msgid "bottom"
+msgstr ""
+
+#: config-composer/config/map.php:1608
+msgid "inner"
+msgstr ""
+
+#: config-composer/config/map.php:1619 config-composer/config/map.php:1939
+msgid "No Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:1626 config-composer/config/map.php:1950
+msgid "Alignment Pagination"
+msgstr ""
+
+#: config-composer/config/map.php:1628 config-composer/config/map.php:1952
+msgid "Select pagination alignment."
+msgstr ""
+
+#: config-composer/config/map.php:1647
+msgid "About Portfolio"
+msgstr ""
+
+#: config-composer/config/map.php:1651
+msgid "To display the detailed portfolio page"
+msgstr ""
+
+#: config-composer/config/map.php:1658
+#: config-composer/modules/vc_mad_info_block.php:190
+msgid "<p>Click edit button to change this text.</p>"
+msgstr ""
+
+#: config-composer/config/map.php:1664
+msgid "output date"
+msgstr ""
+
+#: config-composer/config/map.php:1669
+#: config-composer/shortcodes/vc_mad_about_portfolio.php:61
+msgid "Category"
+msgstr ""
+
+#: config-composer/config/map.php:1671
+msgid "output category"
+msgstr ""
+
+#: config-composer/config/map.php:1678
+msgid "output author"
+msgstr ""
+
+#: config-composer/config/map.php:1688 config-composer/config/map.php:1692
+msgid "Instagram gallery"
+msgstr ""
+
+#: config-composer/config/map.php:1702 config-composer/config/map.php:1753
+msgid "User id"
+msgstr ""
+
+#: config-composer/config/map.php:1707
+msgid "Access Token"
+msgstr ""
+
+#: config-composer/config/map.php:1712
+msgid "Client Id"
+msgstr ""
+
+#: config-composer/config/map.php:1717
+msgid "Tag Name"
+msgstr ""
+
+#: config-composer/config/map.php:1722 config-composer/config/map.php:1758
+msgid "Number"
+msgstr ""
+
+#: config-composer/config/map.php:1724 config-composer/config/map.php:1760
+#: includes/widgets.php:1016
+msgid "Number of photos"
+msgstr ""
+
+#: config-composer/config/map.php:1734 config-composer/config/map.php:1738
+msgid "Flickr gallery"
+msgstr ""
+
+#: config-composer/config/map.php:1748
+msgid "Api key"
+msgstr ""
+
+#: config-composer/config/map.php:1765 includes/widgets.php:1021
+msgid "Open links in"
+msgstr ""
+
+#: config-composer/config/map.php:1768 includes/widgets.php:1023
+msgid "Current window (_self)"
+msgstr ""
+
+#: config-composer/config/map.php:1769 includes/widgets.php:1024
+msgid "New window (_blank)"
+msgstr ""
+
+#: config-composer/config/map.php:1774
+msgid "Link url"
+msgstr ""
+
+#: config-composer/config/map.php:1785
+msgid "Video"
+msgstr ""
+
+#: config-composer/config/map.php:1789
+msgid "Displayed for video items"
+msgstr ""
+
+#: config-composer/config/map.php:1834
+msgid "Video Layout"
+msgstr ""
+
+#: config-composer/config/map.php:1838
+msgid "List for tab"
+msgstr ""
+
+#: config-composer/config/map.php:1841
+msgid "Choose the default video layout here."
+msgstr ""
+
+#: config-composer/config/map.php:1973 includes/templates-hooks.php:287
+msgid "Products"
+msgstr ""
+
+#: config-composer/config/map.php:1977
+msgid "Displayed for product grid"
+msgstr ""
+
+#: config-composer/config/map.php:2046
+msgid "Type View"
+msgstr ""
+
+#: config-composer/config/map.php:2050 config-composer/config/map.php:2347
+#: config-composer/config/map.php:4145 includes/widgets.php:915
+#: includes/widgets.php:1034
+msgid "Carousel"
+msgstr ""
+
+#: config-composer/config/map.php:2053
+msgid "Choose the type style."
+msgstr ""
+
+#: config-composer/config/map.php:2079
+msgid "Which categories should be used for the products?"
+msgstr ""
+
+#: config-composer/config/map.php:2083
+msgid "The Page will then show products from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:2090
+msgid "All Products"
+msgstr ""
+
+#: config-composer/config/map.php:2091
+msgid "Featured Products"
+msgstr ""
+
+#: config-composer/config/map.php:2092
+msgid "On-sale Products"
+msgstr ""
+
+#: config-composer/config/map.php:2093
+msgid "Best Selling Products"
+msgstr ""
+
+#: config-composer/config/map.php:2094
+msgid "Top Rated Products"
+msgstr ""
+
+#: config-composer/config/map.php:2095
+#: config-composer/shortcodes/vc_mad_products.php:331
+#: config-woocommerce/php/new-badge.class.php:100
+msgid "New"
+msgstr ""
+
+#: config-composer/config/map.php:2103 includes/widgets.php:922
+msgid "Order by"
+msgstr ""
+
+#: config-composer/config/map.php:2106 woocommerce/loop/orderby.php:29
+msgid "Default sorting"
+msgstr ""
+
+#: config-composer/config/map.php:2107
+msgid "Sort by popularity"
+msgstr ""
+
+#: config-composer/config/map.php:2108
+msgid "Sort by average rating"
+msgstr ""
+
+#: config-composer/config/map.php:2109
+msgid "Sort by newness"
+msgstr ""
+
+#: config-composer/config/map.php:2110
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: config-composer/config/map.php:2111
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: config-composer/config/map.php:2113 config-composer/config/map.php:2124
+msgid "Here you can choose how to display the products"
+msgstr ""
+
+#: config-composer/config/map.php:2118
+msgid "Sorting Order"
+msgstr ""
+
+#: config-composer/config/map.php:2139
+msgid "Select identificators"
+msgstr ""
+
+#: config-composer/config/map.php:2143
+msgid "Input product ID or product SKU or product title to see suggestions"
+msgstr ""
+
+#: config-composer/config/map.php:2151
+msgid "No option to view additional entries"
+msgstr ""
+
+#: config-composer/config/map.php:2179
+msgid "Inforward Newsletter(mailchimp)"
+msgstr ""
+
+#: config-composer/config/map.php:2183
+msgid "Widget Newsletter"
+msgstr ""
+
+#: config-composer/config/map.php:2200
+msgid "Type input"
+msgstr ""
+
+#: config-composer/config/map.php:2202
+msgid "Select type input."
+msgstr ""
+
+#: config-composer/config/map.php:2204 includes/functions-core.php:393
+#: woocommerce/single-product-reviews.php:79
+msgid "Email"
+msgstr ""
+
+#: config-composer/config/map.php:2205 config-composer/config/map.php:3462
+#: config-composer/config/map.php:3465 includes/widgets.php:624
+#: includes/widgets.php:859 includes/widgets.php:1738
+msgid "Phone"
+msgstr ""
+
+#: config-composer/config/map.php:2212 config-composer/config/map.php:2290
+#: config-composer/config/map.php:2343 config-composer/config/map.php:2403
+#: config-composer/config/map.php:2451
+msgid "Select type."
+msgstr ""
+
+#: config-composer/config/map.php:2218 config-composer/config/map.php:2296
+#: config-composer/config/map.php:3213 includes/widgets.php:1380
+#: includes/widgets.php:1750 includes/widgets.php:2017
+msgid "Type 5"
+msgstr ""
+
+#: config-composer/config/map.php:2228
+msgid "Inforward Donate"
+msgstr ""
+
+#: config-composer/config/map.php:2232
+msgid "Widget Donate"
+msgstr ""
+
+#: config-composer/config/map.php:2242 includes/widgets.php:1974
+msgid "Amount1"
+msgstr ""
+
+#: config-composer/config/map.php:2244 config-composer/config/map.php:2250
+#: config-composer/config/map.php:2256 config-composer/config/map.php:2262
+msgid "Enter Amount."
+msgstr ""
+
+#: config-composer/config/map.php:2248 includes/widgets.php:1979
+msgid "Amount2"
+msgstr ""
+
+#: config-composer/config/map.php:2254 includes/widgets.php:1984
+msgid "Amount3"
+msgstr ""
+
+#: config-composer/config/map.php:2260 includes/widgets.php:1989
+msgid "Amount4"
+msgstr ""
+
+#: config-composer/config/map.php:2266 includes/widgets.php:1994
+msgid "PayPal Email Address"
+msgstr ""
+
+#: config-composer/config/map.php:2269
+msgid "Enter PayPal Email Address."
+msgstr ""
+
+#: config-composer/config/map.php:2273 includes/widgets.php:1999
+msgid "Organization"
+msgstr ""
+
+#: config-composer/config/map.php:2276
+msgid "Enter Organization."
+msgstr ""
+
+#: config-composer/config/map.php:2280 includes/widgets.php:2005
+msgid "Currency Amount"
+msgstr ""
+
+#: config-composer/config/map.php:2282
+msgid "Select Currency Amount."
+msgstr ""
+
+#: config-composer/config/map.php:2306
+msgid "Inforward Instagram widget"
+msgstr ""
+
+#: config-composer/config/map.php:2310
+msgid "Widget Instagram"
+msgstr ""
+
+#: config-composer/config/map.php:2320 config-composer/config/map.php:2379
+#: includes/widgets.php:1011 woocommerce/myaccount/form-login.php:86
+msgid "Username"
+msgstr ""
+
+#: config-composer/config/map.php:2323 config-composer/config/map.php:2382
+msgid "Enter username."
+msgstr ""
+
+#: config-composer/config/map.php:2327
+msgid "Link Title"
+msgstr ""
+
+#: config-composer/config/map.php:2337 config-composer/config/map.php:2397
+#: config-composer/config/map.php:4052 config-composer/config/map.php:4117
+#: config-composer/config/map.php:4202
+msgid "How many items should be displayed?"
+msgstr ""
+
+#: config-composer/config/map.php:2345 includes/widgets.php:1032
+msgid "Grid Type1"
+msgstr ""
+
+#: config-composer/config/map.php:2346 includes/widgets.php:1033
+msgid "Grid Type2"
+msgstr ""
+
+#: config-composer/config/map.php:2352 config-composer/config/map.php:2414
+#: config-composer/config/map.php:2460
+msgid "Height"
+msgstr ""
+
+#: config-composer/config/map.php:2355 config-composer/config/map.php:2417
+#: config-composer/config/map.php:2463 config-composer/config/map.php:2510
+msgid "Enter height (px)"
+msgstr ""
+
+#: config-composer/config/map.php:2365
+msgid "Inforward Twitter widget"
+msgstr ""
+
+#: config-composer/config/map.php:2369
+msgid "Widget Twitter"
+msgstr ""
+
+#: config-composer/config/map.php:2405
+msgid "type1"
+msgstr ""
+
+#: config-composer/config/map.php:2406
+msgid "type2"
+msgstr ""
+
+#: config-composer/config/map.php:2407
+msgid "type3"
+msgstr ""
+
+#: config-composer/config/map.php:2408
+msgid "type4"
+msgstr ""
+
+#: config-composer/config/map.php:2409
+msgid "type5"
+msgstr ""
+
+#: config-composer/config/map.php:2428
+msgid "Inforward Facebook widget"
+msgstr ""
+
+#: config-composer/config/map.php:2432
+msgid "Widget Facebook"
+msgstr ""
+
+#: config-composer/config/map.php:2442
+msgid "Shortcode"
+msgstr ""
+
+#: config-composer/config/map.php:2445
+msgid "Enter shortcode.([custom-facebook-feed num=1 height=500px])"
+msgstr ""
+
+#: config-composer/config/map.php:2472
+msgid "Inforward Video widget"
+msgstr ""
+
+#: config-composer/config/map.php:2476
+msgid "Widget Video"
+msgstr ""
+
+#: config-composer/config/map.php:2486
+msgid "URL video"
+msgstr ""
+
+#: config-composer/config/map.php:2489
+msgid "Enter url  video"
+msgstr ""
+
+#: config-composer/config/map.php:2503
+msgid "Enter width"
+msgstr ""
+
+#: config-composer/config/map.php:2507
+msgid "Widget Height"
+msgstr ""
+
+#: config-composer/config/map.php:2519 includes/widgets.php:899
+msgid "Testimonials"
+msgstr ""
+
+#: config-composer/config/map.php:2523
+msgid "Testimonials post type"
+msgstr ""
+
+#: config-composer/config/map.php:2568
+msgid "Color for content"
+msgstr ""
+
+#: config-composer/config/map.php:2572
+msgid "Select custom color for content."
+msgstr ""
+
+#: config-composer/config/map.php:2576
+msgid "Color for author company"
+msgstr ""
+
+#: config-composer/config/map.php:2580
+msgid "Select custom color for author company."
+msgstr ""
+
+#: config-composer/config/map.php:2608 config-composer/config/map.php:3206
+msgid "Layout"
+msgstr ""
+
+#: config-composer/config/map.php:2612
+msgid "Carousel 1"
+msgstr ""
+
+#: config-composer/config/map.php:2613
+msgid "Carousel 2"
+msgstr ""
+
+#: config-composer/config/map.php:2636
+msgid "Which categories should be used for the testimonials?"
+msgstr ""
+
+#: config-composer/config/map.php:2639
+msgid "The Page will then show testimonials from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:2680
+msgid "Brands Logo"
+msgstr ""
+
+#: config-composer/config/map.php:2684
+msgid "Brands logo"
+msgstr ""
+
+#: config-composer/config/map.php:2729 config-composer/config/map.php:3058
+msgid "Images"
+msgstr ""
+
+#: config-composer/config/map.php:2732 config-composer/config/map.php:3061
+msgid "Select images from media library."
+msgstr ""
+
+#: config-composer/config/map.php:2736
+msgid "Links"
+msgstr ""
+
+#: config-composer/config/map.php:2739
+msgid ""
+"Input links values. Divide values with linebreaks (|). Example: http://brand."
+"com | http://brand2.com"
+msgstr ""
+
+#: config-composer/config/map.php:2752 config-composer/config/map.php:4212
+msgid "Enables autoplay mode."
+msgstr ""
+
+#: config-composer/config/map.php:2757 config-composer/config/map.php:4217
+msgid "Autoplay timeout"
+msgstr ""
+
+#: config-composer/config/map.php:2759 config-composer/config/map.php:4219
+msgid "Autoplay interval timeout"
+msgstr ""
+
+#: config-composer/config/map.php:2774
+msgid "Blockquotes"
+msgstr ""
+
+#: config-composer/config/map.php:2778
+msgid "Blockquotes styles"
+msgstr ""
+
+#: config-composer/config/map.php:2785
+msgid "Style 1"
+msgstr ""
+
+#: config-composer/config/map.php:2786
+msgid "Style 2"
+msgstr ""
+
+#: config-composer/config/map.php:2789
+msgid "Choose the default style for blockquote."
+msgstr ""
+
+#: config-composer/config/map.php:2795 config-composer/config/map.php:2801
+msgid ""
+"Enter text which will be used as author description. Leave blank if no "
+"description is needed."
+msgstr ""
+
+#: config-composer/config/map.php:2808
+msgid ""
+"<p>I am text block. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr ""
+
+#: config-composer/config/map.php:2818 config-composer/config/map.php:2822
+msgid "Text with image"
+msgstr ""
+
+#: config-composer/config/map.php:2832
+msgid "Select message box type design."
+msgstr ""
+
+#: config-composer/config/map.php:2866
+msgid "Team Members"
+msgstr ""
+
+#: config-composer/config/map.php:2870
+msgid "Team Members post type"
+msgstr ""
+
+#: config-composer/config/map.php:2965
+msgid "Enable social"
+msgstr ""
+
+#: config-composer/config/map.php:2967
+msgid "Enable social."
+msgstr ""
+
+#: config-composer/config/map.php:3019
+#: config-composer/modules/vc_mad_image_gallery.php:21
+#: config-composer/modules/vc_mad_image_gallery.php:82
+msgid "Image Gallery"
+msgstr ""
+
+#: config-composer/config/map.php:3023
+#: config-composer/modules/vc_mad_image_gallery.php:26
+msgid "Responsive image gallery"
+msgstr ""
+
+#: config-composer/config/map.php:3033
+msgid "Image source"
+msgstr ""
+
+#: config-composer/config/map.php:3036
+msgid "Media library"
+msgstr ""
+
+#: config-composer/config/map.php:3037 config-composer/config/map.php:3069
+msgid "External links"
+msgstr ""
+
+#: config-composer/config/map.php:3040
+msgid "Select image source."
+msgstr ""
+
+#: config-composer/config/map.php:3050
+msgid "5 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:3051
+msgid "6 Columns"
+msgstr ""
+
+#: config-composer/config/map.php:3071
+msgid ""
+"Enter external link for each gallery image (Note: divide links with "
+"linebreaks (Enter))."
+msgstr ""
+
+#: config-composer/config/map.php:3079 config-composer/config/map.php:3091
+msgid "Image size"
+msgstr ""
+
+#: config-composer/config/map.php:3082
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: config-composer/config/map.php:3094
+msgid "Enter image size in pixels. Example: 200x100 (Width x Height)."
+msgstr ""
+
+#: config-composer/config/map.php:3109
+msgid "On click action"
+msgstr ""
+
+#: config-composer/config/map.php:3112
+msgid "Open lightbox"
+msgstr ""
+
+#: config-composer/config/map.php:3113
+#: config-composer/modules/vc_mad_image_gallery.php:108
+msgid "Open custom link"
+msgstr ""
+
+#: config-composer/config/map.php:3115
+msgid "Select action for click action."
+msgstr ""
+
+#: config-composer/config/map.php:3120
+msgid "Custom links"
+msgstr ""
+
+#: config-composer/config/map.php:3122
+msgid ""
+"Enter links for each slide (Note: divide links with linebreaks (Enter))."
+msgstr ""
+
+#: config-composer/config/map.php:3130
+#: config-composer/modules/vc_mad_image_gallery.php:124
+msgid "Custom link target"
+msgstr ""
+
+#: config-composer/config/map.php:3132
+msgid "Select where to open  custom links."
+msgstr ""
+
+#: config-composer/config/map.php:3158
+msgid "Message Box"
+msgstr ""
+
+#: config-composer/config/map.php:3162
+msgid "Notification boxes"
+msgstr ""
+
+#: config-composer/config/map.php:3169
+msgid "Success"
+msgstr ""
+
+#: config-composer/config/map.php:3170
+msgid "Warning"
+msgstr ""
+
+#: config-composer/config/map.php:3171 includes/widgets.php:1354
+#: includes/widgets.php:1435 includes/widgets.php:1729
+msgid "Info"
+msgstr ""
+
+#: config-composer/config/map.php:3172
+msgid "Fail"
+msgstr ""
+
+#: config-composer/config/map.php:3174
+msgid "Select message box style."
+msgstr ""
+
+#: config-composer/config/map.php:3182
+msgid "<p>I am message box. Click edit button to change this text.</p>"
+msgstr ""
+
+#: config-composer/config/map.php:3191
+msgid "List Styles"
+msgstr ""
+
+#: config-composer/config/map.php:3195
+msgid "List styles"
+msgstr ""
+
+#: config-composer/config/map.php:3199
+msgid "List Items"
+msgstr ""
+
+#: config-composer/config/map.php:3201
+msgid ""
+"Input list items values. Divide values with (|). Example: Development|Design"
+msgstr ""
+
+#: config-composer/config/map.php:3214
+msgid "Type 6"
+msgstr ""
+
+#: config-composer/config/map.php:3217
+msgid "Choose layout style."
+msgstr ""
+
+#: config-composer/config/map.php:3226 config-composer/config/map.php:3230
+msgid "Countdown"
+msgstr ""
+
+#: config-composer/config/map.php:3243
+msgid "Target Time For Countdown"
+msgstr ""
+
+#: config-composer/config/map.php:3246
+msgid "Date and time format (yyyy/mm/dd hh:mm:ss)."
+msgstr ""
+
+#: config-composer/config/map.php:3251
+msgid "Text align"
+msgstr ""
+
+#: config-composer/config/map.php:3286
+msgid "Call to Action"
+msgstr ""
+
+#: config-composer/config/map.php:3290
+msgid "Catch visitors attention with CTA block"
+msgstr ""
+
+#: config-composer/config/map.php:3294
+msgid "Heading"
+msgstr ""
+
+#: config-composer/config/map.php:3297
+msgid "Hey! I am first heading line feel free to change me"
+msgstr ""
+
+#: config-composer/config/map.php:3298
+msgid ""
+"Enter text for heading line. \\n = LF (Line Feed) - Used as a new line "
+"character"
+msgstr ""
+
+#: config-composer/config/map.php:3303
+msgid "Text color"
+msgstr ""
+
+#: config-composer/config/map.php:3305 config-composer/config/map.php:3320
+msgid "Select custom text color."
+msgstr ""
+
+#: config-composer/config/map.php:3310
+msgid "Subheading"
+msgstr ""
+
+#: config-composer/config/map.php:3313
+msgid "Enter text for subheading line."
+msgstr ""
+
+#: config-composer/config/map.php:3318
+msgid "Subheading Text color"
+msgstr ""
+
+#: config-composer/config/map.php:3325
+msgid "Type Style"
+msgstr ""
+
+#: config-composer/config/map.php:3328
+msgid "Default Style"
+msgstr ""
+
+#: config-composer/config/map.php:3329
+msgid "White Style"
+msgstr ""
+
+#: config-composer/config/map.php:3330
+msgid "Black Style"
+msgstr ""
+
+#: config-composer/config/map.php:3332
+msgid "Choose the style here"
+msgstr ""
+
+#: config-composer/config/map.php:3336
+msgid "Add button or form?"
+msgstr ""
+
+#: config-composer/config/map.php:3340
+msgid "Button Right"
+msgstr ""
+
+#: config-composer/config/map.php:3341
+msgid "Button Bottom"
+msgstr ""
+
+#: config-composer/config/map.php:3342
+msgid "Subscribe Form"
+msgstr ""
+
+#: config-composer/config/map.php:3344
+msgid "Add button or form for call to action."
+msgstr ""
+
+#: config-composer/config/map.php:3348
+msgid "Select a form"
+msgstr ""
+
+#: config-composer/config/map.php:3351 config-composer/config/map.php:3366
+#: config-composer/config/map.php:3386
+msgid "Form"
+msgstr ""
+
+#: config-composer/config/map.php:3352
+msgid "Select a form."
+msgstr ""
+
+#: config-composer/config/map.php:3360
+msgid "Form alignment"
+msgstr ""
+
+#: config-composer/config/map.php:3367
+msgid "Select form alignment."
+msgstr ""
+
+#: config-composer/config/map.php:3395
+msgid "Add Phone"
+msgstr ""
+
+#: config-composer/config/map.php:3433
+msgid "Select custom text color for button."
+msgstr ""
+
+#: config-composer/config/map.php:3464
+msgid "Enter text for phone."
+msgstr ""
+
+#: config-composer/config/map.php:3479
+msgid "Progress Bar"
+msgstr ""
+
+#: config-composer/config/map.php:3483
+msgid "Animated progress bar"
+msgstr ""
+
+#: config-composer/config/map.php:3530
+msgid "Enter values for graph - value, title and color."
+msgstr ""
+
+#: config-composer/config/map.php:3533
+msgid "Development"
+msgstr ""
+
+#: config-composer/config/map.php:3537
+msgid "Design"
+msgstr ""
+
+#: config-composer/config/map.php:3541
+msgid "Marketing"
+msgstr ""
+
+#: config-composer/config/map.php:3550
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: config-composer/config/map.php:3555 config-composer/config/map.php:3773
+#: config-composer/config/map.php:3948
+msgid "Value"
+msgstr ""
+
+#: config-composer/config/map.php:3557
+msgid "Enter value of bar."
+msgstr ""
+
+#: config-composer/config/map.php:3562
+msgid "Color"
+msgstr ""
+
+#: config-composer/config/map.php:3567 config-composer/config/map.php:4506
+msgid "Blue"
+msgstr ""
+
+#: config-composer/config/map.php:3568 config-composer/config/map.php:4518
+msgid "Green"
+msgstr ""
+
+#: config-composer/config/map.php:3569 config-composer/config/map.php:4516
+msgid "Orange"
+msgstr ""
+
+#: config-composer/config/map.php:3571
+msgid "Select single bar background color."
+msgstr ""
+
+#: config-composer/config/map.php:3579
+msgid "Units"
+msgstr ""
+
+#: config-composer/config/map.php:3581
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
+"units will be appended to graph title)."
+msgstr ""
+
+#: config-composer/config/map.php:3591
+msgid "Banners"
+msgstr ""
+
+#: config-composer/config/map.php:3595
+msgid "banners"
+msgstr ""
+
+#: config-composer/config/map.php:3617 config-composer/config/map.php:3621
+msgid "Video Button"
+msgstr ""
+
+#: config-composer/config/map.php:3642
+msgid "Select video button alignment."
+msgstr ""
+
+#: config-composer/config/map.php:3656
+msgid "Counter"
+msgstr ""
+
+#: config-composer/config/map.php:3660
+msgid "Animated counter"
+msgstr ""
+
+#: config-composer/config/map.php:3693
+#: config-composer/modules/vc_mad_info_block.php:62
+msgid "Select custom color for title block."
+msgstr ""
+
+#: config-composer/config/map.php:3701
+#: config-composer/modules/vc_mad_info_block.php:82
+msgid "Select custom color for description block."
+msgstr ""
+
+#: config-composer/config/map.php:3705
+msgid "Color for count number"
+msgstr ""
+
+#: config-composer/config/map.php:3709
+msgid "Select custom color for count number."
+msgstr ""
+
+#: config-composer/config/map.php:3713
+msgid "Color for count label"
+msgstr ""
+
+#: config-composer/config/map.php:3717
+msgid "Select custom color for count label."
+msgstr ""
+
+#: config-composer/config/map.php:3721
+msgid "Color for count icon"
+msgstr ""
+
+#: config-composer/config/map.php:3725
+msgid "Select custom color for count icon."
+msgstr ""
+
+#: config-composer/config/map.php:3735 config-composer/config/map.php:4148
+msgid "Choose the counters style."
+msgstr ""
+
+#: config-composer/config/map.php:3741 config-composer/config/map.php:3805
+#: config-composer/config/map.php:3925
+msgid "Enter values - value and title."
+msgstr ""
+
+#: config-composer/config/map.php:3744
+msgid "Successful projects"
+msgstr ""
+
+#: config-composer/config/map.php:3749
+msgid "Talanted Professionals"
+msgstr ""
+
+#: config-composer/config/map.php:3753
+msgid "Awards Winned"
+msgstr ""
+
+#: config-composer/config/map.php:3758
+msgid "Years of Hardwork"
+msgstr ""
+
+#: config-composer/config/map.php:3768
+msgid "Enter text used as title."
+msgstr ""
+
+#: config-composer/config/map.php:3775 config-composer/config/map.php:3950
+msgid "Enter value."
+msgstr ""
+
+#: config-composer/config/map.php:3795
+msgid "Services List"
+msgstr ""
+
+#: config-composer/config/map.php:3799
+msgid "Services list"
+msgstr ""
+
+#: config-composer/config/map.php:3908
+msgid "Experience List"
+msgstr ""
+
+#: config-composer/config/map.php:3912
+msgid "Team member experience list"
+msgstr ""
+
+#: config-composer/config/map.php:3943
+msgid "Enter text used as name."
+msgstr ""
+
+#: config-composer/config/map.php:3968 config-composer/config/map.php:3972
+msgid "Dropcap"
+msgstr ""
+
+#: config-composer/config/map.php:3982
+msgid "Choose the first letter style."
+msgstr ""
+
+#: config-composer/config/map.php:4001 config-composer/config/map.php:4005
+msgid "Events Slider"
+msgstr ""
+
+#: config-composer/config/map.php:4039
+msgid "Color for item text"
+msgstr ""
+
+#: config-composer/config/map.php:4044 config-composer/config/map.php:4104
+msgid "Select custom color for item title."
+msgstr ""
+
+#: config-composer/config/map.php:4062
+msgid "Events List"
+msgstr ""
+
+#: config-composer/config/map.php:4066
+msgid "Events list"
+msgstr ""
+
+#: config-composer/config/map.php:4100
+msgid "Color for item title"
+msgstr ""
+
+#: config-composer/config/map.php:4127
+msgid "Events Countdown"
+msgstr ""
+
+#: config-composer/config/map.php:4131
+msgid "Events countdown"
+msgstr ""
+
+#: config-composer/config/map.php:4146
+msgid "List with image"
+msgstr ""
+
+#: config-composer/config/map.php:4164
+msgid "Which categories should be used for the classes?"
+msgstr ""
+
+#: config-composer/config/map.php:4166
+msgid "The Page will then show classes from only those categories."
+msgstr ""
+
+#: config-composer/config/map.php:4507
+msgid "Turquoise"
+msgstr ""
+
+#: config-composer/config/map.php:4508
+msgid "Pink"
+msgstr ""
+
+#: config-composer/config/map.php:4509
+msgid "Violet"
+msgstr ""
+
+#: config-composer/config/map.php:4510
+msgid "Peacoc"
+msgstr ""
+
+#: config-composer/config/map.php:4511
+msgid "Chino"
+msgstr ""
+
+#: config-composer/config/map.php:4512
+msgid "Mulled Wine"
+msgstr ""
+
+#: config-composer/config/map.php:4513
+msgid "Vista Blue"
+msgstr ""
+
+#: config-composer/config/map.php:4514
+msgid "Black"
+msgstr ""
+
+#: config-composer/config/map.php:4515
+msgid "Grey"
+msgstr ""
+
+#: config-composer/config/map.php:4517
+msgid "Sky"
+msgstr ""
+
+#: config-composer/config/map.php:4519
+msgid "Juicy pink"
+msgstr ""
+
+#: config-composer/config/map.php:4520
+msgid "Sandy brown"
+msgstr ""
+
+#: config-composer/config/map.php:4521
+msgid "Purple"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:20
+msgid "Google Map"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:26
+msgid "Display Google Maps to indicate your location."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:32
+msgid "Width (in %)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:36
+#: config-composer/modules/vc_mad_google_maps.php:45
+#: config-composer/modules/vc_mad_google_maps.php:58
+#: config-composer/modules/vc_mad_google_maps.php:68
+#: config-composer/modules/vc_mad_google_maps.php:78
+#: config-composer/modules/vc_mad_google_maps.php:87
+#: config-composer/modules/vc_mad_google_maps.php:96
+#: config-composer/modules/vc_mad_google_maps.php:200
+#: config-composer/modules/vc_mad_google_maps.php:222
+#: config-composer/modules/vc_mad_google_maps.php:238
+msgid "General Settings"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:41
+msgid "Height (in px)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:50
+msgid "Map type"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:54
+msgid "Roadmap"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:55
+msgid "Satellite"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:56
+msgid "Hybrid"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:57
+msgid "Terrain"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:63
+msgid "Latitude"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:67
+#: config-composer/modules/vc_mad_google_maps.php:77
+msgid "Here is a tool"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:67
+#: config-composer/modules/vc_mad_google_maps.php:77
+msgid "where you can find Latitude & Longitude of your location"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:73
+msgid "Longitude"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:82
+msgid "Map Zoom"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:85
+msgid "18 - Default"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:94
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:101
+msgid "Info Window Text"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:104
+msgid "Info Window"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:109
+msgid "Marker/Point icon"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:112
+msgid "Use Google Default"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:113
+msgid "Use Theme Default"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:114
+msgid "Upload Custom"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:116
+#: config-composer/modules/vc_mad_google_maps.php:130
+msgid "Marker"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:121
+msgid "Upload Image Icon:"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:125
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:135
+msgid "Street view control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:138
+#: config-composer/modules/vc_mad_google_maps.php:149
+#: config-composer/modules/vc_mad_google_maps.php:160
+#: config-composer/modules/vc_mad_google_maps.php:170
+#: config-composer/modules/vc_mad_google_maps.php:187
+msgid "Disable"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:139
+#: config-composer/modules/vc_mad_google_maps.php:150
+#: config-composer/modules/vc_mad_google_maps.php:161
+#: config-composer/modules/vc_mad_google_maps.php:170
+#: config-composer/modules/vc_mad_google_maps.php:187
+msgid "Enable"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:141
+#: config-composer/modules/vc_mad_google_maps.php:152
+#: config-composer/modules/vc_mad_google_maps.php:171
+#: config-composer/modules/vc_mad_google_maps.php:180
+#: config-composer/modules/vc_mad_google_maps.php:188
+msgid "Advanced"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:146
+msgid "Map type control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:157
+msgid "Map pan control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:168
+msgid "Zoom control"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:176
+msgid "Zoom control size"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:178
+msgid "Large"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:185
+msgid "Disable dragging on Mobile"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:193
+msgid "Top margin"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:196
+msgid "Page (small)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:197
+msgid "Section (large)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:205
+msgid "Map Width Override"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:208
+msgid "Default Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:209
+msgid "Apply 1st parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:210
+msgid "Apply 2nd parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:211
+msgid "Apply 3rd parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:212
+msgid "Apply 4th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:213
+msgid "Apply 5th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:214
+msgid "Apply 6th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:215
+msgid "Apply 7th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:216
+msgid "Apply 8th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:217
+msgid "Apply 9th parent element's width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:218
+msgid "Full Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:219
+msgid "Maximum Full Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:221
+msgid ""
+"By default, the map will be given to the Visual Composer row. However, in "
+"some cases depending on your theme's CSS - it may not fit well to the "
+"container you are wishing it would. In that case you will have to select the "
+"appropriate value here that gets you desired output.."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:227
+msgid "Google Styled Map JSON"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:230
+msgid "Click here"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:230
+msgid "to get the style JSON code for styling your map."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:237
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:243
+msgid "MapBorder Style"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:247
+msgid "Solid"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:248
+msgid "Dashed"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:249
+msgid "Dotted"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:250
+msgid "Double"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:251
+msgid "Inset"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:252
+msgid "Outset"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:255
+#: config-composer/modules/vc_mad_google_maps.php:268
+#: config-composer/modules/vc_mad_google_maps.php:284
+#: config-composer/modules/vc_mad_google_maps.php:300
+msgid "Border"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:260
+msgid "Border Color"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:273
+msgid "Border Width"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:289
+msgid "Border Radius"
+msgstr ""
+
+#: config-composer/modules/vc_mad_google_maps.php:432
+msgid "Styled Map"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:78
+msgid "Image Gallery Item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:96
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:99
+msgid ""
+"Enter image size in pixels: 970*405 (Width * Height). Leave empty to use "
+"full size."
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:103
+msgid "On click"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:106
+msgid "Open Lightbox"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:107
+msgid "Do nothing"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:110
+msgid "Define action for onclick event if needed."
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:114
+msgid "Custom link"
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:116
+msgid "Enter link."
+msgstr ""
+
+#: config-composer/modules/vc_mad_image_gallery.php:126
+msgid "Select where to open custom link."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:16
+msgid "Infoblock(Icon Boxes)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:21
+msgid "Styled info blocks"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:53
+msgid "Add URL to the info box (optional)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:98 includes/widgets.php:1036
+msgid "Select type"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:106
+msgid "Choose type for this info block."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:113
+msgid "1 Columns"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:126
+msgid "Info Block Item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:130
+msgid "Infoblock"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:144
+msgid "Color for icon item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:152
+msgid "Color for title item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:156
+msgid "Select custom color for title item."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:160
+msgid "Color for button item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:164
+msgid "Select custom color for button item."
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:175
+msgid "Icon Number"
+msgstr ""
+
+#: config-composer/modules/vc_mad_info_block.php:182
+msgid "Add URL to the info block (optional)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:16
+#: config-composer/modules/vc_mad_pricing_box.php:117
+msgid "Pricing Box"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:21
+msgid "Styled pricing tables"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:93
+#: config-composer/modules/vc_mad_pricing_box.php:164
+msgid "Add URL to the whole box (optional)"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:113
+msgid "Pricing Box Item"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:124
+msgid "Package Name / Title"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:127
+msgid "Enter the package name or table heading."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:135
+msgid "Enter the table label."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:140
+msgid "Color for label /  price"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:144
+msgid "Select custom color for label."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:148
+msgid "Package Price"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:151
+msgid "Enter the price for this package"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:156
+msgid "Features"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:159
+msgid ""
+"Create the features list using un-ordered list elements. Divide values with "
+"linebreaks (Enter). Example: Up to 50 users|Limited team members"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:160
+msgid "1 user | No VPN access | 2 Gb allowed"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:169
+#: config-composer/shortcodes/vc_mad_blog_posts.php:232
+#: config-composer/shortcodes/vc_mad_blog_posts.php:304
+#: config-composer/shortcodes/vc_mad_blog_posts.php:358
+#: config-composer/shortcodes/vc_mad_blog_posts.php:476
+#: config-composer/shortcodes/vc_mad_blog_posts.php:517
+#: config-composer/shortcodes/vc_mad_blog_posts.php:551
+#: config-composer/shortcodes/vc_mad_products.php:335
+#: template-parts/loop-index.php:33 template-parts/loop-search.php:37
+msgid "Featured"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:171
+msgid "Adds a nice label to your pricing box."
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:261
+msgid "Free"
+msgstr ""
+
+#: config-composer/modules/vc_mad_pricing_box.php:306
+msgid "RECOMMENDED"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_about_portfolio.php:39
+#: tribe-events/modules/meta/details.php:55
+msgid "Details"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_blog_posts.php:254
+#: config-composer/shortcodes/vc_mad_blog_posts.php:380
+#: template-parts/loop-index.php:49
+msgid "Pages"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_blog_posts.php:278
+#: config-composer/shortcodes/vc_mad_blog_posts.php:320
+#: config-composer/shortcodes/vc_mad_blog_posts.php:404
+#: config-composer/shortcodes/vc_mad_blog_posts.php:489
+#: config-composer/shortcodes/vc_mad_issues.php:157
+#: config-composer/shortcodes/vc_mad_issues.php:209
+#: template-parts/loop-index.php:14 template-parts/loop-search.php:16
+msgid "Read More"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_blog_posts.php:431
+msgid "Latest News"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_cta.php:140
+msgid "Please install required plugin - MailPoet Newsletters"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_cta.php:223
+msgid "Or Call "
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_events_countdown.php:141
+#: config-composer/shortcodes/vc_mad_events_countdown.php:189
+msgid "Upcoming Events"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_events_countdown.php:147
+msgid "Join Now!"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_events_countdown.php:198
+#: config-composer/shortcodes/vc_mad_events_slider.php:114
+msgid "View Event Details"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_flickr_gallery.php:49
+#: config-composer/shortcodes/vc_mad_instagram.php:48
+msgid "Load More"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_media_holder.php:67
+#: config-composer/shortcodes/vc_mad_media_holder.php:94
+msgid "Become a part of our team, sign up for updates."
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_media_holder.php:72
+#: config-composer/shortcodes/vc_mad_media_holder.php:97
+#: config-composer/shortcodes/vc_mad_social_buttons.php:57
+#: includes/widgets.php:1773 template-parts/footer-newsletter.php:25
+#: template-parts/header-cp-type-3.php:30
+#: template-parts/header-cp-type-4.php:34
+msgid "Sign Up"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_media_holder.php:74
+#: config-composer/shortcodes/vc_mad_media_holder.php:99
+#: config-composer/shortcodes/vc_mad_social_buttons.php:59
+#: includes/widgets.php:1772 template-parts/footer-newsletter.php:27
+#: template-parts/header-cp-type-3.php:32
+#: template-parts/header-cp-type-4.php:36
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:93
+msgid "Email address"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_media_holder.php:75
+#: config-composer/shortcodes/vc_mad_media_holder.php:100
+#: config-composer/shortcodes/vc_mad_social_buttons.php:60
+#: includes/widgets.php:1804 includes/widgets.php:1832
+#: includes/widgets.php:1863 includes/widgets.php:1896
+#: template-parts/footer-newsletter.php:28
+#: template-parts/header-cp-type-3.php:33
+#: template-parts/header-cp-type-4.php:37
+msgid "Zip code"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_portfolio.php:83
+#: config-composer/shortcodes/vc_mad_products.php:294
+#: config-composer/shortcodes/vc_mad_videos.php:80
+msgid "All"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_portfolio.php:244
+#: template-parts/single-related-portfolio.php:68
+msgid "Share this"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_products.php:339
+msgid "Sale"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_products.php:612
+msgid "No products found which match your selection."
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_share.php:61 includes/functions.php:285
+msgid "Google Plus"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_share.php:69 includes/functions.php:293
+msgid "Email to a Friend"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_social_buttons.php:76
+msgid "Stay"
+msgstr ""
+
+#: config-composer/shortcodes/vc_mad_social_buttons.php:76
+msgid "Connected"
+msgstr ""
+
+#: config-widget-meta-box/config.php:67
+msgid "Widgets Row Footer"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:15
+msgid "Select yes if you want to show the top row of widgets"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:43
+msgid "Full width Top row ?"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:44
+msgid "Select yes if you want to show the full width top row"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:76
+msgid "Footer Row Top Widget"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:77
+msgid "Here you can select how your footer row top widgets will be displayed."
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:133
+#: config-widget-meta-box/php/meta_box.php:285
+msgid "Styles"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:166
+msgid "Select yes if you want to show the middle row of widgets"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:194
+msgid "Full width Middle row ?"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:195
+msgid "Select yes if you want to show the full width middle row"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:228
+msgid "Footer Row Middle Widget"
+msgstr ""
+
+#: config-widget-meta-box/php/meta_box.php:229
+msgid ""
+"Here you can select how your footer row middle widgets will be displayed."
+msgstr ""
+
+#: config-widget-meta-box/php/sidebar-generator.class.php:13
+msgid "Inforward Custom Widget Area"
+msgstr ""
+
+#: config-widget-meta-box/php/sidebar-generator.class.php:72
+msgid "Enter Name for new Widget Area"
+msgstr ""
+
+#: config-widget-meta-box/php/sidebar-generator.class.php:73
+msgid "Add Widget Area"
+msgstr ""
+
+#: config-woocommerce/config.php:64
+msgid "Shop Widget Area"
+msgstr ""
+
+#: config-woocommerce/config.php:66
+msgid "For WooCommerce pages."
+msgstr ""
+
+#: config-woocommerce/config.php:123
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: config-woocommerce/config.php:262
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: config-woocommerce/config.php:363
+msgid "Additional Information"
+msgstr ""
+
+#: config-woocommerce/config.php:372
+#, php-format
+msgid "Reviews (%d)"
+msgstr ""
+
+#: config-woocommerce/config.php:395 includes/functions.php:272
+msgid "Share this:"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:16
+msgid "New Badge"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:21
+msgid "Enable label new"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:22
+msgid "Visible label new in products"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:28
+msgid "Product Newness"
+msgstr ""
+
+#: config-woocommerce/php/new-badge.class.php:29
+msgid "Display the 'New' flash for how many days?"
+msgstr ""
+
+#: functions.php:267
+msgid "Google Calendar"
+msgstr ""
+
+#: functions.php:268
+msgid "iCal Export"
+msgstr ""
+
+#: functions.php:337
+msgid "You've been added to our sign-up list."
+msgstr ""
+
+#: includes/class-envato-api.php:80 includes/class-envato-api.php:90
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-envato-api.php:137
+msgid "An API token is required."
+msgstr ""
+
+#: includes/class-envato-api.php:150 includes/class-envato-api.php:154
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: includes/class-inforward.php:85
+msgid "Slider Revolution"
+msgstr ""
+
+#: includes/class-inforward.php:86
+msgid "Inforward Theme Functionality"
+msgstr ""
+
+#: includes/class-inforward.php:87
+msgid "Easy Tables (vc)"
+msgstr ""
+
+#: includes/class-inforward.php:88
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: includes/class-product-registration.php:150
+msgid "Token"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:48
+msgid "Gplus"
+msgstr ""
+
+#: includes/classes/register-admin-user-profile.class.php:72
+msgid "Social Options"
+msgstr ""
+
+#: includes/functions-base.php:133
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/functions-core.php:137 includes/functions-core.php:183
+#: includes/template-tags.php:169 includes/template-tags.php:185
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions-core.php:144 includes/functions-core.php:190
+#: template-parts/single-related.php:79
+msgid "by "
+msgstr ""
+
+#: includes/functions-core.php:155 includes/functions-core.php:164
+#: includes/functions-core.php:201
+msgid "in "
+msgstr ""
+
+#: includes/functions-core.php:351 woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: includes/functions-core.php:355
+msgid "Reply"
+msgstr ""
+
+#: includes/functions-core.php:389
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/functions-core.php:389
+msgid "(required)"
+msgstr ""
+
+#: includes/functions-core.php:391 woocommerce/single-product-reviews.php:77
+msgid "Name"
+msgstr ""
+
+#: includes/functions-core.php:395
+msgid "Website"
+msgstr ""
+
+#: includes/functions-core.php:397
+msgid "Your email address will not be published."
+msgstr ""
+
+#: includes/functions-core.php:399
+msgid "Comment"
+msgstr ""
+
+#: includes/functions-core.php:401
+msgid "Cancel reply"
+msgstr ""
+
+#: includes/functions-core.php:584
+msgid "Archive for Category:"
+msgstr ""
+
+#: includes/functions-core.php:588
+msgid "Daily Archives:"
+msgstr ""
+
+#: includes/functions-core.php:588
+msgid "F jS, Y"
+msgstr ""
+
+#: includes/functions-core.php:592
+msgid "Monthly Archives:"
+msgstr ""
+
+#: includes/functions-core.php:592
+msgid "F, Y"
+msgstr ""
+
+#: includes/functions-core.php:596
+msgid "Yearly Archives:"
+msgstr ""
+
+#: includes/functions-core.php:596 includes/functions-core.php:841
+#: includes/functions-core.php:845 includes/functions-core.php:848
+#: includes/functions-core.php:851
+msgid "Y"
+msgstr ""
+
+#: includes/functions-core.php:604 includes/functions-core.php:616
+#: includes/templates-hooks.php:236 includes/templates-hooks.php:258
+msgid "Search results for:"
+msgstr ""
+
+#: includes/functions-core.php:608 includes/templates-hooks.php:245
+msgid "Search result for:"
+msgstr ""
+
+#: includes/functions-core.php:620 includes/templates-hooks.php:267
+msgid "To search the site please enter a valid term"
+msgstr ""
+
+#: includes/functions-core.php:634
+msgid "Author Archive"
+msgstr ""
+
+#: includes/functions-core.php:635
+msgid "for:"
+msgstr ""
+
+#: includes/functions-core.php:641
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: includes/functions-core.php:655
+msgid "Products by:"
+msgstr ""
+
+#: includes/functions-core.php:657
+msgid "Archive for category:"
+msgstr ""
+
+#: includes/functions-core.php:659
+msgid "Archive for:"
+msgstr ""
+
+#: includes/functions-core.php:665
+#, php-format
+msgid "Archive %s"
+msgstr ""
+
+#: includes/functions-core.php:667
+msgid "Archive"
+msgstr ""
+
+#: includes/functions-core.php:689
+msgid "Home"
+msgstr ""
+
+#: includes/functions-core.php:828
+msgid "g:i a"
+msgstr ""
+
+#: includes/functions-core.php:830
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: includes/functions-core.php:830
+msgid "i"
+msgstr ""
+
+#: includes/functions-core.php:832
+msgid "g a"
+msgstr ""
+
+#: includes/functions-core.php:842 includes/functions-core.php:849
+msgid "F"
+msgstr ""
+
+#: includes/functions-core.php:843
+msgid "j"
+msgstr ""
+
+#: includes/functions-core.php:846
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: includes/functions-core.php:846
+msgid "W"
+msgstr ""
+
+#: includes/functions-core.php:855
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: includes/functions-core.php:857
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/functions.php:320 includes/functions.php:326
+msgid "- select icon -"
+msgstr ""
+
+#: includes/helpers/post-format-helper.php:198
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/metadata/functions-types.php:118
+#: includes/metadata/functions-types.php:234
+msgid "Upload Image"
+msgstr ""
+
+#: includes/metadata/functions-types.php:119
+#: includes/metadata/functions-types.php:235
+msgid "Remove Image"
+msgstr ""
+
+#: includes/metadata/meta_values.php:32
+msgid "Sidebar Position"
+msgstr ""
+
+#: includes/metadata/meta_values.php:33
+msgid "Choose sidebar position"
+msgstr ""
+
+#: includes/metadata/meta_values.php:37
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: includes/metadata/meta_values.php:38
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/metadata/meta_values.php:45
+msgid "Sidebar Setting"
+msgstr ""
+
+#: includes/metadata/meta_values.php:46
+msgid "Select the sidebar you would like to display."
+msgstr ""
+
+#: includes/metadata/meta_values.php:54
+msgid "Choose page layout style"
+msgstr ""
+
+#: includes/metadata/meta_values.php:58
+msgid "Default Layout"
+msgstr ""
+
+#: includes/metadata/meta_values.php:59
+msgid "Boxed Layout"
+msgstr ""
+
+#: includes/metadata/meta_values.php:60
+msgid "Wide Layout"
+msgstr ""
+
+#: includes/metadata/meta_values.php:65
+msgid "Shop View"
+msgstr ""
+
+#: includes/metadata/meta_values.php:66
+msgid "Choose shop view layout - grid or list"
+msgstr ""
+
+#: includes/metadata/meta_values.php:70
+msgid "Grid View"
+msgstr ""
+
+#: includes/metadata/meta_values.php:71
+msgid "List View"
+msgstr ""
+
+#: includes/metadata/meta_values.php:76
+msgid "Column Count"
+msgstr ""
+
+#: includes/metadata/meta_values.php:77
+msgid "This controls how many columns should be appeared on overview pages."
+msgstr ""
+
+#: includes/template-tags.php:150
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: includes/template-tags.php:177
+msgctxt "Comment number declension: on or off"
+msgid "off"
+msgstr ""
+
+#: includes/templates-hooks.php:283
+msgid "Events"
+msgstr ""
+
+#: includes/widgets.php:29
+msgid "For all pages and posts."
+msgstr ""
+
+#: includes/widgets.php:121
+msgid "Like Us on Facebook"
+msgstr ""
+
+#: includes/widgets.php:138
+msgid "Page ID"
+msgstr ""
+
+#: includes/widgets.php:143
+msgid "Facebook Like box Theme"
+msgstr ""
+
+#: includes/widgets.php:145
+msgid "Light"
+msgstr ""
+
+#: includes/widgets.php:146
+msgid "Dark"
+msgstr ""
+
+#: includes/widgets.php:151
+msgid "Like box Width"
+msgstr ""
+
+#: includes/widgets.php:154 includes/widgets.php:161
+msgid "px"
+msgstr ""
+
+#: includes/widgets.php:158
+msgid "Like box Height"
+msgstr ""
+
+#: includes/widgets.php:165
+msgid "Number of connections"
+msgstr ""
+
+#: includes/widgets.php:168
+msgid "Max. 100"
+msgstr ""
+
+#: includes/widgets.php:172
+msgid "Show Header"
+msgstr ""
+
+#: includes/widgets.php:192
+msgid "Inforward Popular and Latest Posts"
+msgstr ""
+
+#: includes/widgets.php:195
+msgid "Display most popular and latest posts"
+msgstr ""
+
+#: includes/widgets.php:473
+msgid "Displays website social links"
+msgstr ""
+
+#: includes/widgets.php:475
+msgid "Inforward Social Links"
+msgstr ""
+
+#: includes/widgets.php:480
+msgid "Follow Us"
+msgstr ""
+
+#: includes/widgets.php:487
+msgid "Left Align"
+msgstr ""
+
+#: includes/widgets.php:488
+msgid "Right Align"
+msgstr ""
+
+#: includes/widgets.php:490
+msgid "Style widget"
+msgstr ""
+
+#: includes/widgets.php:494
+msgid "LinkedIn Link"
+msgstr ""
+
+#: includes/widgets.php:499
+msgid "Tumblr Link"
+msgstr ""
+
+#: includes/widgets.php:504
+msgid "Vimeo Link"
+msgstr ""
+
+#: includes/widgets.php:509
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/widgets.php:514
+msgid "Flickr Link"
+msgstr ""
+
+#: includes/widgets.php:519
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/widgets.php:524
+msgid "Google Plus Link"
+msgstr ""
+
+#: includes/widgets.php:529
+msgid "Pinterest Link"
+msgstr ""
+
+#: includes/widgets.php:534
+msgid "Instagram Link"
+msgstr ""
+
+#: includes/widgets.php:539
+msgid "Youtube Link"
+msgstr ""
+
+#: includes/widgets.php:544
+msgid "Donate Link"
+msgstr ""
+
+#: includes/widgets.php:549
+msgid "Action Link"
+msgstr ""
+
+#: includes/widgets.php:588
+msgid "Take Action"
+msgstr ""
+
+#: includes/widgets.php:608
+msgid "Displays website copyright"
+msgstr ""
+
+#: includes/widgets.php:610
+msgid "Inforward Copyright"
+msgstr ""
+
+#: includes/widgets.php:619 includes/widgets.php:841
+msgid "Address"
+msgstr ""
+
+#: includes/widgets.php:629 includes/widgets.php:865 includes/widgets.php:1737
+msgid "E-mail"
+msgstr ""
+
+#: includes/widgets.php:634
+msgid "Paid by"
+msgstr ""
+
+#: includes/widgets.php:659 tribe-events/modules/meta/organizer.php:46
+#: tribe-events/modules/meta/venue.php:47
+msgid "Phone:"
+msgstr ""
+
+#: includes/widgets.php:659
+msgid "E-mail:"
+msgstr ""
+
+#: includes/widgets.php:684
+msgid "An advertising widget that displays image"
+msgstr ""
+
+#: includes/widgets.php:686
+msgid "Inforward Advertising Area"
+msgstr ""
+
+#: includes/widgets.php:696
+msgid "Image URL"
+msgstr ""
+
+#: includes/widgets.php:701
+msgid "Referal URL"
+msgstr ""
+
+#: includes/widgets.php:714
+msgid "Advertise here"
+msgstr ""
+
+#: includes/widgets.php:739
+msgid "Displays contact us"
+msgstr ""
+
+#: includes/widgets.php:741
+msgid "Inforward Contact Us"
+msgstr ""
+
+#: includes/widgets.php:782
+msgid "Phone: "
+msgstr ""
+
+#: includes/widgets.php:786
+msgid "E-mail: "
+msgstr ""
+
+#: includes/widgets.php:790
+msgid "Skype: "
+msgstr ""
+
+#: includes/widgets.php:795
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/widgets.php:814
+msgid "Contact Us"
+msgstr ""
+
+#: includes/widgets.php:815
+msgid "Adam Russell for Congress PO Box 3740, Austin, TX, 78741"
+msgstr ""
+
+#: includes/widgets.php:833
+msgid "Align"
+msgstr ""
+
+#: includes/widgets.php:847
+msgid "Privacy Policy URL"
+msgstr ""
+
+#: includes/widgets.php:871
+msgid "Skype"
+msgstr ""
+
+#: includes/widgets.php:893
+msgid "Use this widget to add a testimonials to your site."
+msgstr ""
+
+#: includes/widgets.php:895
+msgid "Inforward Testimonials"
+msgstr ""
+
+#: includes/widgets.php:905
+msgid "Count"
+msgstr ""
+
+#: includes/widgets.php:965
+msgid "View All Testimonials"
+msgstr ""
+
+#: includes/widgets.php:999
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: includes/widgets.php:1001
+msgid "Inforward Instagram"
+msgstr ""
+
+#: includes/widgets.php:1040
+msgid "Follow Me!"
+msgstr ""
+
+#: includes/widgets.php:1041
+msgid "Link text"
+msgstr ""
+
+#: includes/widgets.php:1157
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: includes/widgets.php:1160
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: includes/widgets.php:1167 includes/widgets.php:1172
+#: includes/widgets.php:1176
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: includes/widgets.php:1205
+msgid "Instagram Image"
+msgstr ""
+
+#: includes/widgets.php:1238
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: includes/widgets.php:1261
+msgid "Flickr feed widget"
+msgstr ""
+
+#: includes/widgets.php:1262
+msgid "Inforward Flickr feed"
+msgstr ""
+
+#: includes/widgets.php:1318
+msgid "Flickr Username"
+msgstr ""
+
+#: includes/widgets.php:1323
+msgid "Number of images"
+msgstr ""
+
+#: includes/widgets.php:1342
+msgid "Widget text with icon"
+msgstr ""
+
+#: includes/widgets.php:1344
+msgid "Inforward Text With Icon"
+msgstr ""
+
+#: includes/widgets.php:1364 includes/widgets.php:1445
+msgid "Button URL"
+msgstr ""
+
+#: includes/widgets.php:1369
+msgid "Margin Bottom(px)"
+msgstr ""
+
+#: includes/widgets.php:1423
+msgid "Widget Banner with icon"
+msgstr ""
+
+#: includes/widgets.php:1425
+msgid "Inforward Banner With Icon"
+msgstr ""
+
+#: includes/widgets.php:1440
+msgid "Button Title"
+msgstr ""
+
+#: includes/widgets.php:1494
+msgid "Add a custom menu to your footer sidebar."
+msgstr ""
+
+#: includes/widgets.php:1495
+msgid "Inforward Custom Menu Bottom"
+msgstr ""
+
+#: includes/widgets.php:1592
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:1597
+msgid "Include pages ID in left part"
+msgstr ""
+
+#: includes/widgets.php:1602
+msgid "Include pages ID in right part"
+msgstr ""
+
+#: includes/widgets.php:1620
+msgid "Displays footer banners"
+msgstr ""
+
+#: includes/widgets.php:1622
+msgid "Inforward footer banners"
+msgstr ""
+
+#: includes/widgets.php:1626
+msgid "Title 1"
+msgstr ""
+
+#: includes/widgets.php:1631
+msgid "URL 1"
+msgstr ""
+
+#: includes/widgets.php:1636
+msgid "Title 2"
+msgstr ""
+
+#: includes/widgets.php:1641
+msgid "URL 2"
+msgstr ""
+
+#: includes/widgets.php:1646
+msgid "Title 3"
+msgstr ""
+
+#: includes/widgets.php:1651
+msgid "URL 3"
+msgstr ""
+
+#: includes/widgets.php:1718
+msgid "Use this widget to add a mailchimp newsletter to your site."
+msgstr ""
+
+#: includes/widgets.php:1720
+msgid "Inforward Newsletter"
+msgstr ""
+
+#: includes/widgets.php:1725
+msgid "Newsletter"
+msgstr ""
+
+#: includes/widgets.php:1769
+msgid "Phone number"
+msgstr ""
+
+#: includes/widgets.php:1770
+msgid "Submit"
+msgstr ""
+
+#: includes/widgets.php:1937
+msgid "Text STOP to 2233 to stop receiving messages."
+msgstr ""
+
+#: includes/widgets.php:1937
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#: includes/widgets.php:1963
+msgid "Displays Banner Donate"
+msgstr ""
+
+#: includes/widgets.php:1965
+msgid "Inforward Banner Donate"
+msgstr ""
+
+#: includes/widgets.php:2023
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/widgets.php:2059 includes/widgets.php:2065
+#: includes/widgets.php:2071 includes/widgets.php:2077
+#: includes/widgets.php:2131 includes/widgets.php:2137
+#: includes/widgets.php:2143 includes/widgets.php:2149
+#: includes/widgets.php:2204 includes/widgets.php:2210
+#: includes/widgets.php:2216 includes/widgets.php:2222
+#: includes/widgets.php:2225 includes/widgets.php:2282
+#: includes/widgets.php:2288 includes/widgets.php:2294
+#: includes/widgets.php:2300 includes/widgets.php:2303
+#: includes/widgets.php:2358 includes/widgets.php:2364
+#: includes/widgets.php:2370 includes/widgets.php:2376
+msgid "Other"
+msgstr ""
+
+#: includes/widgets.php:2432
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: includes/widgets.php:2433
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/widgets.php:2434
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: includes/widgets.php:2435
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/widgets.php:2436
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: includes/widgets.php:2437
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/widgets.php:2438
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/widgets.php:2439
+msgid "Chinese Yuan"
+msgstr ""
+
+#: includes/widgets.php:2440
+msgid "Colombian Peso"
+msgstr ""
+
+#: includes/widgets.php:2441
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/widgets.php:2442
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/widgets.php:2443
+msgid "Dominican Peso"
+msgstr ""
+
+#: includes/widgets.php:2444
+msgid "Euros"
+msgstr ""
+
+#: includes/widgets.php:2445
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/widgets.php:2446
+msgid "Croatia kuna"
+msgstr ""
+
+#: includes/widgets.php:2447
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/widgets.php:2448
+msgid "Icelandic krona"
+msgstr ""
+
+#: includes/widgets.php:2449
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: includes/widgets.php:2450
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/widgets.php:2451
+msgid "Nepali Rupee"
+msgstr ""
+
+#: includes/widgets.php:2452
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/widgets.php:2453
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/widgets.php:2454
+msgid "Lao Kip"
+msgstr ""
+
+#: includes/widgets.php:2455
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/widgets.php:2456
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/widgets.php:2457
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/widgets.php:2458
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/widgets.php:2459
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/widgets.php:2460
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/widgets.php:2461
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: includes/widgets.php:2462
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/widgets.php:2463
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/widgets.php:2464
+msgid "Pounds Sterling"
+msgstr ""
+
+#: includes/widgets.php:2465
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/widgets.php:2466
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/widgets.php:2467
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/widgets.php:2468
+msgid "South African rand"
+msgstr ""
+
+#: includes/widgets.php:2469
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/widgets.php:2470
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/widgets.php:2471
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: includes/widgets.php:2472
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/widgets.php:2473
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/widgets.php:2474
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: includes/widgets.php:2475
+msgid "US Dollars"
+msgstr ""
+
+#: includes/widgets.php:2476
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: includes/widgets.php:2477
+msgid "Egyptian Pound"
+msgstr ""
+
+#: includes/widgets.php:2622
+msgid "View All URL"
+msgstr ""
+
+#: includes/widgets.php:2633
+msgid "Style Widget"
+msgstr ""
+
+#: includes/widgets.php:2635
+msgid "Type1"
+msgstr ""
+
+#: includes/widgets.php:2636
+msgid "Type2"
+msgstr ""
+
+#: includes/widgets.php:2657
+msgid "View All"
+msgstr ""
+
+#: includes/widgets.php:2670
+msgid "View All Videos"
+msgstr ""
+
+#: includes/widgets.php:2701
+msgid "Retweet"
+msgstr ""
+
+#: includes/widgets.php:2701
+msgid "Favorite"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:11
+msgid "Type:"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:16
+msgid "Popular"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:17
+msgid "Display the most viewed posts"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:21
+msgid "Latest"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:22
+msgid "Display the latest posts"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:29
+msgid "Calculate:"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:34
+msgid "Views"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:35
+msgid "Every time user views the post."
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:39
+msgid "Visits"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:40
+msgid "Calculate only once per visit."
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:46
+msgid "Display:"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:51
+msgid "Display count"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:56
+msgid "Display thumbnail"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:61
+msgid "Display post excerpt"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:65
+msgid "Show how many posts?"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:72
+msgid "Words"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/form.php:80
+msgid "Link URL"
+msgstr ""
+
+#: includes/widgets/popular-widget/inc/widget.php:36
+msgid "More News"
+msgstr ""
+
+#: sidebar.php:47
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:54
+msgid "Meta"
+msgstr ""
+
+#: single-portfolio.php:30
+msgid "Back to Portfolio"
+msgstr ""
+
+#: single.php:66
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:7
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-share.php:15
+#: woocommerce/single-product/photoswipe.php:53
+msgid "Share"
+msgstr ""
+
+#: template-parts/footer-newsletter.php:20
+msgid "Join Our Team"
+msgstr ""
+
+#: template-parts/footer-newsletter.php:41
+msgid "Donate Today!"
+msgstr ""
+
+#: template-parts/header-cp-type-3.php:28
+msgid "Join Us"
+msgstr ""
+
+#: template-parts/header-cp-type-4.php:10
+msgid "Start typing..."
+msgstr ""
+
+#: template-parts/header-cp-type-4.php:31
+msgid "Email Updates"
+msgstr ""
+
+#: template-parts/single-author-box.php:6
+msgid "About"
+msgstr ""
+
+#: template-parts/single-author-box.php:12
+msgid "[ Edit the profile ]"
+msgstr ""
+
+#: template-parts/single-link-pages-portfolio.php:21
+msgid "Prev"
+msgstr ""
+
+#: template-parts/single-link-pages-portfolio.php:25
+#: woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr ""
+
+#: template-parts/single-link-pages.php:29
+#: template-parts/single-link-pages.php:43
+msgid "No Title"
+msgstr ""
+
+#: template-parts/single-link-pages.php:33
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/single-link-pages.php:49
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/single-related-portfolio.php:33
+msgid "Related Portfolio"
+msgstr ""
+
+#: template-parts/single-related.php:31
+msgid "Related News"
+msgstr ""
+
+#: tribe-events/day/nav-header.php:17 tribe-events/day/nav.php:17
+msgid "Day Navigation"
+msgstr ""
+
+#: tribe-events/day/single-event.php:88
+#: tribe-events/day/single-featured.php:85
+#: tribe-events/list/single-event.php:105
+#: tribe-events/list/single-featured.php:100
+#: tribe-events/map/single-event.php:84
+#: tribe-events/map/single-featured.php:85 tribe-events/week/mobile.php:24
+msgid "Find out more"
+msgstr ""
+
+#: tribe-events/list/nav-header.php:20 tribe-events/list/nav.php:20
+#: tribe-events/map/nav-header.php:20 tribe-events/map/nav.php:20
+#: tribe-events/photo/nav.php:20
+#, php-format
+msgid "%s List Navigation"
+msgstr ""
+
+#: tribe-events/list/nav-header.php:26 tribe-events/list/nav.php:26
+#, php-format
+msgid "Previous %s"
+msgstr ""
+
+#: tribe-events/list/nav.php:34
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: tribe-events/map/nav-header.php:25 tribe-events/map/nav.php:25
+#: tribe-events/photo/nav.php:25
+#, php-format
+msgid "<span>&laquo;</span> Previous %s"
+msgstr ""
+
+#: tribe-events/map/nav.php:32 tribe-events/photo/nav.php:31
+#, php-format
+msgid "Next %s <span>&raquo;</span>"
+msgstr ""
+
+#: tribe-events/modules/bar.php:35 tribe-events/modules/bar.php:66
+#, php-format
+msgid "Find %s"
+msgstr ""
+
+#: tribe-events/modules/bar.php:42
+msgid "Event Views Navigation"
+msgstr ""
+
+#: tribe-events/modules/bar.php:43
+msgid "View As"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:48
+msgid "Time:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:66
+#: tribe-events/modules/meta/details.php:97
+msgid "Start:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:73
+#: tribe-events/modules/meta/details.php:104
+msgid "End:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:85
+#: tribe-events/modules/meta/details.php:116
+#: woocommerce/checkout/order-receipt.php:30
+#: woocommerce/checkout/thankyou.php:51
+msgid "Date:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:139
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:165
+#, php-format
+msgid "%s Tags:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:175
+#: tribe-events/modules/meta/organizer.php:73
+#: tribe-events/modules/meta/venue.php:54
+msgid "Website:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:33
+msgid "Organizer Name:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:59
+#: woocommerce/checkout/thankyou.php:57
+msgid "Email:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:26
+msgid "Venue Name:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:32
+msgid "Address:"
+msgstr ""
+
+#: tribe-events/month/nav.php:19
+msgid "Calendar Month Navigation"
+msgstr ""
+
+#: tribe-events/month/single-day.php:42
+#: tribe-events/pro/widgets/this-week/loop-grid-day.php:50
+#, php-format
+msgid "View %1$s %2$s"
+msgstr ""
+
+#: tribe-events/pro/widgets/countdown-widget.php:20
+msgid "days"
+msgstr ""
+
+#: tribe-events/pro/widgets/countdown-widget.php:24
+msgid "hours"
+msgstr ""
+
+#: tribe-events/pro/widgets/countdown-widget.php:28
+msgid "min"
+msgstr ""
+
+#: tribe-events/pro/widgets/countdown-widget.php:33
+msgid "sec"
+msgstr ""
+
+#: tribe-events/pro/widgets/list-widget.php:60
+msgid "More Events"
+msgstr ""
+
+#: tribe-events/pro/widgets/list-widget.php:68
+#: tribe-events/widgets/list-widget.php:125
+#, php-format
+msgid "There are no upcoming %s at this time."
+msgstr ""
+
+#: tribe-events/pro/widgets/modules/single-event.php:180
+msgctxt "list separator for final two elements"
+msgid "and"
+msgstr ""
+
+#: tribe-events/pro/widgets/this-week/loop-grid-day.php:65
+msgid "No Events Today"
+msgstr ""
+
+#: tribe-events/pro/widgets/this-week/nav.php:15
+msgid "This Week Navigation"
+msgstr ""
+
+#: tribe-events/pro/widgets/venue-widget.php:38
+#, php-format
+msgid "No upcoming %s."
+msgstr ""
+
+#: tribe-events/pro/widgets/venue-widget.php:89
+#, php-format
+msgid "View all %1$s at this %2$s"
+msgstr ""
+
+#: tribe-events/related-events.php:26
+#, php-format
+msgid "Related %s"
+msgstr ""
+
+#: tribe-events/single-event.php:30
+#, php-format
+msgctxt "%s Events plural label"
+msgid "All %s"
+msgstr ""
+
+#: tribe-events/single-event.php:101
+#, php-format
+msgid "%s Navigation"
+msgstr ""
+
+#: tribe-events/week/loop-grid-allday.php:18
+msgid "All Day"
+msgstr ""
+
+#: tribe-events/week/loop-grid.php:19
+msgid "Hours"
+msgstr ""
+
+#: tribe-events/week/nav.php:16
+msgid "Week Navigation"
+msgstr ""
+
+#: tribe-events/widgets/list-widget.php:119
+#, php-format
+msgid "View All %s"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:33
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid ""
+"There are no shipping methods available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid "Enter your full address to see shipping costs."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:34 woocommerce/cart/cart-totals.php:35
+#: woocommerce/cart/mini-cart.php:80 woocommerce/checkout/review-order.php:60
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:56 woocommerce/cart/cart-totals.php:57
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:93 woocommerce/cart/cart-totals.php:94
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:119
+#: woocommerce/checkout/review-order.php:28
+#: woocommerce/checkout/review-order.php:107
+#: woocommerce/myaccount/my-orders.php:16
+#: woocommerce/order/order-details.php:44
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/order/order-details.php:43
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:58 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:88
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:136 woocommerce/checkout/form-coupon.php:35
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138 woocommerce/checkout/form-coupon.php:38
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:30
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:88
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:57
+#: woocommerce/cart/shipping-calculator.php:63
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:64
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:93
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:98
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:27
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:31
+msgid "Return to cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:63
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:59
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:33
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:81
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:31
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:66
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/order-receipt.php:26
+#: woocommerce/checkout/thankyou.php:46
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/order-receipt.php:34
+#: woocommerce/checkout/thankyou.php:63
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/order-receipt.php:39
+#: woocommerce/checkout/thankyou.php:69
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:42
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/terms.php:29
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\" class="
+"\"woocommerce-terms-and-conditions-link\">terms &amp; conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:83
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/global/form-login.php:35
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:39
+#: woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:100
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:48
+#: woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:56
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:53
+#: woocommerce/myaccount/form-login.php:60
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:58
+#: woocommerce/myaccount/form-login.php:64
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:32
+msgid "Quantity:"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:41
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:44
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:38
+msgid "OFF"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:40
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:53
+msgid "Featured!"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:65
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:29
+#, php-format
+msgid ""
+"Hello %1$s (not %1$s? <a class=\"link-text2\" href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:37
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a> "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:41 woocommerce/myaccount/orders.php:101
+msgid "Go shop"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:43
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:53
+#: woocommerce/myaccount/payment-methods.php:79
+msgid "Add payment method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:59
+msgid ""
+"New payment methods can only be added during checkout. Please contact us if "
+"you require assistance."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "Password change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:52
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:56
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:66
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:34
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:52
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:52
+msgid "Save address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:77
+#: woocommerce/myaccount/form-login.php:110
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:27
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:30
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:34
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:47
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:24
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:27
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:57
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:30
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:56 woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:68 woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:103
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:52
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:73
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:29 woocommerce/order/tracking.php:27
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:37 woocommerce/order/tracking.php:35
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:43 woocommerce/order/tracking.php:41
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:29
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Billing email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-again.php:25
+msgid "Order again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:37
+#: woocommerce/order/order-details-customer.php:55
+#: woocommerce/single-product/meta.php:33
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:37
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:79
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:26
+msgid "Downloads"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:55
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:61
+msgid "Never"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:33
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:37
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/photoswipe.php:51
+msgid "Close (Esc)"
+msgstr ""
+
+#: woocommerce/single-product/photoswipe.php:55
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: woocommerce/single-product/photoswipe.php:57
+msgid "Zoom in/out"
+msgstr ""
+
+#: woocommerce/single-product/photoswipe.php:74
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: woocommerce/single-product/photoswipe.php:76
+msgid "Next (arrow right)"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:37
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:35
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:30
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "seconds"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "minutes"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "hours"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "days"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "weeks"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "month"
+msgstr ""
+
+#: includes/functions-base.php:216
+msgid "years"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "sec"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "min"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "hour"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "day"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "week"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "month"
+msgstr ""
+
+#: includes/functions-base.php:217
+msgid "year"
+msgstr ""

@@ -1,0 +1,64 @@
+.audioplayer1{margin:0 0 0 0}
+body .audioplayer1 audio {
+    width:100%;
+}
+ .audio-poster{
+    position: relative;
+  }
+
+    .audio-poster img{width: 100%;}
+
+      .audio-poster .audioplayer1{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+		height:32px;
+        margin-bottom: 0;
+      }
+
+      .audioplayer{
+        background: #e1e7e9;
+        color: #222;
+      }
+
+      .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a{
+        border-left-color: #222;
+      }
+
+      .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover a{
+        border-left-color: #80c644;
+      }
+
+      .audioplayer-volume{
+        border: none;
+      }
+
+      .audioplayer-volume-button a{
+        background: #222;
+      }
+
+      .audioplayer-volume-button:hover a{
+        background: #80c644;
+      }
+
+      .audioplayer-volume-button a:before{
+        border-right-color: #222;
+      }
+
+      .audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after{
+        border-color: #222;
+      }
+
+      .audioplayer-volume-button:hover a:before{
+        border-right-color: #80c644;
+      }
+
+      .audioplayer:not(.audioplayer-mute) .audioplayer-volume-button:hover a:after{
+        border-color: #80c644;
+      }
+
+      .audioplayer-bar-played{
+        background: #80c644;
+      }
+	  
