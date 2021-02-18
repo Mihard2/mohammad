@@ -1027,7 +1027,9 @@ a:hover .tooltip{
 
     #header .top-header{
       padding: 30px;
-
+      background: linear-gradient(
+        180deg
+        , rgba(14,30,64,0.4) 0%, rgba(14,30,64,0.4) 50%, rgba(14,30,64,0.3) 85%, rgba(14,30,64,0) 100%);
       -webkit-transition: all .5s ease;
       -o-transition: all .5s ease;
       transition: all .5s ease;
@@ -2080,7 +2082,8 @@ span.sticky-post.label{
 }
 
 .media-holder.full-src{
-  min-height: 700px;
+  min-height: 1024px;
+  background-position: center right;
 }
 
   .media-inner{
@@ -10937,6 +10940,8 @@ ul.cp-list.custom-list{
 }
 #header.header-style-1 ul.cp-navigation > li > a, #header.header-style-3 ul.cp-navigation > li > a, #header.header-style-4 ul.cp-navigation > li > a {
     color: #ffffff;
+    text-shadow: 1px 1px 1px #bf0d3e;
+}
 }
 .cp-table-holder  table{
 	margin-bottom:0;

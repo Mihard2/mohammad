@@ -413,3 +413,4 @@ function inforward_wpb_comments_privacy($arg) {
 add_filter('comment_form_default_fields', 'inforward_wpb_comments_privacy');
 
 
+wp_enqueue_style( 'my-custom-style', get_template_directory_uri() . '/custom-style.css' );

@@ -2,17 +2,17 @@
 Contributors: smashballoon
 Tags: Facebook, Facebook feed, Facebook posts, Facebook group, Facebook page
 Requires at least: 3.0
-Requires PHP: 5.2
-Tested up to: 5.5
-Stable tag: 2.16.1
+Requires PHP: 5.6
+Tested up to: 5.6
+Stable tag: 2.18.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Formerly "Custom Facebook Feed". Display completely customizable Facebook feeds of a Facebook page or Group.
+Formerly "Custom Facebook Feed". Display completely customizable Facebook feeds of a Facebook page or Group. Supports Facebook oEmbeds.
 
 == Description ==
 
-Display Facebook posts on your WordPress site. **Completely customizable**, **responsive** and **search engine crawlable** Facebook feeds. Display **unlimited Facebook feeds** from your **Facebook page** or **Facebook Group**, and completely match the look and feel of your site with tons of customization options!
+Display Facebook posts on your WordPress site. **Completely customizable**, **responsive**, **search engine crawlable**, and **GDPR compliant** Facebook feeds. Display **unlimited Facebook feeds** from your **Facebook page** or **Facebook Group**, and completely match the look and feel of your site with tons of customization options! Automatically powers any Facebook oEmbeds on your site.
 
 *"The perfect Facebook plugin with amazing support! What else do you want? Get it!"* - [JoeJeffries](http://wordpress.org/support/topic/you-dont-already-have-this?facebook)
 
@@ -21,6 +21,9 @@ Display Facebook posts on your WordPress site. **Completely customizable**, **re
 **Please note:** This free Facebook plugin allows you to display text and links from Facebook posts. To display **photos, videos, comments,** and more, we offer a Pro version of the plugin.  See the Pro Version section below for more information.
 
 ### Facebook Feed Features
+**NEW: Now Supports Facebook oEmbeds**
+With WordPress removing support for Facebook oEmbeds, the plugin will now automatically power any Facebook embeds on your site preventing them from breaking. No developer app required.
+
 **Super Simple to Set Up**
 One of our main priorities has always been to make our Facebook plugin as easy as possible to setup and use. Get up and running in less less than 1 minute with our signature quick setup - no Facebook Developer App required.
 
@@ -32,6 +35,9 @@ By default the Facebook feed will adopt the styles of your WordPress theme, but 
 
 **SEO Friendly**
 The Facebook feed content is crawlable by search engines adding SEO value to your site, while other Facebook plugins embed the feed using iframes which are not crawlable.
+
+**GDPR Compliant**
+Automatically integrates with many of the popular GDPR cookie consent plugins and includes a 1-click easy GDPR setting.
 
 **Responsive and Mobile Optimized**
 Facebook feed layouts look great on any screen size and in any container width.
@@ -102,14 +108,6 @@ Check out our other free plugins for [Instagram](https://wordpress.org/plugins/i
 
 For a full list of FAQs and help with troubleshooting please visit the **[FAQ & Troubleshooting](https://smashballoon.com/custom-facebook-feed/faq/)** section of the Smash Balloon website
 
-= How do I find the Page ID of my Facebook page? =
-
-If you have a Facebook **page** with a URL like this: `https://www.facebook.com/smashballoon` then the Page ID is just `smashballoon`. If your page URL is structured like this: `https://www.facebook.com/pages/smashballoon/123654123654123` then the Page ID is actually the number at the end, so in this case `123654123654123`.
-
-Due to [recent changes](https://smashballoon.com/facebook-api-changes-april-4-2018/?utm_campaign=facebook-free-readme&utm_source=faq&utm_medium=id) to the Facebook API it is unfortunately no longer possible to display a feed from a Facebook Group.
-
-Copy and paste the ID into the [Pro demo](https://smashballoon.com/custom-facebook-feed/demo/?utm_campaign=facebook-free-readme&utm_source=faq&utm_medium=demoid) to test it.
-
 = Are there any limitations on which Facebook page or Facebook group feeds I can display? =
 
 The Facebook feed you're trying to display has to be from a publicly accessible Facebook page or Facebook group. This means that you can't display the feed from your own personal Facebook profile. This is to do with Facebook's privacy policies. You can't display a non-public Facebook feed publicly.
@@ -133,6 +131,10 @@ Due to Facebook's privacy policy you're not able to use the plugin to display al
 If you're using the profile to represent a business, organization, product, public figure or the like, then we'd advise converting your profile to a page per [Facebook's recommendation](http://www.facebook.com/help/175644189234902/), as there are many advantages to using pages over profiles.
 
 Once you've done so, the plugin will be able to retrieve and display all of your posts.
+
+= Does the plugin work with Facebook oEmbeds? =
+
+In version 2.5, support was added to allow the plugin to power your Facebook oEmbeds as official support for these is no longer available in WordPress core. Just connect your account on the oEmbeds settings page inside the plugin and the plugin will power all Facebook embeds on your site, old and new. No developer app or account required.
 
 = Can I show photos and videos in my Custom Facebook feed? =
 
@@ -169,7 +171,7 @@ The Custom Facebook Feed plugin doesn't currently have a slideshow feature built
 3) Add the following to the plugin's **Custom JavaScript** section, which is under the 'Misc' tab on the plugin's 'Customize' page. Please note, if you change the class option in the shortcode above to be anything but "slideshow" then make sure to change that on the first line of the snippet below:
 
 `var shortcodeClass = 'slideshow',
-    cffSpeed = 5000, 
+    cffSpeed = 5000,
     $cff = $('#cff.'+ shortcodeClass);
     $cffItem = $cff.find('.cff-item'),
     cffNum = $cffItem.length,
@@ -260,6 +262,37 @@ The most common reason for this is that an add-on or extension you have installe
 9. It's super easy to display your Facebook feed in any page or post
 
 == Changelog ==
+= 2.18.3 =
+* Tweak: Updated deprecated jQuery functions to prevent potential issues with newer versions.
+* Tweak: Due to an API bug which Facebook hasn't resolved yet that affects buy/sell posts in groups, we have added a 'salesposts' shortcode option which will work around the issue until they fix it. If you are displaying posts from a group and receiving an "API Error 100" notice then adding `salesposts=true` to your shortcode and clearing the plugin cache should resolve the issue.
+* Fix: When displaying the feed in multiple columns, clicking the "See more" link in the post text wouldn't correctly reconfigure the layout.
+* Fix: Fixed a layout issue with the posts and Like Box which occurred when using a multi-column layout and applying feed padding.
+* Fix: Fixed an issue with the background color not being applied correctly when set to be black.
+
+= 2.18.2 =
+* Tweak: Now displays a notice to logged-in admins which lets you know if the Like Box or header cover photo is being intentionally hidden due to the GDPR setting.
+* Fix: Fixed an error which occurred when deleting the plugin.
+
+= 2.18.1 =
+* Fix: Fixed an issue with the integration with the Complianz plugin
+* Fix: Resolved a PHP warning related to the preg_replace_callback function which was displayed under certain conditions
+* Fix: Resolved a PHP deprecation notice related to the strpos function in PHP 7.3
+
+= 2.18 =
+* New: The plugin code has been completely refactored to improve performance and maintainability. If you experience any issues with this update then please open a support ticket [here](https://wordpress.org/support/plugin/custom-facebook-feed/) so that we can address it right away. Thank you!
+* New: Integrations with popular GDPR cookie consent solutions added: Cookie Notice by dFactory, GDPR Cookie Consent by WebToffee, Cookiebot by Cybot A/S, Complianz by Really Simple Plugins, and Borlabs Cookie by Borlabs. See the GDPR setting in the following location for more information: Facebook Feed > Customize > Misc > GDPR.
+* Note: The minimum supported PHP version has been increased to PHP version 5.6. If you are using a lower version then a notice will be displayed with a button to revert back to the previous version.
+
+= 2.17.1 =
+* Tweak: Added shortcode options for the "Before Date" and "After Date" settings, so that a custom text string can be displayed before and after the Facebook post date.
+* Tweak: Minor frontend CSS improvements.
+* Tweak: Added support for improved notices on the plugin settings page.
+* Fix: Fixed an issue with the Facebook Like Box widget displaying an error if the width was set to a fractional pixel.
+
+= 2.17 =
+* New: Added support for Facebook oEmbeds. When you share a link to a Facebook post or video, WordPress automatically converts it into an embedded Facebook post for you (an "oEmbed"). However, on October 24, 2020, WordPress is discontinuing support for Facebook oEmbeds and so any existing or new embeds will no longer work. Don't worry though, we have your back! This update adds support for Facebook oEmbeds and so, after updating, the Custom Facebook Feed plugin will automatically keep your oEmbeds working. It will also power any new oEmbeds you post going forward.
+* New: Install our other free social media plugins right from the Custom Facebook Feed settings menu. Use our Instagram, YouTube, and Twitter plugins to add even more social content to your website and help further engage your viewers and increase your followers.
+
 = 2.16.1 =
 * Fix: Added a workaround for a Facebook API bug which sometimes displays a button in a post with the text "No Button".
 * Fix: Added an additional check when formatting the post text for the share link to prevent potential issues.

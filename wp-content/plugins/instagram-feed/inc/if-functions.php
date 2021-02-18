@@ -178,7 +178,9 @@ function sbi_add_resized_image_data( $instagram_feed, $feed_id ) {
 	global $sb_instagram_posts_manager;
 
 	if ( ! $sb_instagram_posts_manager->image_resizing_disabled() ) {
-		SB_Instagram_Feed::update_last_requested( $instagram_feed->get_image_ids_post_set() );
+		if ( $instagram_feed->should_update_last_requested() ) {
+			SB_Instagram_Feed::update_last_requested( $instagram_feed->get_image_ids_post_set() );
+		}
 	}
 	?>
     <span class="sbi_resized_image_data" data-feed-id="<?php echo esc_attr( $feed_id ); ?>" data-resized="<?php echo esc_attr( sbi_json_encode( SB_Instagram_Feed::get_resized_images_source_set( $instagram_feed->get_image_ids_post_set(), 0, $feed_id ) ) ); ?>">
@@ -223,18 +225,6 @@ function sbi_get_next_post_set() {
 	}
 
 	$settings = $instagram_feed_settings->get_settings();
-	$current_image_resolution = isset( $_POST['current_resolution'] ) ? (int)$_POST['current_resolution'] : 640;
-
-	switch ( $current_image_resolution ) {
-		case 150 :
-			$settings['imageres'] = 'thumb';
-			break;
-		case 320 :
-			$settings['imageres'] = 'medium';
-			break;
-		default :
-			$settings['imageres'] = 'full';
-	}
 
 	$feed_type_and_terms = $instagram_feed_settings->get_feed_type_and_terms();
 
@@ -246,29 +236,33 @@ function sbi_get_next_post_set() {
 			$instagram_feed->set_post_data_from_cache();
 		}
 
-        if ( $instagram_feed->need_posts( $settings['num'], $offset ) && $instagram_feed->can_get_more_posts() ) {
-            while ( $instagram_feed->need_posts( $settings['num'], $offset ) && $instagram_feed->can_get_more_posts() ) {
-                $instagram_feed->add_remote_posts( $settings, $feed_type_and_terms, $instagram_feed_settings->get_connected_accounts_in_feed() );
-            }
+		if ( $instagram_feed->need_posts( $settings['num'], $offset ) && $instagram_feed->can_get_more_posts() ) {
+			while ( $instagram_feed->need_posts( $settings['num'], $offset ) && $instagram_feed->can_get_more_posts() ) {
+				$instagram_feed->add_remote_posts( $settings, $feed_type_and_terms, $instagram_feed_settings->get_connected_accounts_in_feed() );
+			}
 
-	        if ( $instagram_feed->need_to_start_cron_job() ) {
-		        $instagram_feed->add_report( 'needed to start cron job' );
-		        $to_cache = array(
-			        'atts' => $atts,
-			        'last_requested' => time(),
-		        );
+			$normal_method = true;
+			if ( $instagram_feed->need_to_start_cron_job() ) {
+				$instagram_feed->add_report( 'needed to start cron job' );
+				$to_cache = array(
+					'atts' => $atts,
+					'last_requested' => time(),
+				);
+				$normal_method = false;
 
-		        $instagram_feed->set_cron_cache( $to_cache, $instagram_feed_settings->get_cache_time_in_seconds() );
+			} else {
+				$instagram_feed->add_report( 'updating last requested and adding to cache' );
+				$to_cache = array(
+					'last_requested' => time(),
+				);
+			}
 
-	        } else {
-		        $instagram_feed->add_report( 'updating last requested and adding to cache' );
-		        $to_cache = array(
-			        'last_requested' => time(),
-		        );
-
-		        $instagram_feed->set_cron_cache( $to_cache, $instagram_feed_settings->get_cache_time_in_seconds(), $settings['backup_cache_enabled'] );
-	        }
-        }
+			if ( $normal_method ) {
+				$instagram_feed->set_cron_cache( $to_cache, $instagram_feed_settings->get_cache_time_in_seconds(), $settings['backup_cache_enabled'] );
+			} else {
+				$instagram_feed->set_cron_cache( $to_cache, $instagram_feed_settings->get_cache_time_in_seconds() );
+			}
+		}
 
 	} elseif ( $instagram_feed->regular_cache_exists() ) {
 		$instagram_feed->add_report( 'regular cache exists' );
@@ -322,14 +316,10 @@ function sbi_get_next_post_set() {
 		'html' => $instagram_feed->get_the_items_html( $settings, $offset, $instagram_feed_settings->get_feed_type_and_terms(), $instagram_feed_settings->get_connected_accounts_in_feed() ),
 		'feedStatus' => $feed_status,
 		'report' => $instagram_feed->get_report(),
-        'resizedImages' => SB_Instagram_Feed::get_resized_images_source_set( $instagram_feed->get_image_ids_post_set(), 0, $feed_id )
+        'resizedImages' => SB_Instagram_Feed::get_resized_images_source_set( $instagram_feed->get_image_ids_post_set(), 1, $feed_id )
 	);
 
 	echo sbi_json_encode( $return );
-
-	global $sb_instagram_posts_manager;
-
-	$sb_instagram_posts_manager->update_successful_ajax_test();
 
 	die();
 }
@@ -365,6 +355,7 @@ function sbi_process_submitted_resize_ids() {
 	$atts = $atts_raw; // now sanitized
 
 	$offset = isset( $_POST['offset'] ) ? (int)$_POST['offset'] : 0;
+	$cache_all = isset( $_POST['cache_all'] ) ? $_POST['cache_all'] === 'true' : false;
 
 	$database_settings = sbi_get_database_settings();
 	$instagram_feed_settings = new SB_Instagram_Settings( $atts, $database_settings );
@@ -376,38 +367,31 @@ function sbi_process_submitted_resize_ids() {
 	$instagram_feed_settings->set_feed_type_and_terms();
 	$instagram_feed_settings->set_transient_name();
 	$transient_name = $instagram_feed_settings->get_transient_name();
+	$settings = $instagram_feed_settings->get_settings();
+
+	if ( $cache_all ) {
+		$settings['cache_all'] = true;
+	}
 
 	if ( $transient_name !== $feed_id ) {
 		die( 'id does not match' );
 	}
 
-	sbi_resize_posts_by_id( $images_need_resizing, $transient_name, $instagram_feed_settings->get_settings() );
+	sbi_resize_posts_by_id( $images_need_resizing, $transient_name, $settings );
+	sbi_delete_image_cache( $transient_name );
 
 	global $sb_instagram_posts_manager;
 
-	$sb_instagram_posts_manager->update_successful_ajax_test();
+	if ( ! $sb_instagram_posts_manager->image_resizing_disabled() ) {
+		echo sbi_json_encode( SB_Instagram_Feed::get_resized_images_source_set( $settings['minnum'], $offset - $settings['minnum'], $feed_id ) );
+		die();
+	}
 
-	die();
+
+	die( 'resizing success' );
 }
 add_action( 'wp_ajax_sbi_resized_images_submit', 'sbi_process_submitted_resize_ids' );
 add_action( 'wp_ajax_nopriv_sbi_resized_images_submit', 'sbi_process_submitted_resize_ids' );
-
-/**
- * Used for testing if admin-ajax.php can be successfully reached using
- * AJAX in the frontend
- */
-function sbi_update_successful_ajax() {
-
-    global $sb_instagram_posts_manager;
-
-	delete_transient( 'sb_instagram_doing_ajax_test' );
-
-    $sb_instagram_posts_manager->update_successful_ajax_test();
-
-	die();
-}
-add_action( 'wp_ajax_sbi_on_ajax_test_trigger', 'sbi_update_successful_ajax' );
-add_action( 'wp_ajax_nopriv_sbi_on_ajax_test_trigger', 'sbi_update_successful_ajax' );
 
 /**
  * Outputs an organized error report for the front end.
@@ -417,24 +401,45 @@ add_action( 'wp_ajax_nopriv_sbi_on_ajax_test_trigger', 'sbi_update_successful_aj
  * @param string $feed_id
  */
 function sbi_error_report( $instagram_feed, $feed_id ) {
-    global $sb_instagram_posts_manager;
+	global $sb_instagram_posts_manager;
 
-    $style = current_user_can( 'manage_instagram_feed_options' ) ? ' style="display: block;"' : '';
+	$style = sbi_current_user_can( 'manage_instagram_feed_options' ) ? ' style="display: block;"' : '';
 
-	$error_messages = $sb_instagram_posts_manager->get_frontend_errors();
-    if ( ! empty( $error_messages ) ) {?>
+	$error_messages = $sb_instagram_posts_manager->get_frontend_errors( $instagram_feed );
+
+	if ( ! empty( $error_messages ) ) {?>
         <div id="sbi_mod_error"<?php echo $style; ?>>
             <span><?php _e('This error message is only visible to WordPress admins', 'instagram-feed' ); ?></span><br />
-        <?php foreach ( $error_messages as $error_message ) {
-            echo $error_message;
-        } ?>
+			<?php foreach ( $error_messages as $error_message ) {
+
+				echo '<div><strong>' . esc_html( $error_message['error_message'] )  . '</strong>';
+				if ( sbi_current_user_can( 'manage_instagram_feed_options' ) ) {
+					echo '<br>' . $error_message['admin_only'];
+					echo '<br>' . $error_message['frontend_directions'];
+				}
+				echo '</div>';
+			} ?>
         </div>
-        <?php
-    }
+		<?php
+	}
 
 	$sb_instagram_posts_manager->reset_frontend_errors();
 }
 add_action( 'sbi_before_feed_end', 'sbi_error_report', 10, 2 );
+
+function sbi_delete_image_cache( $transient_name ) {
+	$images_transient_name = str_replace( 'sbi_', 'sbi_i_', $transient_name );
+	delete_transient( $images_transient_name );
+}
+
+function sbi_current_user_can( $cap ) {
+	if ( $cap === 'manage_instagram_feed_options' ) {
+		$cap = current_user_can( 'manage_instagram_feed_options' ) ? 'manage_instagram_feed_options' : 'manage_options';
+	}
+	$cap = apply_filters( 'sbi_settings_pages_capability', $cap );
+
+	return current_user_can( $cap );
+}
 
 /**
  * Debug report added at the end of the feed when sbi_debug query arg is added to a page
@@ -480,6 +485,22 @@ function sbi_debug_report( $instagram_feed, $feed_id ) {
 
         <?php endif; endforeach; ?>
     </ul>
+    <p>GDPR</p>
+    <ul>
+		<?php
+        $statuses = SB_Instagram_GDPR_Integrations::statuses();
+        foreach ( $statuses as $status_key => $value) : ?>
+            <li>
+                <small><?php echo esc_html( $status_key ); ?>:</small>
+				<?php if ( $value == 1 ) { echo 'success'; } else {  echo 'failed'; } ?>
+            </li>
+
+		<?php endforeach; ?>
+        <li>
+            <small>Enabled:</small>
+		    <?php echo SB_Instagram_GDPR_Integrations::doing_gdpr( $database_settings ); ?>
+        </li>
+    </ul>
     <?php
 }
 add_action( 'sbi_before_feed_end', 'sbi_debug_report', 11, 2 );
@@ -521,6 +542,54 @@ function sbi_resize_posts_by_id( $ids, $transient_name, $settings, $offset = 0 )
 
 		$post_set->maybe_save_update_and_resize_images_for_posts();
 	}
+}
+
+function sbi_store_local_avatar( $connected_account ) {
+	$sbi_settings = get_option( 'sb_instagram_settings', array() );
+	$connected_accounts = $sbi_settings['connected_accounts'];
+	if ( sbi_create_local_avatar( $connected_account['username'], $connected_account['profile_picture'] ) ) {
+		$connected_accounts[ $connected_account['user_id'] ]['local_avatar'] = true;
+	} else {
+		$connected_accounts[ $connected_account['user_id'] ]['local_avatar'] = false;
+	}
+
+
+	$sbi_settings['connected_accounts'] = $connected_accounts;
+
+	update_option( 'sb_instagram_settings', $sbi_settings );
+
+	return $connected_accounts[ $connected_account['user_id'] ]['local_avatar'];
+}
+
+function sbi_create_local_avatar( $username, $file_name ) {
+	$image_editor = wp_get_image_editor( $file_name );
+
+	if ( ! is_wp_error( $image_editor ) ) {
+		$upload = wp_upload_dir();
+
+		$full_file_name = trailingslashit( $upload['basedir'] ) . trailingslashit( SBI_UPLOADS_NAME ) . $username  . '.jpg';
+
+		$saved_image = $image_editor->save( $full_file_name );
+
+		if ( ! $saved_image ) {
+			global $sb_instagram_posts_manager;
+
+			$sb_instagram_posts_manager->add_error( 'image_editor', __( 'Error saving edited image.', 'instagram-feed' ) . ' ' . $full_file_name );
+		} else {
+			return true;
+		}
+	} else {
+		global $sb_instagram_posts_manager;
+
+		$message = __( 'Error editing image.', 'instagram-feed' );
+		if ( isset( $image_editor ) && isset( $image_editor->errors ) ) {
+			foreach ( $image_editor->errors as $key => $item ) {
+				$message .= ' ' . $key . '- ' . $item[0] . ' |';
+			}
+		}
+		$sb_instagram_posts_manager->add_error( 'image_editor', $message . ' ' . $file_name );
+	}
+	return false;
 }
 
 /**
@@ -575,7 +644,6 @@ function sbi_get_database_settings() {
 		'sb_ajax_initial'    => false,
 		'enqueue_css_in_shortcode' => false,
 		'sb_instagram_disable_mob_swipe' => false,
-		'sbi_font_method' => 'svg',
 		'sb_instagram_disable_awesome'      => false
 	);
 	$sbi_settings = get_option( 'sb_instagram_settings', array() );
@@ -737,7 +805,7 @@ function sbi_get_resized_uploads_url() {
 	$home_url = home_url();
 
 	if ( strpos( $home_url, 'https:' ) !== false ) {
-		str_replace( 'http:', 'https:', $base_url );
+		$base_url = str_replace( 'http:', 'https:', $base_url );
 	}
 
 	$resize_url = apply_filters( 'sbi_resize_url', trailingslashit( $base_url ) . trailingslashit( SBI_UPLOADS_NAME ) );
@@ -773,6 +841,10 @@ function sbi_hextorgb( $hex ) {
 	$rgb = array( $r, $g, $b );
 
 	return implode( ',', $rgb ); // returns the rgb values separated by commas
+}
+
+function sbi_is_url( $input ) {
+	return (bool) filter_var( $input, FILTER_VALIDATE_URL );
 }
 
 
@@ -826,6 +898,28 @@ function sbi_json_encode( $thing ) {
     } else {
         return json_encode( $thing );
     }
+}
+
+function sbi_private_account_near_expiration( $connected_account ) {
+	$expires_in = max( 0, floor( ($connected_account['expires_timestamp'] - time()) / DAY_IN_SECONDS ) );
+	return $expires_in < 10;
+}
+
+function sbi_update_connected_account( $account_id, $to_update ) {
+	$if_database_settings = sbi_get_database_settings();
+
+	$connected_accounts = $if_database_settings['connected_accounts'];
+
+	if ( isset( $connected_accounts[ $account_id ] ) ) {
+
+		foreach ( $to_update as $key => $value ) {
+			$connected_accounts[ $account_id ][ $key ] = $value;
+		}
+
+		$if_database_settings['connected_accounts'] = $connected_accounts;
+
+		update_option( 'sb_instagram_settings', $if_database_settings );
+	}
 }
 
 /**
@@ -921,9 +1015,9 @@ function sb_instagram_scripts_enqueue() {
 	//Options to pass to JS file
 	$sb_instagram_settings = get_option( 'sb_instagram_settings' );
 
-	$js_file = 'js/sb-instagram-2-2.min.js';
+	$js_file = 'js/sbi-scripts.min.js';
 	if ( isset( $_GET['sbi_debug'] ) ) {
-		$js_file = 'js/sb-instagram.js';
+		$js_file = 'js/sbi-scripts.js';
 	}
 
 	if ( isset( $sb_instagram_settings['enqueue_js_in_head'] ) && $sb_instagram_settings['enqueue_js_in_head'] ) {
@@ -933,25 +1027,14 @@ function sb_instagram_scripts_enqueue() {
 	}
 
 	if ( isset( $sb_instagram_settings['enqueue_css_in_shortcode'] ) && $sb_instagram_settings['enqueue_css_in_shortcode'] ) {
-		wp_register_style( 'sb_instagram_styles', trailingslashit( SBI_PLUGIN_URL ) . 'css/sb-instagram-2-2.min.css', array(), SBIVER );
+		wp_register_style( 'sb_instagram_styles', trailingslashit( SBI_PLUGIN_URL ) . 'css/sbi-styles.min.css', array(), SBIVER );
 	} else {
-		wp_enqueue_style( 'sb_instagram_styles', trailingslashit( SBI_PLUGIN_URL ) . 'css/sb-instagram-2-2.min.css', array(), SBIVER );
+		wp_enqueue_style( 'sb_instagram_styles', trailingslashit( SBI_PLUGIN_URL ) . 'css/sbi-styles.min.css', array(), SBIVER );
 	}
 
-	$font_method = isset( $sb_instagram_settings['sbi_font_method'] ) ? $sb_instagram_settings['sbi_font_method'] : 'svg';
 
-	if ( isset( $sb_instagram_settings['sb_instagram_disable_awesome'] ) ) {
-		$disable_font_awesome = isset( $sb_instagram_settings['sb_instagram_disable_awesome'] ) ? $sb_instagram_settings['sb_instagram_disable_awesome'] === 'on' : false;
-	} else {
-		$disable_font_awesome = isset( $sb_instagram_settings['sb_instagram_disable_font'] ) ? $sb_instagram_settings['sb_instagram_disable_font'] === 'on' : false;
-	}
-
-	if ( $font_method === 'fontfile' && ! $disable_font_awesome ) {
-		wp_enqueue_style( 'sb-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
-	}
-	
 	$data = array(
-		'font_method' => $font_method,
+		'font_method' => 'svg',
 		'resized_url' => sbi_get_resized_uploads_url(),
 		'placeholder' => trailingslashit( SBI_PLUGIN_URL ) . 'img/placeholder.png'
     );
@@ -1266,12 +1349,34 @@ function sbi_send_report_email() {
 	$headers = array( 'Content-Type: text/html; charset=utf-8', $header_from );
 
 	$header_image = SBI_PLUGIN_URL . 'img/balloon-120.png';
-	$title = __( 'Instagram Feed Report for ' . home_url() );
+
 	$link = admin_url( '?page=sb-instagram-feed');
-	$footer_link = admin_url('admin.php?page=sb-instagram-feed&tab=customize&flag=emails');
-	$bold = __( 'There\'s an Issue with an Instagram Feed on Your Website', 'instagram-feed' );
-	$details = '<p>' . __( 'An Instagram feed on your website is currently unable to connect to Instagram to retrieve new posts. Don\'t worry, your feed is still being displayed using a cached version, but is no longer able to display new posts.', 'instagram-feed' ) . '</p>';
-	$details .= '<p>' . sprintf( __( 'This is caused by an issue with your Instagram account connecting to the Instagram API. For information on the exact issue and directions on how to resolve it, please visit the %sInstagram Feed settings page%s on your website.', 'instagram-feed' ), '<a href="' . esc_url( $link ) . '">', '</a>' ). '</p>';
+	//&tab=customize-advanced
+	$footer_link = admin_url('admin.php?page=sb-instagram-feed&tab=customize-advanced&flag=emails');
+
+	$is_expiration_notice = false;
+
+	if ( isset( $options['connected_accounts'] ) ) {
+		foreach ( $options['connected_accounts'] as $account ) {
+			if ( $account['type'] === 'basic'
+			     && isset( $account['private'] )
+			     && sbi_private_account_near_expiration( $account ) ) {
+				$is_expiration_notice = true;
+			}
+		}
+	}
+
+	if ( ! $is_expiration_notice ) {
+		$title = sprintf( __( 'Instagram Feed Report for %s', 'instagram-feed' ), str_replace( array( 'http://', 'https://' ), '', home_url() ) );
+		$bold = __( 'There\'s an Issue with an Instagram Feed on Your Website', 'instagram-feed' );
+		$details = '<p>' . __( 'An Instagram feed on your website is currently unable to connect to Instagram to retrieve new posts. Don\'t worry, your feed is still being displayed using a cached version, but is no longer able to display new posts.', 'instagram-feed' ) . '</p>';
+		$details .= '<p>' . sprintf( __( 'This is caused by an issue with your Instagram account connecting to the Instagram API. For information on the exact issue and directions on how to resolve it, please visit the %sInstagram Feed settings page%s on your website.', 'instagram-feed' ), '<a href="' . esc_url( $link ) . '">', '</a>' ). '</p>';
+	} else {
+		$title = __( 'Your Private Instagram Feed Account Needs to be Reauthenticated', 'instagram-feed' );
+		$bold = __( 'Access Token Refresh Needed', 'instagram-feed' );
+		$details = '<p>' . __( 'As your Instagram account is set to be "Private", Instagram requires that you reauthenticate your account every 60 days. This a courtesy email to let you know that you need to take action to allow the Instagram feed on your website to continue updating. If you don\'t refresh your account, then a backup cache will be displayed instead.', 'instagram-feed' ) . '</p>';
+		$details .= '<p>' . sprintf( __( 'To prevent your account expiring every 60 days %sswitch your account to be public%s. For more information and to refresh your account, click here to visit the %sInstagram Feed settings page%s on your website.', 'instagram-feed' ), '<a href="https://help.instagram.com/116024195217477/In">', '</a>', '<a href="' . esc_url( $link ) . '">', '</a>' ). '</p>';
+	}
 	$message_content = '<h6 style="padding:0;word-wrap:normal;font-family:\'Helvetica Neue\',Helvetica,Arial,sans-serif;font-weight:bold;line-height:130%;font-size: 16px;color:#444444;text-align:inherit;margin:0 0 20px 0;Margin:0 0 20px 0;">' . $bold . '</h6>' . $details;
 	include_once SBI_PLUGIN_DIR . 'inc/class-sb-instagram-education.php';
 	$educator = new SB_Instagram_Education();
@@ -1280,6 +1385,7 @@ function sbi_send_report_email() {
 	include SBI_PLUGIN_DIR . 'inc/email.php';
 	$email_body = ob_get_contents();
 	ob_get_clean();
+
 	$sent = wp_mail( $to_array, $title, $email_body, $headers );
 
 	return $sent;
